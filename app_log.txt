@@ -9387,4 +9387,92 @@
 01-24 23:01:00.845  8352  8414 I ReactNativeJS:     synced: true,
 01-24 23:01:00.845  8352  8414 I ReactNativeJS:     scheduleType: 0,
 01-24 23:01:00.845  8352  8414 I ReactNativeJS:     endAction: 0 } ]
-01-24 23:01:00.845  8352  8414 I Reac
+01-24 23:01:00.845  8352  8414 I ReactNativeJS: 'userId....', 1
+01-24 23:01:00.846  8352  8414 I ReactNativeJS: 'Yourschedule data.....', [ { id: 0,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     hh: 17,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     mm: 33,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     index: 20,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     enable_disable: 1,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     selectedtime: '2025-01-24T17:33:59.963Z',
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     heatingduration: 1,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     repeat: false,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     weekdays: [ 5 ],
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     appid: 1,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     toggle: true,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     synced: true,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     scheduleType: 0,
+01-24 23:01:00.846  8352  8414 I ReactNativeJS:     endAction: 0 } ]
+01-24 23:01:00.846  8352  8414 I ReactNativeJS: 'Yourschedule len.....', 1
+01-24 23:01:00.847  8352  8414 I ReactNativeJS: '.........list', [ { id: 0,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     hh: 17,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     mm: 33,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     index: 20,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     enable_disable: 1,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     selectedtime: '2025-01-24T17:33:59.963Z',
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     heatingduration: 1,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     repeat: false,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     weekdays: [ 5 ],
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     appid: 1,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     toggle: true,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     synced: true,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     scheduleType: 0,
+01-24 23:01:00.847  8352  8414 I ReactNativeJS:     endAction: 0 } ]
+01-24 23:01:00.847  8352  8414 I ReactNativeJS: '.........index', 0
+01-24 23:01:00.848  8352  8414 I ReactNativeJS: 'scheduledatabeforetoggleclick', [ { id: 0,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     hh: 17,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     mm: 33,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     index: 20,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     enable_disable: 1,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     selectedtime: '2025-01-24T17:33:59.963Z',
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     heatingduration: 1,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     repeat: false,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     weekdays: [ 5 ],
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     appid: 1,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     toggle: true,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     synced: true,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     scheduleType: 0,
+01-24 23:01:00.848  8352  8414 I ReactNativeJS:     endAction: 0 } ]
+01-24 23:01:00.864  8352  8414 I ReactNativeJS: 
+01-24 23:01:00.865  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:0:865 PM ] ', 'INFO', 'GENERAL_INFO', '227', 'Data: [{"id":0,"hh":17,"mm":33,"index":20,"enable_disable":1,"selectedtime":"2025-01-24T17:33:59.963Z","heatingduration":1,"repeat":false,"weekdays":[5],"appid":1,"toggle":true,"synced":true,"scheduleType":0,"endAction":0}]'
+01-24 23:01:00.866  8352  8414 I ReactNativeJS: 'Schedule data...........', [ { id: 0,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     hh: 17,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     mm: 33,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     index: 20,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     enable_disable: 1,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     selectedtime: '2025-01-24T17:33:59.963Z',
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     heatingduration: 1,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     repeat: false,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     weekdays: [ 5 ],
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     appid: 1,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     toggle: true,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     synced: true,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     scheduleType: 0,
+01-24 23:01:00.866  8352  8414 I ReactNativeJS:     endAction: 0 } ]
+01-24 23:01:00.866  8352  8414 I ReactNativeJS: 
+01-24 23:01:00.867  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:0:866 PM ] ', 'INFO', 'GENERAL_INFO', '228', 'Data: 200'
+01-24 23:01:00.867  8352  8414 I ReactNativeJS: 
+01-24 23:01:00.867  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:0:867 PM ] ', 'WARN', 'GENERAL_INFO', '2211', 'Data: true'
+01-24 23:01:20.631  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.637  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:632 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,27,146,162,254,231,111,153,54,37,157,230,146,214,148,254,12,90,15,221,137]'
+01-24 23:01:20.653  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.660  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:654 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAC00020250121BA Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":245,"message":""}'
+01-24 23:01:20.662  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.667  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:662 PM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 245, message: '' }
+01-24 23:01:20.674  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.677  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:675 PM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,43,170,1,0,0,0,0,5,245,255,252,251,33 SAC00020250121BA'
+01-24 23:01:20.680  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.684  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:681 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250121BA Msg_Id: undefined Frame: 170,2,1,43,170,1,0,0,0,0,5,245,255,252,251,33 Trans_Id: undefined InterFace: undefined Auth: 1 forceInterface: undefined Data:undefined'
+01-24 23:01:20.686  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.690  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:688 PM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+01-24 23:01:20.702  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.706  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:704 PM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity D4:D4:DA:4B:79:AA [170,4,1,43,238,246,19,49,246,223,13,103,206,61,134,22,46,168,255,201,173,71,153,93]'
+01-24 23:01:20.718  8352  8414 I ReactNativeJS: 
+01-24 23:01:20.719  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:20:719 PM ] ', 'PING Message sent to device', 'BLE Sent Success || if condition || BLEWriteMessages 1', undefined, undefined
+01-24 23:01:40.862  8352  8414 I ReactNativeJS: 
+01-24 23:01:40.865  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:40:863 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,217,123,86,99,217,200,146,124,168,202,234,206,202,96,180,27,55,226,100,21]'
+01-24 23:01:40.876  8352  8414 I ReactNativeJS: 
+01-24 23:01:40.877  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:40:877 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAC00020250121BA Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":244,"message":""}'
+01-24 23:01:40.878  8352  8414 I ReactNativeJS: 
+01-24 23:01:40.879  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:40:878 PM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 244, message: '' }
+01-24 23:01:40.881  8352  8414 I ReactNativeJS: 
+01-24 23:01:40.883  8352  8414 I ReactNativeJS: '[D: 24/1/2025 T: 23:1:40:882 PM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,44,170,1,0,0,0,0,5,244,255,252,251,39 SAC00020250121B

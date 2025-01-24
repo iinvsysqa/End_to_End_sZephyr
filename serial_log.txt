@@ -12671,3 +12671,1474 @@ l_or 0 vs 25
 W (23:02:20.916) EDRV
 : hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 9 v
 l_or 0 vs 25
+W (23:02:21.416)
+EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:21.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 0 v
+l_or 0 vs 25
+I (23:02:21.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 ctx 1 fre_req 0
+W (23:02:21.950) SKT: Pwr Off State_event rcvd e
+vent=30
+W (23:02:21.951) BLE:
+curr user count 1 index 0
+W (23:
+02:21.955) BLE: ble curr user count 1 
+W (23:02:21.959) LOCAL_S
+SL: curr user count 0 index 0
+W (23:02:21.959) TAG_INTF_
+MTRX: H
+P_FR 94700 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (
+23:02:21.974) RLY:  temp rly ret var 0:0
+W
+(23:02:21.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759741
+I (23:02:2
+1.9
+82) EX: get time GMT= 1737739941
+E (23:02:21.987) rmt: rmt_d
+river_install(1028): RMT driver already installed for channel
+E
+(23:02:21.994) owb_rmt: failed to install tx driver
+E (23:02:2
+1.999) owb_rmt: _init() failed with status 6
+I (23:02:22.004) T
+DRV: Find devices:
+W (23:02:22.008) TDRV: ret===1
+E (23
+:02:22.
+010) SAC: temp read failed 1
+I
+(23:02:22.014) SKT: Gys_hdlr_ent
+_exit GCstate 2 UCstate 0 Event proc 30 from intf 7
+W (23:02:22.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:02:22.693) EX: TF: 0 TZ: 19800 Sys_tm:1737759742
+I (23:02
+:22.693) EX: get time GMT= 1737739942
+W (23:02:22.777) NVM: part erase scs
+W (23:02:22.777) NVM: part
+erase restart
+W (23:02:22.795) NVM: esp_part_write scs
+W (
+23:02:22.878) NVM: part erase scs
+W (23:02:22.878) NVM: part
+erase restart
+W (23:02:22.896) NVM: esp_part_write scs
+W (23:02:22.916) EDRV: hvc 1 nvc 0 lvc 0 V 521310 C 0 P 0 pc
+0 v
+l_or 0 vs 25
+W (23:02:23.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:02:23.916) EDRV: hvc 0 nvc 0 lvc
+0 V 217004 C 0 P 0 pc 2 v
+l_or 0 vs 25
+W (23:02:24.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:02:24.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs 25
+W (23:02:25.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+W (23:02:25.916) EDRV: hvc 0 nvc 0 lvc 0 V
+216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+W (23:02:26.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:02:26.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 8 v
+l_or 0 vs 25
+I (23:02:26.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:02:26.950) SKT: Pwr Off State_event rcvd e
+vent=30
+W (23:02:26.951) BLE: curr user count 1 index 0
+W (23:
+02:26.955) BLE: ble curr user
+count 1 
+W (23:02:26.959) LOCAL_S
+SL: curr user count 0 index 0
+W (23:02:26.959) TAG_INTF_MTRX: H
+P_FR 947
+00 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:02:26.974) RLY:  temp rly ret var 0:0
+W
+(23:02:26.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759746
+I (23:02:2
+6.982) EX: get time GMT= 1737739946
+E (23:02:26.987) rmt: rmt_d
+river_install(1028): RMT driver already installed for channel
+E
+(23:02:26.994) owb_
+rmt: failed to install tx driver
+E (23:02:2
+6.999) owb_rmt: _init() failed with status 6
+I (23:02:27.004) T
+DRV: Find devices:
+W (23:02:27.008) TDRV: ret===1
+E (23:02:27.
+010) SAC: temp read failed 1
+I (23:02:27.014) SKT: G
+ys_hdlr_ent
+_ex
+it GCstate 2 UCstate 0 Event proc 30 from intf 7
+W (23:02:27.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 9 v
+l_
+or 0 vs 25
+W (23:02:27.896) EX: TF: 0 TZ: 19800 Sys_tm:1737759747
+I (23:02
+:27.896) EX: get time GMT= 17377399
+47
+W (23:02:27.978) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C
+0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:27.979) NVM: part erase scs
+W (23:02:27
+.979) NVM: part erase restart
+W (23:02:27.99
+9) NVM: esp_part_write scs
+W (23:02:28.061) NVM: part erase scs
+W
+(23:02:28.061) NVM: part
+erase restart
+W (23:02:28.079) NVM: esp_part_write scs
+W (23:02:28.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:0
+2:28.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:02:29.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 2 v
+l_or 0 vs 25
+W (23:02:29.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:02:30.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 4 v
+l_or 0 vs 25
+W (23:02:30.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 5 v
+l_or 0 vs 25
+W (23:02:31.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+W (23:02:31.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 7 v
+l_or 0 vs 25
+I (23:02:31.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:02:31.950) SKT: Pw
+r Off State_event rcvd e
+vent=30
+W (23:02:31.951) PCNT: GPt 289692 Gsp 289401 SPt 299853
+SnPt 0  Qdp 0 ocnt 5161 pos 295854 nc 85 ws 0 ltc 797 wtc 0 mlo
+cFl 0 hpFl 0 rhp 94700 bleC 0 mlscnt 0 Rev_ 14710
+W (23:02:31.9
+66) BLE: curr user count 1 index 0
+W (23:02:31.970) BLE: ble cu
+rr user count 1 
+W (23:02:31.974) LOCAL_SSL
+: curr user count 0
+index 0
+W (23:02:31.974)
+TAG_INTF_MTRX: HP_FR 94700 HP_L_FR 655
+36 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt 0 Remote_cnt 0
+I (23
+:02:31.988) RLY:  temp
+rly ret var 0:0
+W (23:02:31.992) EX: TF:
+0 TZ: 19800 Sys_tm:1737759751
+I (23:02:31.997) EX: get time GM
+T= 1737739951
+E (23:02:32.001) rmt: rmt_driver_install(1028): R
+MT driver already installed for channel
+E (23:02:32.009) owb_rm
+t: failed to install tx driver
+E (23:02:32.014) owb_rmt: _init(
+) failed with status 6
+I (23:02:32.019) TDRV: Find devices:
+W
+(23:02:32.023) TDRV: ret===1
+E (23:02:32.025) SAC: temp read fa
+iled 1
+I (23:02:32.028) SKT: Gys_hdlr_ent_exit GCstate 2 UCstat
+e 0 E
+vent proc 30 from intf 7
+W (23:02:32.41
+6) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 8 v
+l_or 0 vs 25
+W (23:02:32.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0
+pc 9 v
+l_or 0 vs 25
+W (23:02:33.079) EX: TF: 0 TZ: 19800 Sys_tm:1737759753
+I (23:02
+:33.079) EX:
+get time GMT= 1737739953
+W (23:02:33.150) NVM: part erase scs
+W (23:02:33.150) NVM: part
+erase restart
+W (23:02:33.168) NVM: esp_part_write scs
+W (23:02:33.234) NVM: part erase scs
+W (23:02:33.235) NVM: part
+erase restart
+W (23:02:33.252) NVM: esp_part_write scs
+W (23:02:33.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:33.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:02:34.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc
+1 v
+l_or 0 vs 25
+W (23:02:34.916) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 2 v
+l_or
+0 vs 25
+W (23:02:35.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:02:35.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs 25
+W (23:02:36.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+W (23:02:36.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 6 v
+l_or 0 vs 25
+I (23:02:36.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff
+len(w) 0 c
+tx 1 fre_req 0
+W (23:02:36.950) SKT: Pwr Off State_event rcvd e
+vent=30
+W (23:02:36.951) BLE: curr user count 1 index 0
+W (23:
+02:36.955) BLE: ble curr user count 1 
+W (23:02:36.959) LOCAL_S
+SL: curr
+user count 0 index 0
+W (23:02:36.959) TAG_INTF_MTRX: H
+P_FR 94700
+HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:02:36.974) RLY:  temp rly ret va
+r 0:0
+W
+(23:02:36.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759756
+I (23:02:3
+6.982) EX: get time GMT= 1737739956
+E (23:02:36.987) rmt: rmt_d
+river_install(1028): RMT driver already installed for channel
+E
+(23:02:36.994) owb_rmt: failed to install tx driver
+E (23:02:3
+6.999) owb_rmt: _init() failed with status 6
+I (23:02:37.004) T
+DRV: Find devices:
+W (23:02:37.008) TDRV: ret===1
+E (23:02:37.
+01
+0) SAC: temp read failed 1
+I (23:02:37.014) SKT: Gys_hdlr_ent
+_exit GCstate 2 UCstate 0 Event proc 3
+0 from intf 7
+W (23:02:37.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:02:37.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 8 v
+l_or 0 vs 25
+W (23:02:38.252) EX: TF: 0 TZ: 19800 Sys_tm:1737759758
+I (23:02
+:38.252) EX: get time GMT= 1737739958
+W (23:02:38.335) NVM: part erase scs
+W (23:02:38.335) NVM: part
+erase restart
+W (23:02:38.353) NVM: esp_part_write scs
+W (23:02:38.438) NVM: part erase scs
+W (23:02:38.438) NVM: part
+erase restart
+W (23:02:38.456) NVM: esp_part_write scs
+W (23:02:38.457) EDRV:
+hvc 0 nvc 0 lvc
+0 V 216659 C 0 P 0 pc 9 vl_or 0 vs 25
+W (23:02:38.916) E
+DRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:
+39.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:02:39.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:02:39.943) MSH: ping_tmr_exp
+E (23:02:39.943) MSH: cnt_pi
+ng:1
+I (23:02:39.943) IMSG: 04 04 04 04 04 04 04 04 04 04 04 03
+04 04 04 04 
+I (23:02:39.944) IMSG: 04 
+W (23:02:39.947) BLE:
+curr
+user count 1 index 0
+W (23:02:39.951) BLE: ble curr user
+count 1 
+W (23:02:39.955) BLE: curr user count 1 index 0
+W (23
+:02:39.959) BLE: ble curr user count 1 
+I (23:02:39.963) TST_MS
+G: Ble intf:0
+I (23:02:39.967) TXTH: trans_id 0 pld_len 8 intf
+11 msg_type 1
+E (23:
+02:39.972) IERR: WSS_NCNT
+W (23:02:39.975)
+BLE: mtu 253
+I (23:02:39.978) BLE: payld_len 24
+I (23:02:39.9
+81) BLE: iteration 1
+I (23:02:39.984) BLE: config tmr uptd strt
+W (23:02:39.989) IMSG: send_msg intf 11 msg_id 42 msg_len 24 s
+ec_mode 1 fd 0 pad_len 8 app_id 1 trs_id 0
+W (23:02:39.990) BLE
+: ESP_GATTS_CONF_EVT, status = 0
+W (23:02:40.002) OST: gatts_co
+nfig_tmr,Tmr Stpd Scsfly
+I (23:02:40.006) BLE: gatts config tmr
+stpd
+I (23:02:40.126) BLE: data rcvd short write
+I (23:02:40.126) BL
+E: ping_tmr_strtd
+I (23:02:40.126) MDEC: rx_len 24
+I (23:02:40
+.126) IERR: sync byte matched 0x3ffed012
+W (23:02:40.130) MDEC:
+frame_len=24
+W (23:02:40.133) IINFO: total len 24 proc len 24
+W (23:02:40.137) MDEC: full frame rcvd
+W (23:02:40.141) IINFO:
+rcvd_frm 11 num_msg 1 trn_id 15 ack_req 0 frm_len 24 sec_mod 1
+W (23:02:40.149) IMSG: rcvd_msg intf 11 msg_id 42 msg_len 4 msg
+_type 1
+I (23:02:40.155) QSND: INTF_MSG to 8 evnt
+42 pld 0x3ffe
+8650 len(w) 2 ctx 0 fre_req 1
+W (23:02:40.162) MSH: event_num=4
+2
+I (23:02:40.162) MDEC: no flow control
+W (23:02:40.165) MSH:
+wifi ble msg hdlr rcvd event=42
+W (23:02:40.173) TEST_MSG: typ
+e:5,num:241
+I (23:02:40.177) MSH: MSG_STE_HDLR_THRD2352
+I (23:
+02:40.181) QMEM: mem clr = 42
+I (23:02:40.184) MSH: no flow
+con
+trol
+W (23:02:40.
+416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 2 v
+l_or 0 vs 25
+W (23:02:40.916) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (2
+3:02:41.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 4 v
+l_or 0 vs 25
+W (23:02:41.916)
+EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+I (23:02:41.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:02:41.950) SKT: Pwr Off State_event rcvd e
+vent=30
+W (23:02:41.951) BLE: curr user count 1 index 0
+W (23:
+02:41.955) BLE: ble curr user count 1 
+W (23:02:41.959) LOCAL_S
+SL: curr user count 0 index 0
+W (23:02:41.959) TAG_INTF_MTRX: H
+P_FR 94700 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:02:41.974) RLY:  temp rly ret var 0:0
+W
+(23:02:41.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759761
+I (23:02:4
+1.982) EX: get time GMT= 1737739961
+E
+(23:02:41.987) rmt: rmt_d
+river_install(1028): RMT driver already installed for channel
+E
+(23:02:41.994) owb_rmt: failed to
+install tx driver
+E (23:02:4
+1.999) owb_rmt: _init() failed with status 6
+I (23:02:42.004) T
+DRV: Find devices:
+W (23:02:42.008) TDRV: ret===1
+E (23:02:42.
+010) SAC: temp read failed 1
+I (23:02:42.014) SKT: Gys_hdlr_ent
+_exit GCstate 2 UCstate 0 Event proc 30 from intf
+7
+W (23:02:42.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+W (23:02:42.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:02:43.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 8 v
+l_or 0 vs 25
+W (23:02:43.456) EX: TF: 0 TZ: 19800 Sys_tm:1737759763
+I (23:02
+:43.456) EX: get time GMT= 1737739963
+W (23:02:43.538) NVM: part erase scs
+W (23:02:43.538) NVM: part
+erase restart
+W (23:
+02:43.556) NVM: esp_part_write scs
+W (23:02:43.640) NVM: part erase scs
+W (23
+:02:43.640) NVM: part
+erase restart
+W (23:02:43.658) NVM: esp_part_write scs
+W (23:02:43.916) EDR
+V: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 9 v
+l_or 0 vs 25
+W (23:02:44.416) EDRV: hvc 0 nvc 0 lvc 0 V 21
+7004 C 0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:44.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:02:45.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0
+pc 1 v
+l_or 0 vs 25
+W (23:02:45.916) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 2
+v
+l_or 0 vs 25
+W (23:02:46.
+416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:02:46.9
+16) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs 25
+I (23:02:46.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:02:46.950) SKT: Pwr Off State_event rcvd e
+vent=30
+W (23:02:46.951) BLE: curr user count 1 index 0
+W (23:
+02:46.955) BLE: ble curr user count 1 
+W (23:02:46.959) LOCAL_S
+SL: curr user count 0 index 0
+W (23:02:46.959) TAG_INTF_MTRX: H
+P_FR 94700 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:02:46.974) RLY:  temp rly re
+t var 0:0
+W
+(23:02:46.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759766
+I (23:02:4
+6.982) EX: get time GMT= 1737739966
+E (23:02:46.987) rmt: rmt_d
+river_install(1028): RMT driver
+already installed for channel
+E
+(23:02:46.994) owb_rmt: failed to install tx driver
+E (23:02:4
+6.999) owb_rmt: _init() failed with status 6
+I (23:02:47.004) T
+DRV: Find devices:
+W (23:02:47.008) TDRV
+: ret===1
+E (23:02:47.
+010) SAC: temp read failed 1
+I (23:02:47.014) SKT: Gys_hdlr_ent
+_exit GCstate 2 UCstate 0 Event proc 30 from intf 7
+W (23:02:47.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+W (23:02:47.916) EDRV: h
+vc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 6 v
+l_or 0 vs 25
+W
+(23:02:48.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:02:48.658) EX: TF: 0 TZ: 19800 Sys_tm:1737759768
+I (23:02
+:48.658) EX: get time GMT= 1737739968
+W (23:02:48.742) NVM: part erase scs
+W (23:02:48.742) NVM: part
+erase restart
+W (23:02:48.760) NVM: esp_part_write scs
+W (23:02:48.845) NVM: part erase scs
+W (23:02:48.845) NVM: part
+erase restart
+W (23:02:48.863) NVM: esp_part_write scs
+W (23:02:48.916) EDRV: hvc 1 nvc 0 lvc 0 V 290110 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:02:49.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:02:49.916) E
+DRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 2 v
+l_or 0 vs 25
+W (23:02:50.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:02:50.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 4 v
+l_or 0 vs 25
+W (23:02:51.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+W (23:02:51.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 6 v
+l_or 0 vs 25
+I (23:02:51.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:02:51.950) SKT: Pwr Of
+f State_event rcvd e
+vent=30
+W (23:02:51.951) BLE: curr user count 1 index 0
+W (23:
+02:51.955) BLE: ble curr user count 1 
+W (23:02:51.959) LOCAL_S
+SL: curr user count 0 index 0
+W (23:02:51.9
+59) TAG_INTF_MTRX: H
+P_FR 94700 HP_L_FR 65536 ST_FR 8
+184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:02:51.974) RLY:  temp rly ret var 0:0
+W
+(23:02:51.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759771
+I (23:02:5
+1.982) EX: get time GMT= 1737739971
+E (23:02:51.987) rmt: rmt_d
+river_install(1028): RMT driver already installed for channel
+E
+(23:02:51.994) owb_rmt: failed to install tx driver
+E (23:02:5
+1.999) owb_rmt: _init() failed with status 6
+I (23:02:52.004) T
+DRV: Find devices:
+W (23:02:52.008) TDRV: ret===1
+E (23:02:52.
+010) SAC: temp read failed 1
+I (23:02:52.014) SKT: Gys_hdlr_ent
+_exit GCstate 2 UCstate 0 Event proc 30 from intf 7
+W (23:02:52.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:02:52.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 8 v
+l_or 0 vs 25
+W (23:02:53
+.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 9 v
+l_or 0 vs 25
+W (23:02:53.863) EX: TF: 0 TZ: 19800 Sys_tm:1737759773
+I (23
+:02
+:53.863) EX: get time GMT= 1737739973
+W (23
+:02:53.949) NVM: part erase scs
+W (23:02:53.950) NVM: part
+erase restart
+W (23:02:53.967) NVM: esp_part_write scs
+W (23:02:54.052)
+EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:54.052) NVM: part erase scs
+W (23:02:54
+.052) NVM: part erase restart
+W (23:02:54.072) NVM: esp_part_write scs
+W (23:02:54.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:02:54.916) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:02:55.416) EDRV:
+hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 2 v
+l_or 0 vs 25
+W (23:02:55.916) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:02:56.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs
+25
+W (23:02:56.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+I (23:02:56.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:02:56.950) SKT: Pwr Off State_event rcvd e
+vent=3
+0
+W (23:02:56.951) BLE: curr user count 1 index 0
+W (23:
+02:56.955) BLE: ble curr user count 1 
+W (23:02:56.959) LOCAL_S
+SL: curr user count 0 index 0
+W (23:02:56.959) TAG_INTF_MTRX: H
+P_FR 94700 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:02:56.974) RLY:  temp rly ret var 0:0
+W
+(23:02:56.978) EX: TF: 0 TZ: 19800 Sys_tm:1737759776
+I (23:
+02:5
+6.982) EX: get time GMT= 1737739976
+E (23:02:56.987) rmt: rmt_d
+ri
+ver_install(1028): RMT driver already installed for channel
+E
+(23:02:56.994) owb_rmt: failed to install tx driver
+E (23:02:5
+6.999) owb_
+rmt: _init() failed with status 6
+I (23:02:57.004) T
+DRV: Find devices:
+W (23:02:57.008) TDRV: ret===1
+E (23:02:57.
+010) SAC: temp read fa
+iled 1
+I (23:02:57.014) SKT: Gys_hdlr_ent
+_exit GCstate 2 UCstate 0 Event proc 30 from intf 7
+W (23:02:57.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+W (2
+3:02:57.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:02:58.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 8 v
+l_or 0 vs 25
+W (23:02:58.916) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 9 v
+l_or 0 vs 25
+W (23:02:59.072) EX: TF: 0 TZ: 19800 Sys_tm:1737759779
+I (23:02
+:59.072) EX: get time GMT= 1737739979
+W (23:02:59.156) NVM: part erase scs
+W (23:02:59.156) NVM: part
+erase restart
+W (23:02:59.174) NVM: esp_part_write scs
+W (23:02:59.260) NVM: part erase scs
+W (23:02:59.260) NV
+M: part
+erase restart
+W (23:02:59.278) NVM: esp_part_write scs
+W (23:02:59.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 10
+vl_or 0 vs 25
+W (23:02:59.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 0 v
+l_or 0 vs 25
+W (23:03:00.126) MSH: ping_tmr_exp
+E (23:03:00.126) MSH: cnt_pi
+ng:1
+I (23:03:00.126) IMSG: 04 04 04 04 04 04 04 04 04 04 04 03
+04 04 0
+4 04 
+I (23:03:00.127) IMSG: 04 
+W (23:03:00.130) BLE:
+
+curr user count 1 index 0
+W (23:03:00.134) BLE: ble curr user
+count 1 
+W (23:03:00.138) BLE: curr user count 1 index 0
+W (23
+:03:00.142) BLE: ble curr user count 1 
+I (23:03:00.146) TST_MS
+G: Ble intf:0
+I (23:03:00.150) TXTH: trans_id 0 pld_len 8 intf
+11 msg_type 1
+E (23:03:00.155) IERR: WSS_NCNT
+W (23:03:00.158)
+BLE: mtu 253
+I (23:03:00.161) BLE: payld_len 24
+I (23:03:00.1
+64) BLE: iteration 1
+I (23:03:00.167) BLE: config tmr uptd strt
+W (23:03:00.172) IMSG: send_msg in
+tf 11 msg_id 42 msg_len 24 s
+ec_mode 1 fd 0 pad_len 8 app_id 1 trs_id 0
+W (23:03:00.173) BLE
+: ESP_GATTS_CONF_EVT, status = 0
+W (23:03:00.185) OST: gatts_co
+nfig_tmr,Tmr Stpd Scsfly
+I (23:03:00.189) BLE: gatts config tmr
+stpd
+I (23:03:00.309) BLE: data rcvd short write
+I (23:03:00.309) BL
+E: ping_tmr_strtd
+I (23:03:00.309) MDEC: rx_len 24
+I (23:03:00
+.310) IERR: sync byte matched 0x3ffed062
+W (23:03:00.313) MDEC:
+frame_len=24
+W (23:03:00.316) IINFO: total len 24 proc len 24
+W (23:03:00.320) MDEC: full frame rcvd
+W (23:03:00.324) IINF
+O:
+rcvd_frm 11 num_msg 1 trn_id 16 ack_req 0 frm_len 24 sec_mod 1
+W (23:03:00.332) IMSG: rcvd_msg intf 11 msg_id 42 msg_len 4 msg
+_type 1
+I
+(23:03:00.338) QSND: INTF_MSG to 8 evnt 42 pld 0x3ffe
+cb64 len(w) 2
+ctx 0 fre_req 1
+W (23:03:00.345) MSH: event_num=4
+2
+I (23:03:00.345) MDEC: no flow control
+W (23:03:00.348) MSH:
+wifi
+ble msg hdlr rcvd event=42
+W (23:03:00.356) TEST_MSG: typ
+e:5,num:240
+I (23:03:00.360) MSH: MSG_STE_HDLR_THRD2352
+I (23:
+03:00.364) QMEM: mem clr = 42
+I (23:03:00.367) MSH: no flow con
+trol
+W (23:03:00.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 1 v
+l_or 0 vs 25
+W (23:03:00.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 2 v
+l_or 0 vs 25
+W (23:03:01.416) EDRV: hvc 0 nvc 0
+lvc 0 V 216659 C 0 P 0 pc 3 v
+l_or 0 vs 25
+W (23:03:01.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs 25
+
+I (23:03:01.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:03:01.950) SKT: Pwr Off State_event rcvd e
+vent=30
+W (23:03:01.951) PCNT: GPt 305528 Gsp 305237 SPt 316243
+SnPt 0  Qdp 0 ocnt 5438 pos 312
+244 nc 91 ws 0 ltc 855 wtc 0 mlo
+cFl 0 hpFl 0 rhp 94700 bleC 0 mlscnt 0 Rev_ 14710
+W (23:03:01.9
+66) BLE: curr user count 1 index 0
+W (23:03:01.970) BLE: ble cu
+rr user count 1 
+W (23:03:01.974) LOCAL_SSL: curr user count 0
+ind
+ex 0
+W (23:03:01.974) TAG_INTF_MTRX: HP_FR 94700 HP_L_FR 655
+36 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt 0 Remote_cnt 0
+I (23
+:03:01.988) RLY:  temp rly ret var 0:0
+W (23:03:01.992) EX: TF:
+0 TZ: 19800 Sys_tm:1737759781
+I (23:03:01.997) EX: get time GM
+T= 1737739981
+E (23:03:02.002) rmt: rmt_driver_install(1028): R
+MT driver already installed for channel
+E (23:03:02.009) owb_rm
+t: failed to install tx driver
+E (23:03:02.014) owb_rmt: _init(
+) failed with status 6
+I (23:03:02.0
+19) TDRV: Find devices:
+W
+(23:03:02.023) TDRV: ret===1
+E (23:03:02.025) SAC: temp read fa
+iled 1
+I (23:03:02.028) SKT: Gys_hdlr_ent_exit GCstate 2 UCstat
+e 0 Event proc 30 from intf 7
+W (23:03:02.416) ED
+RV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+W (23:03:02.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+W (2
+3:03:03.069) ALRM: sch_idx 0
+W (23:03:03.069) ALRM: gysr tu
+rned on on_dur 1
+I (23:03:03.069) QSND: INTF_MSG to 8 evnt 70 p
+ld 0x3ffec96c len(w) 2 ctx 0 fre_req 1
+W (23:03:03.072) ALRM: d
+isabled 0
+W (23:03:03.072) MSH: event_num=70
+W (23:03:03.075)
+ALRM: alarm_used_cnt 0
+W (23:03:03.079) MSH: wifi ble msg hdlr
+rcvd event=70
+W (23:03:03.082) ALRM: No a
+larm schedule found
+I
+(23:03:03.087) QSND: INTF_MSG to 5 evnt 16 pld
+0x3ffe8650 len(w
+) 2 ctx 0 fre_req 0
+W (23:03:03.091) ALRM: sorted list count 0
+I (23:03:03.099) IMSG: SCh_info 60 1 0 
+
+I (23:03:03.102) ALR
+M: no tmr active
+I (23:03:03.106) MSH: MSG_STE_HDLR
+_THRD2352
+W
+(23:03:03.106) SKT: Pwr Off State_event
+rcvd event=16
+I (23:03
+:03.113) QMEM: mem clr = 70
+I (23:03:03.121) MSH: no flow contr
+ol
+E (23:0
+3:03.125) ALARM: *57 60
+I (23:03:03.128) RLY:  temp
+rly ret var 0:0
+I (23:03:03.132) EDRV: Enrg drv is stpd
+W (23:
+03:03.135) OST: enrg_con_prdic_tmr,Tmr is not active,Failed Stop
+I (23:03:03.141) SKT: energy driver energy consumption periodi
+c timer  is stoped
+I (23:03:03.148) EMP: POW METER CB FUN IS CA
+LLED
+W (23:03:03.153) OST: power_meter_time
+r,Tmr is not active,
+Failed Stop
+I (23:03:03.159) QSND: INTF_MSG to 3 evnt 14 pld 0x
+3ffcc67c len(w) 12 ctx 0 fre_req 0
+W (23:03:03.167) RLY: Rly St
+e =0 ON OFF Cmd =1
+I (2
+3:03:03.171) RLY: Rcvd rly on req
+I (23
+:03:03.174) RLY: Is ON
+W (23:03:03.177) SKT: Ivers bits 0 Curr
+Invers 0
+I (23:03:03.181) SKT: Gys_hdlr_ent_exit GCstate 1 UCst
+ate 0 Event proc 16 from intf 69
+W (23:03:0
+3.189) SKT: pwr_on_s
+tate_event rcvd event=14
+I (23:03:03.193) SKT: In No power
+stat
+e per session data is =0
+I (23:03:03.199)
+SKT: In No power stat
+e per session data is =4
+I (23:03:03.205) SKT: Gys_hdlr_ent_ex
+i
+t GCstate 1 UCstate 0 Event proc 14 from intf 67
+W (23:03:03.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 7 v
+l_or 0 vs 25
+I (23:03:03.776) RLY: get_id 0
+I (23:03:03.776) RLY: Rly on ste
+tmr is
+exp
+E (23:03:03.776) RLY: l_st 0
+I (23:03:03.776) QSND
+: INTF_MSG to 1 evnt 31 pld 0 len(w) 0 ctx 0 fre_req 0
+I (23:03
+:03.781) SKT: Rly DRV Event rcvd
+W (23:03:03.784) SKT: pwr_on
+_s
+tate_event rcvd event=31
+W (23:03:03.789) ALARM: 57
+W (23:03:0
+3.7
+92) EX: TF: 0 TZ: 19800 Sys_tm:1737759783
+I (23:03:03.797) E
+X: get time GMT= 1737739983
+I (23:03:03.801) SKT: gysr_str_tck_
+cnt 446417
+W (23:03:03.805) SKT: ON time=1737739983
+I (23:03:0
+3.808) SKT: Socket ON Action Factory Details HDWRE Type= 6
+W (2
+3:03:03.814) SKT: rly ste change 3
+I (23:03:03.818) RLY:  temp
+rly ret var 1:3
+W (23:03:03.822) SKT: dur=57 min
+I (23:03:03.8
+25) RLY:  temp rly ret var 1:3
+W (23:03:03.829) EX: TF: 0 TZ: 1
+9800 Sys_tm:1737759783
+I (23:03:03.834) EX: get time GMT= 17377
+39983
+W (23:03:03.838) IMSG: ID 1 RV 1 RSC 3 APPID 1 RSCT 17377
+39983 QNT 1
+I (23:03:03.844) TXTH: trans_id 0 pld_len 16 intf 1
+9 msg_type 1
+W (23:03:03.849) SNFY: !get_srvr_ntfy_sts SRVR_NO_
+NTFY
+W (23:03:03.854) SNFY: intf==NTFY lcl_ntfy 19 lcl_ntfy_ste
+0
+E (23:03:03.860) IERR: WSS_NCNT
+W (23:03:03.862) BLE: mtu 2
+53
+I (23:03:03.865) BLE: payld_len 24
+I (23:03:03.868) BLE: it
+eration 1
+I (23:03:03.871) BLE: config tmr uptd strt
+W (23:03:
+03.876) IMSG: send_msg intf 11 msg_id 46 msg_len 24 sec_mode 1 f
+d 0 pad_len 0 app_id 1 trs_id 8
+W (23:03:03.877) BLE: ESP_GATTS
+_CONF_EVT, status = 0
+I (23:03:03.885) APP_ID: latest app id wr
+ite = 1
+W (23:03:03.889) OST: gatts_config_tmr,Tmr Stpd Scsfly
+
+I (23:03:03.894) SKT: Rly DRV event is Exe
+I (23:03:03.898) BL
+E: ga
+tts config tmr stpd
+I (23:03:03.902) SKT: Gys_hdlr_ent_exi
+t GCstate 1 UCstate 0 Event proc 31 from intf 65
+W (23:03:03.90
+2) EX: TF: 0 TZ: 19800 Sys_tm:1737759783
+W (23:03:03.916) EDRV:
+hvc
+0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 8 vl_or 0 vs 25
+I (23:03
+:03.919) EX: get time GMT= 1737739983
+W (23:03:04.012) NVM: part erase scs
+W (23:03:04.012) NVM: part
+erase restart
+W (23:03:04.030) NVM: esp_part_write scs
+W (23:03:04.116) NVM: part erase scs
+W (23:03:0
+4.116) NVM: part
+erase restart
+W (23:03:04.134) NVM: esp_part_write scs
+W (23:03:04.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 9 v
+l_or 0 vs 25
+I (23:03:04.781) RLY: get_id 0
+W (23:03:04.781) RLY
+: Rly is trn
+d on 0
+I (23:03:04.781) QSND: INTF_MSG to 1 evnt 32
+pld 0 len(w
+) 0 ctx 0 fre_req 0
+I (23:03:04.783) SKT: Rly DRV Event rcvd
+W
+(23:03:04.786) SKT: pwr_on_state_event rcvd event=32
+I (23:03:
+04.791) RLY:  temp rly ret var 1:1
+I (23:03:04.795) RLY:  temp
+rly ret var 1:1
+I (23:03:04.795) SKT: Rly Status = 1 0
+I (23:0
+3:04.803) EDRV: Enrg drv strtd
+I (23:03:04.806) SKT: energy dri
+ver energy consumption periodic timer  is started
+I (23:03:04.8
+13) QSND: INTF_MSG to 7 evnt 18 pld 0x1 len(w) 0 ctx 0 fre_req 0
+I (23:03:04.820) SKT: Rly DRV event is Exe
+I (23:03:04.824) S
+KT: Gys_hdlr_ent_exit GCstate 1 UCstate 0 Event proc 32 from int
+f 65
+W (23:03:04.831) SAC: SAC rcvd event=18
+W (23:03:04.835)
+SKT: gysr_stop_time 1737739824
+W (23:03:04.839) EX: TF: 0 TZ: 1
+9800 Sys_tm:1737759784
+I (23:03:04.844) EX: get time GMT= 17377
+39984
+W (23:03:04.848) SKT: gysr_stop_time 1737739824
+W (23:03
+:04.853) EX: TF: 0 TZ: 19800 Sys_tm:1737759784
+I (23:03:04.857)
+EX: get time GMT= 1737739984
+W (23:03:04.861) SKT: gysr_stop_t
+ime 1737739824
+E (23:03:04.861) SAC: skt on action get_time = 1
+737739984 Gysr stop time = 1737739824
+E (23:03:04.873) SAC: skt
+on action Read Current = 0 Time = 160
+W (23:03:04.879) SKT: pw
+r_on_state_event rcvd event=18
+I (23:03:04.884) SKT: Gys_hdlr_e
+nt_exit GCstate 1 UCstate 0 Event proc 18 from intf 7
+W (23:03:04.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 10
+vl_or 0 vs 25
+I (23:03:05.306) EDRV: gl:INV PWR=1000000000
+I (23:03:05.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:05.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 0 v
+l_or 0 vs 25
+I (23:03:05.806) EDRV: gl:INV PWR=1000000000
+I (23:03:05.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr 1000000000
+W (23:03:05.916) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 1 v
+l_or 0 vs 25
+I (23:03:06.306) EDRV: gl:INV PWR=10000000
+00
+I (23:03:06.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 3 pwr 1000000000
+W (23:03:06.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 2 v
+l_or
+0 vs 25
+I (23:03:06.806) EDRV: gl:INV PWR=1000000000
+I (23:03:06.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 4 pwr 1000000000
+W (23:03:06.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 3 v
+l_or 0 vs 25
+I (23:03:06.950) QS
+ND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:03:06.950) SKT: pwr_on_state_event rcvd ev
+ent=30
+W (23:03:06.951) BLE: curr user count 1
+index 0
+W (23:0
+3:06.955) BLE: ble curr user count 1 
+W (23:03:06.959) LOCAL_SS
+L: curr user count 0 index 0
+W (23:03:06.959) TAG_INTF_MTRX: HP
+_FR 94696 HP_L_FR 655
+36 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:03:06.974) RLY:  temp rly ret var 1:1
+I (
+23:03:06.977) EDRV: gl:INV PWR=100000
+0000
+W (23:03:06.981) EX:
+TF: 0 TZ: 19800 Sys_tm:1737759786
+I (23:03:06.986) EX: get time
+GMT= 1737739986
+E (23:03:06.991) rmt: rmt_driver_install
+(1028)
+: RMT dr
+iver already installed for channel
+E (23:03:06.998) owb
+_rmt: failed to install tx driver
+E (2
+3:03:07.003) owb_rmt: _in
+it() failed with status 6
+I (23:03:07.008) TDRV: Find devices:
+W (23:03:07.012) TDRV: ret===1
+E (23:03:07.014) SAC: temp read
+failed 1
+I
+(23:03:07.018) SKT: Gys_hdlr_ent_exit GCstate 1 UCs
+tate 0 Event proc 30 from
+intf 7
+I (23:0
+3:07.306) EDRV: gl:INV PWR=1000000000
+I (23:03:07.306) Q
+SND: INTF_MSG to 3 evnt 19 pld 0 len(w) 0 ctx 0
+fre_req 0
+I (23
+:03:07.306)
+EDRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000000
+W (23:03:07.312) SAC: SAC rcvd event=19
+I (23:03:07.315) SAC: a
+ctve_curr_to_low
+I (23:03:07.319) RLY:  temp rly ret var 1:1
+I
+(23:03:07.323) SAC: Power ON to power OFF state event:full cu
+rr
+_to_no curr
+W (23:03:07.329) SKT: pwr_on_state_event rcvd event
+=19
+I (23:03:07.334) SKT: CMPRSR_NOT_ON
+I (23:03:07.337) SKT:
+Gys_hdlr_ent_exit GCstate 1 UCstate 0 Event proc 19 from intf 3
+
+W (23:03:07.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 4 vl_or 0 vs 25
+I (23:03:07.806) EDRV: gl:INV PWR=1000000000
+I (23:03:07.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:0
+7.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or
+0 vs 25
+I (23:03:08.306) EDRV: gl:INV PWR=1000000000
+I (
+23:03:08.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr 1000000000
+W (23:03:08.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 6 v
+l_or 0 vs 25
+I (23:03:08.806) EDRV: gl:INV PWR=1000000000
+I (23
+:03:08.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 3 pwr 1000000000
+W (23:03:08.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 7 v
+l_or 0 vs 25
+W (23:03:09.134) EX: TF: 0 TZ: 19800 Sys_tm:1737759789
+I (23:03
+:
+09.134) EX: get time GMT= 1737739989
+W (23:03:09.217) NVM: part erase scs
+W (23:03:09.217) NVM: part
+erase restart
+W (23:03:09.235) NVM: esp_part_write scs
+I (23:03:09.3
+19) EDRV: gl:INV PWR=1000000000
+W (23:03:09.319) N
+VM: part erase scs
+I (23:03:09.319) EDRV: C
+ur 0 hc_ct 0 lc_ct 0
+ac_ct 4 pwr 1000000000
+W (23:03:09.320) NVM:
+part erase restar
+t
+W (23:03:09.343) NVM
+: esp_part_write scs
+W (23:03:09.416) EDRV: hvc 1 nvc 0 lvc 0 V 301689 C 0 P 0 pc 0 v
+l_or 0 vs 25
+I (23:03:09.806) EDRV: gl:INV PWR=1000000000
+I (23:03:09.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000000
+I (23:03:09.8
+13) EMP: PO
+W METER CB FUN IS CALLED
+W (23:03:09.916) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 1 v
+l_or 0 vs 25
+I (23:03:10.306) EDRV: gl:INV PWR=1000000000
+I (23:03:10.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0
+ac_ct 1 pwr 1000000000
+W (
+23:03:10.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 2 v
+l_or 0 vs 25
+I (23:03:10.806) EDRV: gl:INV PWR=1000000000
+I (23:03:10.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr 1000000000
+W (23:03:10.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc
+3 v
+l
+_or 0 vs 25
+I
+(23:03:11.306) EDRV: gl:INV PWR=1000000000
+I (23:03:11.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 3 pwr 1000000000
+W (23:03:11.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs 25
+I (23:03:11.806) EDRV: gl:INV PWR=1000
+000000
+I (23:03:11.806) E
+DRV: Cur 0 h
+c_ct 0 lc_ct 0 ac_ct 4 pwr 1000000000
+W (23:03:11.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 5 v
+l_or 0 vs 25
+I (23:03:11.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:03:11.950) SKT: pwr_on_state_event rcvd ev
+ent=30
+W (23:03:11.951) BLE: curr user count 1 index
+0
+W (23:0
+3:11.955) BLE: ble curr user count 1
+W (23:03:11.959) LOCAL_SS
+L: curr user count 0 index 0
+W (2
+3:03:11.959) TAG_INTF_MTRX: HP
+_FR 94696 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:03:11.974) RLY:  temp rly ret var 1:1
+I (
+23:03:11.977) EDRV: gl:INV PWR=1000000000
+W (23:03:11.9
+81) EX:
+TF: 0 TZ: 19800 Sys_tm:1737759
+791
+I (23:03:11.986) EX: get time
+GMT= 1737739991
+E (23:03:11.991) rmt: rmt_driver_install(1028)
+: RMT driver already installed for channel
+E (23:03:11.998) owb
+_rmt: failed to install tx driver
+E (23:03:12.003) owb_rmt: _in
+it() failed with status 6
+I (23:03:12.008) TDRV: Find devices:
+W (23:03:12.012) TDRV: ret===1
+E (23:03:12.014) SAC: temp read
+failed 1
+I (23:03
+:12.018) SKT: Gys_hdlr_ent_exit GCstate 1 UCs
+tate 0 Event proc 30 from intf 7
+I (23:03:12.306) EDRV: gl:INV PWR=1000000000
+I (23:03:12.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000
+000
+W (23:03:12.4
+16) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+I (23:03:12.806) EDRV: gl:INV PWR=1000000000
+I (23:03:12.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:12.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 7 v
+l_or 0 vs 25
+I (23:03:
+13.306) EDRV: gl:INV PWR=1000000000
+I (23:03:13.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr 1000000000
+W (23:03:13.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 8 v
+l_or 0 vs 25
+I (23:03:13.806) EDRV: gl:INV PWR=1000000000
+I (23:03:13.806) E
+DRV: Cur 0 hc_ct 0 lc_c
+t 0 ac_ct 3 pwr 1000000000
+I (23:03:13.884) RLY:  temp rly ret var 1:1
+I (23:03:13.884) ED
+RV: energy consumption per session =0
+I (23:03:13.884) APP_ID:
+latest app id read = 1
+W (23:03:13.886) PDATA: PRTL_ON_DUR 10 E
+NERGY_CONSUMED 0 watt hrs
+I (23:03:13.8
+92) QSND: INTF_MSG to 7
+evnt 15 pld 0 len(w) 0 ctx 1 fre_req 0
+W (23:03:13.899) SKT: pw
+r_on_state_event rcvd event=15
+I (23:03:13.903) CEH: common eve
+nts =15
+I (23:03:13.907) SKT: Gys_hdlr_ent_exit GCstate 1 UCsta
+te 0 Event proc 15 from intf 7
+W (23:03:13.907) EX: TF: 0 TZ: 1
+9800 Sys_tm:1737759793
+W (23:03:13.918) EDRV: hvc 0 nvc 0 lvc 0
+V 217004 C 0 P 0 pc 9 vl_or 0 vs 25
+I (23:03:13.919) EX: get t
+ime GMT= 1737739993
+W (23:03:13.994) NVM: part erase scs
+W (23:03:13.994) NVM: part
+erase restart
+W (23:03:14.012) NVM: esp_part_write scs
+W (23:
+03:14.083) NVM: part erase scs
+W (23:03:14.083) NVM: part
+erase restart
+W (23:03:14.101) NVM: esp_part_write scs
+I (23:03:14.306) EDRV: gl:INV PWR=1000000000
+I (23:03:14.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 4 pwr 1000000000
+W (23:03:14.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 10
+vl_or 0 vs 25
+I (23:03:14.806) EDRV: gl:INV PWR=1000000000
+I (23:03:14.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000000
+W (23:03:14.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 0 v
+l_or 0 vs 25
+I (23:03:15.134) EMP: POW METER C
+B FUN IS CALLED
+I (23:03:15.
+306) EDRV: gl:INV PWR=1000000000
+I (23:03:15.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:15.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 1 v
+l_or 0 vs 25
+I (23:03:15.806) EDRV: gl:INV PWR=1000000000
+I (23:03:15.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr
+1000000000
+W (23:03:15.916) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 2 v
+l_or 0 vs 25
+I (23:03:16.306) EDRV: gl:INV PWR=100
+0000000
+I (23:03:16.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 3 pwr 1000000000
+W (23:03:16.416) EDRV: hvc 0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 3 v
+l_or 0 vs 25
+I (23:03:16.806) EDRV: gl:INV PWR=1000000000
+I (23:03:16.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 4 pwr 1000000000
+W (23:03:16.916) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 4 v
+l_or 0 vs 25
+I (23:03:16.950) QSND:
+INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:03:16.950) SKT: pwr_on_state_
+event rcvd ev
+ent=30
+W (23:03:16.951) BLE: curr user count 1 index 0
+W (
+23:0
+3:16.955) BLE: ble curr user count 1 
+W (23:03:16.959) LOC
+AL_SS
+L: curr user count 0 index 0
+W (23:03:1
+6.959) TAG_INTF_MTRX: HP
+_FR 94696 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:03:16.974) RLY:  temp rly ret var 1:1
+I (
+2
+3:03:16.977) EDRV: gl:INV PWR=1000000000
+W (23:03:16.981) EX:
+TF: 0 TZ: 19800 Sys_tm:1737759796
+I (23:03:16.986) EX: get time
+GMT= 1737739996
+E (23:03:16.991) rmt: rmt_driver_install(1028)
+: RMT drive
+r already installed for channel
+E (23:03:16.998) owb
+_rmt: failed to install tx driver
+E (23:03:17.003) owb_rmt: _in
+it() failed with status 6
+I (23:03:17.008) TDRV: Find devices:
+W (23:03:17.
+012) TDRV: ret===1
+E (23:03:17.014) SAC: temp read failed 1
+I (23:03:17.018) SKT: Gys_hdlr_ent_exit GCstate 1 UCs
+tate 0 Event proc 30 from intf 7
+I (23:03:17.306) EDRV: gl:INV PWR=1000000000
+I (23:03:17.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000000
+W (23:03:17.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 5 v
+l_or 0 vs 25
+I (23:03:17.806) EDRV: gl:INV PWR=1000000000
+I (23:03:17.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:17.916) EDRV: hvc 0 nvc
+0 lvc 0 V 216659 C 0 P 0 pc 6 v
+l_or 0 vs 25
+I (23:03:18.306) EDRV: gl:INV PWR=1000000000
+I (23:03:18.3
+06) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr 1000000000
+W (23:
+03:18.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 7 v
+l_or 0 vs 25
+I (23:03:18.806) EDRV: gl:INV PWR=1000000000
+I (23:03:18.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 3 pwr 1000000000
+W (23:03:18.916) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 8 v
+l_or 0 vs 25
+W (23:03:19.101) EX: TF: 0 TZ: 19800 Sys_tm:1737759799
+I (23:03
+:19.101) EX: get time GMT= 1737739999
+W (23:03:19.163) NVM: part erase scs
+W (23
+:03:19.164) NVM: part
+erase restart
+W (23:03:19.181) NVM: esp_part_write scs
+W (23:03:19.266) NVM: part erase scs
+W
+(23:03:19.266) NVM: part
+erase restart
+W (23:03:19.284) NVM: esp_part_write scs
+I (23:03:19.306)
+EDRV: gl:INV PWR=1000000000
+I (23:03:19.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 4 pwr 1000000000
+W (23:03:19.416) EDRV: hvc 0 nvc 0 lvc 0 V 216314 C 0 P 0 pc 9 v
+l_or 0 vs 25
+I (23:03:19.806) EDRV: gl:INV PWR=1000000000
+I (23:03:19.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000000
+W (23:03:19.916) EDRV: hvc 0 nvc 0
+lvc 0 V 216659 C 0 P 0 pc 10
+vl_or 0 vs 25
+I (23:03:20.306) EDRV: gl:INV PWR=1000000000
+I (23:03:20.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:20.3
+09) MSH: ping_tmr_exp
+E (23:03:20.309)
+MSH: cnt_ping:1
+I (23:0
+3:20.311) IMSG: 04 04 04 04 04 04 04 04 04 04 04 03 04 04 04 04
+I (23:03:20.317) IMSG: 04 
+W (23:03:20.32
+0) BLE: curr user co
+unt 1 index
+0
+W (23:03:20.324) BLE: ble curr user count 1 
+W (
+23:03:20.328) BLE: curr user count 1 index 0
+W (23:03:20.332) B
+LE: ble curr user count 1 
+I (23:03:20.336) TST_MSG:
+Ble intf:0
+I (23:03:20.339) TXTH: trans_id 0 pld_len 8 intf 11 msg_type 1
+E (23:03:20.345) IERR: WSS_N
+CNT
+W (23:03:20.348) BLE: mtu 253
+I (23:03:20.351) BLE: payld_len 24
+I (23:03:2
+0.354) BLE: iter
+ation 1
+I (23:03:20.357) BLE: config tmr uptd strt
+W (23:03:20
+.361) IMSG: send_msg intf 11 msg_id 42 msg_len 24 sec_mode 1 fd
+0 pad_len 8 app_id 1 trs_id 0
+W (23:03:20.363) BLE: ESP_GATTS_C
+ONF_EVT, status = 0
+W (23:03:20.374) OST: gatts_confi
+g_tmr,Tmr
+Stpd Scsfly
+I (23:03:20.379) BLE: gatts config
+tmr stpd
+W (23:03:20.416) EDRV: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 0 v
+l_or 0 vs 25
+I (23:03:20.540) B
+LE: data rcvd short write
+I (23:03:20.540) BL
+E: ping_tmr_strtd
+I (23:03:20.541) MDEC: rx_len 24
+I (23:03:20
+.541) IERR: sync byte matched 0x3ffed00e
+W (23:03:20.544) MDEC:
+frame_len=24
+W (23:03:20.547) IINFO: total len 24 proc len 24
+W (23:03:
+20.551) MDEC: full frame rcvd
+W (23:03:20.555) IINFO:
+rcvd_frm 11 n
+um_msg 1 trn_id 17 ack_req 0 frm_len 24 sec_mod 1
+W (23:03:20.563) IMSG: rcvd_msg intf 11 msg_id 42 msg_len 4 msg
+_type 1
+I (23:03:20.569) QSND: INTF_MSG to 8 evnt 42 pld 0x3ffe
+c96c len(w) 2 ctx 0 fre_req 1
+W (23:03:20.576) MSH: event_num=4
+2
+I (23:03:20.576) MDEC: no flow control
+W (23:03:20.579) MSH:
+wifi ble msg hdlr rcvd event=42
+W (23:03:20.588) TEST_MSG: typ
+e:5,num:239
+I (23:03:20.591) MSH: MSG_STE_HDLR_THRD2352
+I (23:
+03:20.595) QMEM: mem clr = 42
+I (23:03:20.598) MSH: no flow con
+trol
+I (23:03:20.806) EDRV: gl:INV PWR=1000000000
+I (23:03:20.806) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 2 pwr 1000000000
+W (23:03:20.916) EDRV: hvc
+0 nvc 0 lvc 0 V 217004 C 0 P 0 pc 1 v
+l_or 0 vs 25
+I (23:03:20.916) EMP: POW METER CB FUN
+IS CALLED
+I (23:03:21.306) EDRV: gl:INV
+PWR=1000000000
+I (23:03:21.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 3 pwr 100
+0000000
+W
+(23:03:21.416) EDRV: hvc 0 nvc 0 lvc 0 V 217351 C 0 P 0 pc 2 v
+l_or 0 vs 25
+I (23:03:21.806) EDRV: gl:INV PWR=1000000000
+I (23:03:21.806) E
+DRV: Cur 0 hc_ct 0 lc_c
+t 0 ac_ct 4 pwr 1000000000
+W (23:03:21.916) EDRV: hvc 0 nvc 0 lvc 0 V 2
+17004 C 0 P 0 pc 3 v
+l_or 0 vs
+25
+I (
+23:03:21.950) QSND: INTF_MSG to 7 evnt 30 pld 0xff len(w) 0 c
+tx 1 fre_req 0
+W (23:03:21.950) SKT: pwr_on_state_event rcv
+d ev
+ent=30
+W (23:03:21.951) BLE: curr user count 1 index 0
+W (23:0
+3:21.955) BLE: ble curr user count 1 
+W (23:03:21.959) LOCAL_SS
+L: curr user count 0 index 0
+W (23:03:21.959) TAG_INTF_MTRX: HP
+_FR 94696 HP_L_FR 65536 ST_FR 8184 ST-OCC 8 0 BLE_cnt 1 STA_cnt
+0 Remote_cnt 0
+I (23:03:21.974) RLY:  temp rly ret var 1:1
+I (
+23:03:21.977) EDRV: gl:INV PWR=1000000000
+W (23:03:21.981) EX:
+TF: 0 TZ: 19800 Sys_tm:1737
+759801
+I (23:03:21.986) EX: get time
+GMT= 1737740001
+E (23:03:21.991) rmt: rmt_driver_install(1028)
+: RMT driver already installed for channel
+E (23:03:21.998) owb
+_rmt: failed to install tx d
+river
+E (23:03:22.003) owb_rmt: _in
+it() failed with s
+tatus 6
+I (23:03:22.008) TDRV: Find devices:
+W (23:03:22.012) TDRV: ret===1
+E (23:03:22.014) SAC: temp read
+failed 1
+I (23:03:22.018) SKT: Gys_hdlr_ent
+_exit GCstate 1 UCs
+tate 0 Even
+t proc 30 from intf 7
+I (23:03:22.306) EDRV: gl:INV PWR=1000000000
+I (23:03
+:22.306) E
+DRV: Cur 0 hc_ct 0 lc_ct 0 ac_ct 0 pwr 1000000000
+W (23:03:22.416) EDRV: hvc 0 nvc
+0 lvc 0 V 217004 C 0 P 0 pc 4 v
+l_or 0 vs 25
+I (23:03:22.806) EDRV: gl:INV PWR=1000000000
+I (23:03:22.806) E
+DRV: Cur 0 hc_ct
+0 lc_ct 0 ac_ct 1 pwr 1000000000
+W (23:03:22.916) EDR
+V: hvc 0 nvc 0 lvc 0 V 216659 C 0 P 0 pc 5 v
+l_or 0 vs 25

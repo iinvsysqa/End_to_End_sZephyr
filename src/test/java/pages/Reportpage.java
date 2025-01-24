@@ -183,7 +183,7 @@ public class Reportpage extends MobileAppWrappers {
 	            element.click();
 		}
 		private void clickonokpop_up() {
-			if (isElementDisplayed(ok_popup, "Ok_pop-up")) {
+			if (isiconDisplayed(ok_popup, "Ok_pop-up")) {
 				clickbyXpath(ok_popup, "ok pop-up");
 			}
 		}

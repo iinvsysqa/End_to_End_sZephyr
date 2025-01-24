@@ -52,12 +52,12 @@ public class End_to_End_Flow extends MobileAppWrappers {
 	
 	@BeforeClass
 	public void startTestCase() {
-		testCaseName = "TC_01_Account_Info_Changes";
+		testCaseName = "End To End Testing";
 		//check login username and Accounts info username are same or not 
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .
 
-		testDescription = "Change language and check changed language ,before removing device try to delete account then try to remove device and delete account";
+		testDescription = "End to End Testing Flow";
 	}
 
 //Before starting delete your account "testuser007"
@@ -78,8 +78,8 @@ public class End_to_End_Flow extends MobileAppWrappers {
 		
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
-//			readwrite.openPort();
-//			readwrite.write("reboot\r");
+			readwrite.openPort();
+			readwrite.write("reboot\r");
 			Thread.sleep(3000);
 
 			//home page ui check 
@@ -189,7 +189,7 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			homepage.backnavigation();
 			
 			
-//			readwrite.closePort();
+			readwrite.closePort();
 		}
 		catch (Exception e) {
 			readwrite.write("factory_reset\r");		

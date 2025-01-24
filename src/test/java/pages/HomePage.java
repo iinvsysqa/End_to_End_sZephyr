@@ -106,7 +106,7 @@ public class HomePage extends GenericWrappers{
 	@FindBy(xpath="//*[@resource-id='home_main_on_off_swch']")
 	private WebElement deviceONOFFButton;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"\"]")
+	@FindBy(xpath = "//*[@resource-id='Options_Icon']")
 	private WebElement menuBarButton;
 	
 	@FindBy(xpath = "//*[@resource-id='menu_icon_accounts']")
@@ -151,7 +151,8 @@ public class HomePage extends GenericWrappers{
 	private WebElement sharepagedevicename;
 	@FindBy(xpath = "//*[@resource-id='Header']")
 	private WebElement notficationHeader;
-	@FindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]")
+	@FindBy(xpath = "//*[@resource-id='com.android.permissioncontroller:id/permission_allow_foreground_only_button']")
+//	@FindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]")
 	private WebElement devicepermission;
 	
 	public HomePage(AndroidDriver driver) {
@@ -370,7 +371,7 @@ public class HomePage extends GenericWrappers{
 	}
 	   
 		private void clickonAllowpop_up() {
-			if (isElementDisplayed(devicepermission, "Ok_pop-up")) {
+			if (isiconDisplayed(devicepermission, "Ok_pop-up")) {
 				clickbyXpath(devicepermission, "ok pop-up");
 			}
 		}

@@ -8,10 +8,10 @@
           <include name="startTestCase"/>
           <include name="afterMethod"/>
           <include name="afterTest"/>
-          <include name="Blewithoutrouter_pairing"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="beforeMethod"/>
+          <include name="homePageUICheck"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- sZephyr_testcases.End_to_End_Flow -->

@@ -303,6 +303,12 @@ public class AddDevicePage extends GenericWrappers {
 	@FindBy(xpath = "//*[@resource-id='AddDevice_KnownDevicePairing_ButtonText']")
 	private WebElement KnownDevicePairing_ButtonText;
 
+	
+	@FindBy(xpath = "//android.widget.TextView[@content-desc=\"com.szephyr:id/undefined\" and @text=\"\"]")
+	private WebElement menuBarButtonafterpairing;
+	@FindBy(xpath = "//android.widget.TextView[@content-desc=\"com.szephyr:id/undefined\"]")
+	private WebElement menuBarButtonafterpairing_withoutconnectivity;
+	
 	// Constructor to initialize the driver and instantiate elements using
 
 	public AddDevicePage(AndroidDriver driver) {
@@ -837,7 +843,7 @@ public class AddDevicePage extends GenericWrappers {
 
 			readwrite.write("factory_reset\r");
 
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickMenuBarRemoveDevice();
 			devicemenupage.clickRemoveDevicePopupYesButton();
 			Thread.sleep(2000);//or5000
@@ -1008,8 +1014,9 @@ public void removingDevice() throws InterruptedException {
 	int n=5;
 	while (n>0) {
 		
-		if (isElementDisplayed(menuBarButton,"Menu Bar button")) {
-			homepage.clickMenuBarButton();
+		
+		if (isElementDisplayed(menuBarButtonafterpairing_withoutconnectivity,"Menu Bar button")) {
+			homepage.clickMenuBarButtonafterpairing();
 			if (isElementDisplayed(removeDevice, "Remove device button")) {
 				devicemenupage.clickMenuBarRemoveDevice();
 				devicemenupage.clickRemoveDevicePopupYesButton();
@@ -1032,6 +1039,34 @@ public void removingDevice() throws InterruptedException {
 			
 			devicemenupage.AddDevicePagedisplayed();
 			break;
+		}
+		else if (isElementDisplayed(menuBarButtonafterpairing,"Menu Bar button")) {
+
+			homepage.clickMenuBarButtonafterpairing();
+			if (isElementDisplayed(removeDevice, "Remove device button")) {
+				devicemenupage.clickMenuBarRemoveDevice();
+				devicemenupage.clickRemoveDevicePopupYesButton();
+				checkdeviceremovedtoast();
+				Thread.sleep(2000);//or5000
+				if (isElementDisplayedCheck(deviceofflinealertTitle)) {
+					String text = deviceofflinealertTitle.getText();
+					System.out.println(text + "  Alert pop-up displayed");
+					clickbyXpath(alertok, "Alert ok button");
+
+				} else if (isElementDisplayedCheck(buttonPressAlert)) {
+					String text = buttonPressAlert.getText();
+					System.out.println(text + "  Alert pop-up displayed");
+					clickbyXpath(alertok, "Alert ok button");
+
+				} else {
+					System.out.println("removed");
+				}
+			}
+			
+			devicemenupage.AddDevicePagedisplayed();
+			break;
+		
+			
 		}
 		else if (isElementDisplayed(signInButton,"signin button displayed")) {
 			System.out.println("signin page displayed");

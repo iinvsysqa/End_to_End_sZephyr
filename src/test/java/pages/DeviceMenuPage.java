@@ -167,6 +167,8 @@ public class DeviceMenuPage extends GenericWrappers{
 	
 	@FindBy(xpath = "//*[@resource-id='Header']")
 	private WebElement energysavingHeader;
+	@FindBy(xpath = "//*[@resource-id='Toggle_of_Infinite']")
+	private WebElement DurationforOnToggle;
 	
 	
 	
@@ -586,10 +588,10 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		}
 		public void checkDurationforOnDefautvalue_devicesettings() {
 			clickDurationForONButton();
-			clickbyXpath(EnableToogleSwtich, "Toggle switch");
+			clickbyXpath(DurationforOnToggle, "Toggle switch");
 			verifyTextContainsByXpath(defaultHr_Devicesettings, "0", "Default hr value in Device Settings");
 			verifyTextContainsByXpath(defaultMin_Devicesettings, "20", "Default min value in Device Settings");
-			clickbyXpath(EnableToogleSwtich, "Toggle switch");
+			clickbyXpath(DurationforOnToggle, "Toggle switch");
 			
 		}
 		public void checkEnergySavingDefautvalue_devicesettings() {

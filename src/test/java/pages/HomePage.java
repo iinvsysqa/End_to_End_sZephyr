@@ -151,7 +151,8 @@ public class HomePage extends GenericWrappers{
 	private WebElement sharepagedevicename;
 	@FindBy(xpath = "//*[@resource-id='Header']")
 	private WebElement notficationHeader;
-	
+	@FindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]")
+	private WebElement devicepermission;
 	
 	public HomePage(AndroidDriver driver) {
 		this.driver = driver;
@@ -345,6 +346,7 @@ public class HomePage extends GenericWrappers{
 		   
 	}
 	   public void checkAdddevicePageDefaultvalues() {
+		   clickonAllowpop_up();
 		   verifyTextContainsByXpath(scanQr,"Scan QR" , "Qr title");
 		   verifyTextContainsByXpath(scanQrTitle,"Steps" , "subtitle");
 		   verifyTextContainsByXpath(qrStep1,"1 : Get Admin's QR code from their application using Share device icon in their homepage" , "Step1 of QR scan");
@@ -367,7 +369,11 @@ public class HomePage extends GenericWrappers{
 		   verifyTextContainsByXpath(notficationHeader, "Notifications", "Notifications header");
 	}
 	   
-	   
+		private void clickonAllowpop_up() {
+			if (isElementDisplayed(devicepermission, "Ok_pop-up")) {
+				clickbyXpath(devicepermission, "ok pop-up");
+			}
+		}
 	   
 }
 

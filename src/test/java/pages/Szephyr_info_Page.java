@@ -164,7 +164,7 @@ public void clickonRoomSize() {
 public void checkDefaultValues_Szephyrinfopage_afterpairing() {
 
 	verifyTextContainsByXpath(devicenameDeviceSettingsPage, userName,"device name" );
-	verifyTextContainsByXpath(roomSize, "Large", "Room size value");
+	verifyTextContainsByXpath(roomsizeoption3, "Large", "Room size value");
 }
 }
 	

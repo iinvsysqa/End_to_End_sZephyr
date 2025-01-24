@@ -79,6 +79,9 @@ public class Reportpage extends MobileAppWrappers {
 	@FindBy(xpath = "//android.widget.TextView[@text=\"Select your device name\"]")
 	private WebElement deviceName;
 	
+	@FindBy(xpath = "//android.widget.TextView[@text=\"testuser007_1\"]")
+	private WebElement deviceNameafterpairing;
+	
 	@FindBy(xpath = "//android.widget.TextView[@text=\"No device found\"]")
 	private WebElement devicedropdown;
 	
@@ -93,6 +96,9 @@ public class Reportpage extends MobileAppWrappers {
 	
 	@FindBy(xpath = "//*[@resource-id='Report_UploadScreenshot_plus']")
 	private WebElement plusbutton;
+	
+	@FindBy(xpath = "//android.widget.TextView[@text=\"ok\"]")
+	private WebElement ok_popup;
 	
 	private AndroidDriver driver;
 	
@@ -176,7 +182,11 @@ public class Reportpage extends MobileAppWrappers {
 	            // Click the element after scrolling to it
 	            element.click();
 		}
-		
+		private void clickonokpop_up() {
+			if (isElementDisplayed(ok_popup, "Ok_pop-up")) {
+				clickbyXpath(ok_popup, "ok pop-up");
+			}
+		}
 		
 		public void Reportanissuepagecontents() {
 
@@ -198,7 +208,33 @@ public class Reportpage extends MobileAppWrappers {
 			 
 			 scrolltoElement(plusbutton);;
 			 driver.navigate().back();
+			 clickonokpop_up();
 			 verifyTextContainsByXpath(reportissueTitle, "Report an issue", "Report issue title");
+			
+			
+		}
+		public void Reportanissuepagecontents_afterpairing() {
+			
+			verifyTextContainsByXpath(issueType,"Select issue type" , "issue type default content");
+			clickbyXpath(issueType, "issuetype");
+			verifyTextContainsByXpath(issuetypeDropdown1,"Device issue" , "Device issue option1");
+			verifyTextContainsByXpath(issuetypeDropdown2,"App issue" , "Device issue option2");
+			verifyTextContainsByXpath(issuetypeDropdown3,"Others" , "Device issue option3");
+			clickbyXpath(issuetypeDropdown3, "issuetype others");
+			
+			
+			verifyTextContainsByXpath(deviceName,"Select your device name" , "default content on device name");
+			clickbyXpath(deviceName, "device name");
+			verifyTextContainsByXpath(deviceNameafterpairing,"testuser007_1" , "dropdown of device name");
+			clickbyXpath(deviceNameafterpairing, "device name in dropdown");
+			verifyTextContainsByXpath(IssueDescriptionplaceholder, "Please explain your issue", "placeholder of description");
+			verifyTextContainsByXpath(emailaddress, emaId, "email address");
+			
+			
+			scrolltoElement(plusbutton);;
+			driver.navigate().back();
+			clickonokpop_up();
+			verifyTextContainsByXpath(reportissueTitle, "Report an issue", "Report issue title");
 			
 			
 		}

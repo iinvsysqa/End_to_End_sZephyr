@@ -55,7 +55,7 @@ public class Schedularpage extends GenericWrappers {
 	private WebElement savebtn;
 	@FindBy(xpath = "//*[@resource-id='Edit_Schedule_Cancel_Button']")
 	private WebElement cancelbtn;
-	@FindBy(xpath = "//*[@resource-id='SCH_EDIT_DELETE_BTN']")
+	@FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"com.szephyr:id/SCH_EDIT_DELETE_BTN\"]")
 	private WebElement deleteBtn;
 	@FindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]")
 	private WebElement locationpermissionpopup;
@@ -403,7 +403,7 @@ public class Schedularpage extends GenericWrappers {
 			}
 
 		} catch (Exception e) {
-			System.out.println("All created schedules are deleted");
+			System.out.println("Problem in deleting scedule");
 		}
 
 	}

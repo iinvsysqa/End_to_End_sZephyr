@@ -262,28 +262,28 @@ public class End_to_End_Flow extends MobileAppWrappers {
 		
 		//navigate to all components in device menu page
 		//navigate to accounts info 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		homepage.clickAccountinfobutton();
 		homepage.checkAccountsinfoDefaultValues();
 		homepage.backnavigation();
 		devicemenupage.checkUsername_devicesettings("Home page");
 	
 //		//navigate to szephyr info 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		sZephyrinfopage.clickSZephyrInfo_AfterPairing();
 		sZephyrinfopage.checkDefaultValues_Szephyrinfopage_afterpairing();
 		homepage.backnavigation();
 		devicemenupage.checkUsername_devicesettings("Home page");
 		
 //		//navigate to add devie 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		adddevicepage.clickAddanotherDeviceButton();
 		adddevicepage.newDevicePairingscreencheck();
 		homepage.backnavigation();
 		devicemenupage.checkUsername_devicesettings("Home page");
 		
 //		//navigate to device settings 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		devicemenupage.clickDeviceSettingsButton();
 		devicemenupage.checkUsername_devicesettings("Device settings page");
 		devicemenupage.checkLowVoltDefautvalue_devicesettings();
@@ -304,18 +304,18 @@ public class End_to_End_Flow extends MobileAppWrappers {
 //		
 //		
 //		//navigate to remove device 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		devicemenupage.clickMenuBarRemoveDevice();
 		devicemenupage.clickcancel();
 		devicemenupage.checkUsername_devicesettings("Home page");
 //		// navigate to logout 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		devicemenupage.clickLogoutButton();
 		devicemenupage.clickcancel();
 		devicemenupage.checkUsername_devicesettings("Home page");
 		
 		//navigate to report page 
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		homepage.clickReportButton();
 		reportpage.Reportanissuepagecontents_afterpairing();
 		homepage.backnavigation();
@@ -360,7 +360,7 @@ public class End_to_End_Flow extends MobileAppWrappers {
 		schedularpage.backToHomepage();
 		schedularpage.checkOffState();
 		
-		homepage.clickMenuBarButton();
+		homepage.clickMenuBarButtonafterpairing();
 		devicemenupage.clickDeviceSettingsButton();
 		devicemenupage.clickResetDeviceButton();
 		devicemenupage.clickResetConfirmationYesButton();
@@ -440,28 +440,28 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			
 			//navigate to all components in device menu page
 			//navigate to accounts info 
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			homepage.clickAccountinfobutton();
 			homepage.checkAccountsinfoDefaultValues();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
-			
-//		//navigate to szephyr info 
-			homepage.clickMenuBarButton();
+		
+//			//navigate to szephyr info 
+			homepage.clickMenuBarButtonafterpairing();
 			sZephyrinfopage.clickSZephyrInfo_AfterPairing();
 			sZephyrinfopage.checkDefaultValues_Szephyrinfopage_afterpairing();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
-//		//navigate to add devie 
-			homepage.clickMenuBarButton();
+//			//navigate to add devie 
+			homepage.clickMenuBarButtonafterpairing();
 			adddevicepage.clickAddanotherDeviceButton();
 			adddevicepage.newDevicePairingscreencheck();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
-//		//navigate to device settings 
-			homepage.clickMenuBarButton();
+//			//navigate to device settings 
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickDeviceSettingsButton();
 			devicemenupage.checkUsername_devicesettings("Device settings page");
 			devicemenupage.checkLowVoltDefautvalue_devicesettings();
@@ -478,22 +478,22 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			devicemenupage.clickcancel();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
-//		devicemenupage.checkLEDdefaultvalue();
-//		
-//		
-//		//navigate to remove device 
-			homepage.clickMenuBarButton();
+//			devicemenupage.checkLEDdefaultvalue();
+//			
+//			
+//			//navigate to remove device 
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickMenuBarRemoveDevice();
 			devicemenupage.clickcancel();
 			devicemenupage.checkUsername_devicesettings("Home page");
-//		// navigate to logout 
-			homepage.clickMenuBarButton();
+//			// navigate to logout 
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickLogoutButton();
 			devicemenupage.clickcancel();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
 			//navigate to report page 
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			homepage.clickReportButton();
 			reportpage.Reportanissuepagecontents_afterpairing();
 			homepage.backnavigation();
@@ -538,7 +538,7 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			schedularpage.backToHomepage();
 			schedularpage.checkOffState();
 			
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickDeviceSettingsButton();
 			devicemenupage.clickResetDeviceButton();
 			devicemenupage.clickResetConfirmationYesButton();
@@ -618,28 +618,28 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			
 			//navigate to all components in device menu page
 			//navigate to accounts info 
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			homepage.clickAccountinfobutton();
 			homepage.checkAccountsinfoDefaultValues();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
-			
-//		//navigate to szephyr info 
-			homepage.clickMenuBarButton();
+		
+//			//navigate to szephyr info 
+			homepage.clickMenuBarButtonafterpairing();
 			sZephyrinfopage.clickSZephyrInfo_AfterPairing();
 			sZephyrinfopage.checkDefaultValues_Szephyrinfopage_afterpairing();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
-//		//navigate to add devie 
-			homepage.clickMenuBarButton();
+//			//navigate to add devie 
+			homepage.clickMenuBarButtonafterpairing();
 			adddevicepage.clickAddanotherDeviceButton();
 			adddevicepage.newDevicePairingscreencheck();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
-//		//navigate to device settings 
-			homepage.clickMenuBarButton();
+//			//navigate to device settings 
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickDeviceSettingsButton();
 			devicemenupage.checkUsername_devicesettings("Device settings page");
 			devicemenupage.checkLowVoltDefautvalue_devicesettings();
@@ -656,22 +656,22 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			devicemenupage.clickcancel();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
-//		devicemenupage.checkLEDdefaultvalue();
-//		
-//		
-//		//navigate to remove device 
-			homepage.clickMenuBarButton();
+//			devicemenupage.checkLEDdefaultvalue();
+//			
+//			
+//			//navigate to remove device 
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickMenuBarRemoveDevice();
 			devicemenupage.clickcancel();
 			devicemenupage.checkUsername_devicesettings("Home page");
-//		// navigate to logout 
-			homepage.clickMenuBarButton();
+//			// navigate to logout 
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickLogoutButton();
 			devicemenupage.clickcancel();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
 			//navigate to report page 
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			homepage.clickReportButton();
 			reportpage.Reportanissuepagecontents_afterpairing();
 			homepage.backnavigation();
@@ -716,7 +716,7 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			schedularpage.backToHomepage();
 			schedularpage.checkOffState();
 			
-			homepage.clickMenuBarButton();
+			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickDeviceSettingsButton();
 			devicemenupage.clickResetDeviceButton();
 			devicemenupage.clickResetConfirmationYesButton();

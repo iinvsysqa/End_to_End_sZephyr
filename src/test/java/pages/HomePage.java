@@ -110,6 +110,8 @@ public class HomePage extends GenericWrappers{
 	private WebElement menuBarButton;
 	@FindBy(xpath = "//android.widget.TextView[@content-desc=\"com.szephyr:id/undefined\" and @text=\"\"]")
 	private WebElement menuBarButtonafterpairing;
+	@FindBy(xpath = "//android.widget.TextView[@content-desc=\"com.szephyr:id/undefined\"]")
+	private WebElement menuBarButtonafterpairing_withoutconnectivity;
 	
 	@FindBy(xpath = "//*[@resource-id='menu_icon_accounts']")
 	private WebElement Accountinfobutton;
@@ -175,7 +177,12 @@ public class HomePage extends GenericWrappers{
 		clickbyXpath(menuBarButton, " Menu Bar ");
 	}
 	public void clickMenuBarButtonafterpairing() {
-		clickbyXpath(menuBarButtonafterpairing, " Menu Bar ");
+		if (isiconDisplayed(menuBarButtonafterpairing, "menu bar after pairing element displayed")) {
+			clickbyXpath(menuBarButtonafterpairing, " Menu Bar ");
+			}else if (isiconDisplayed(menuBarButtonafterpairing_withoutconnectivity, "without connectivity menu bar icon")) {
+				clickbyXpath(menuBarButtonafterpairing_withoutconnectivity, " Menu Bar ");
+				
+			}
 	}
 	
 	public void clickAccountinfobutton() {

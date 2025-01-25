@@ -398,10 +398,10 @@ public class GenericWrappers {
 		}
 		
 	}
-	public static void expshortWaittwenty(WebElement xpath) {
+	public static void expshortWaitten(WebElement xpath) {
 		try {
 			
-			WebDriverWait wait = new WebDriverWait(driver,20);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.visibilityOf(xpath));
 		} catch (Exception e) {
 			System.out.println(e);
@@ -688,7 +688,7 @@ public class GenericWrappers {
 	}
 	public boolean isElementDisplayednext(WebElement element,String Field) {
 		try {
-			expshortWaittwenty(element);// Introduce a small delay before checking visibility
+			expshortWaitten(element);// Introduce a small delay before checking visibility
 			
 			if (element.isDisplayed()) {
 				
@@ -781,7 +781,7 @@ public class GenericWrappers {
 	}
 	public boolean isiconDisplayed(WebElement element,String field) {
 		try {
-			expWaitforPairing(element);// Introduce a small delay before checking visibility
+			expshortWaitten(element);// Introduce a small delay before checking visibility
 			  
 			if (element.isDisplayed()) {
 				

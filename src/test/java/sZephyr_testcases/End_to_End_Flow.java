@@ -192,7 +192,10 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			readwrite.closePort();
 		}
 		catch (Exception e) {
-			readwrite.write("factory_reset\r");		
+			adddevicepage.removingDevice();
+			homepage.clickMenuBarButton();
+			homepage.clickAccountinfobutton();
+			accountinfopage.deleteaccount_toregisterpage();
 			readwrite.closePort();
 			fail(e);
 		}
@@ -366,11 +369,14 @@ public class End_to_End_Flow extends MobileAppWrappers {
 		devicemenupage.clickResetConfirmationYesButton();
 		adddevicepage.checkdeviceresettoast();
 		devicemenupage.AddDevicePagedisplayed();
-		
+		readwrite.closePort();
 		
 		}
 		catch (Exception e) {
-//			readwrite.write("factory_reset\r");		
+			adddevicepage.removingDevice();
+			homepage.clickMenuBarButton();
+			homepage.clickAccountinfobutton();
+			accountinfopage.deleteaccount_toregisterpage();
 			readwrite.closePort();
 			fail(e);
 		}
@@ -545,10 +551,13 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			adddevicepage.checkdeviceresettoast();
 			devicemenupage.AddDevicePagedisplayed();
 			
-			
+			readwrite.closePort();
 		}
 		catch (Exception e) {
-//			readwrite.write("factory_reset\r");		
+			adddevicepage.removingDevice();
+			homepage.clickMenuBarButton();
+			homepage.clickAccountinfobutton();
+			accountinfopage.deleteaccount_toregisterpage();
 			readwrite.closePort();
 			fail(e);
 		}
@@ -723,10 +732,13 @@ public class End_to_End_Flow extends MobileAppWrappers {
 			adddevicepage.checkdeviceresettoast();
 			devicemenupage.AddDevicePagedisplayed();
 			
-			
+			readwrite.closePort();
 		}
 		catch (Exception e) {
-//			readwrite.write("factory_reset\r");		
+			adddevicepage.removingDevice();
+			homepage.clickMenuBarButton();
+			homepage.clickAccountinfobutton();
+			accountinfopage.deleteaccount_toregisterpage();
 			readwrite.closePort();
 			fail(e);
 		}

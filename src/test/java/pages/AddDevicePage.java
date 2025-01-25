@@ -703,7 +703,7 @@ public class AddDevicePage extends GenericWrappers {
 		if (isElementDisplayedCheck(addDeviceButton)) {
 			
 			//newlyu added
-			removingDevice();
+//			removingDevice();
 			homepage.clickMenuBarButton();
 			homepage.clickAccountinfobutton();
 			accountinfopage.deleteaccount_toregisterpage();

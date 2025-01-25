@@ -137,6 +137,8 @@ public class AddDevicePage extends GenericWrappers {
 
 	@FindBy(xpath = "//*[@resource-id='Launch_SignInText']")
 	private WebElement signInButton;
+	 @FindBy(xpath = "//*[@resource-id='Launch_SignUpLink']")
+		private WebElement signUpLink;
 	@FindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_foreground_only_button\"]")
 	private WebElement locationpermissionpopup;
 	@FindBy(xpath = "//android.widget.Button[@resource-id=\"com.android.permissioncontroller:id/permission_allow_button\"]")
@@ -596,6 +598,8 @@ public class AddDevicePage extends GenericWrappers {
 
 	String serialno = "iinv_smartac";
 
+	SignUpPage signuppage;
+	AccountsInfoPage accountinfopage;
 	LandingPage landingpage;
 	SignInPage loginpage;
 	HomePage homepage;
@@ -603,18 +607,37 @@ public class AddDevicePage extends GenericWrappers {
 	DeviceMenuPage devicemenupage;
 	PassSTComment passcommand;
 
+	
+	
 	public void pair(int mode) throws Exception {
+		signuppage= new SignUpPage(driver);
 		loginpage = new SignInPage(driver);
 		landingpage = new LandingPage(driver);
 		homepage = new HomePage(driver);
 		otppage = new OtpPage(driver);
 		devicemenupage = new DeviceMenuPage(driver);
+		accountinfopage=new AccountsInfoPage(driver);
 		passcommand = new PassSTComment();
 		
 		verifysigninpage();
 		initiatepairing(mode);
 	}
 
+	public void signup() {
+		landingpage.clickSignUpLink();
+		signuppage.enterUserName(userName);
+		signuppage.enterEmailId(emaId);
+		signuppage.clickSignUpTCCheckBox();
+		signuppage.clickSignUpButton();
+		otppage.verifyOTPVerificationTitle("OTP Verification");
+		otppage.enterOTPField1("1");
+		otppage.enterOTPField2("2");
+		otppage.enterOTPField3("3");
+		otppage.enterOTPField4("4");
+		otppage.submitButton();
+		verifyAddDevicePage("Add Device");
+	}
+	
 	@Parameters({ "os" })
 	public void verifysigninpage() throws Exception {
 
@@ -630,20 +653,23 @@ public class AddDevicePage extends GenericWrappers {
 		
 		try {
 			Thread.sleep(5000);
-			if(isElementDisplayedCheck(signInButton)) {
-				landingpage.clickSignInButton();
-				loginpage.enterUserName(userName);
-				loginpage.clickSignInButton();
+			if(isElementDisplayedCheck(signUpLink)) {
+				signuppage.enterUserName(userName);
+				signuppage.enterEmailId(emaId);
+				signuppage.clickSignUpTCCheckBox();
+				signuppage.clickSignUpButton();
+				otppage.verifyOTPVerificationTitle("OTP Verification");
 				otppage.enterOTPField1("1");
 				otppage.enterOTPField2("2");
 				otppage.enterOTPField3("3");
 				otppage.enterOTPField4("4");
 				otppage.submitButton();
+				verifyAddDevicePage("Add Device");
 
 			} 
 		} catch (NoSuchElementException e) {
 			// TODO Auto-generated catch block
-			System.out.println("App is already logged in and opening the previous state");
+			System.out.println("Account is not deleted before_unable to signup");
 		}
 	}
 
@@ -675,6 +701,14 @@ public class AddDevicePage extends GenericWrappers {
 		
 
 		if (isElementDisplayedCheck(addDeviceButton)) {
+			
+			//newlyu added
+			removingDevice();
+			homepage.clickMenuBarButton();
+			homepage.clickAccountinfobutton();
+			accountinfopage.deleteaccount_toregisterpage();
+			signup();
+			//newlyu added
 
 			clickAddDeviceButton();
 			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");

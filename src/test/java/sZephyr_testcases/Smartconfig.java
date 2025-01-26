@@ -91,7 +91,6 @@ public class Smartconfig extends MobileAppWrappers {
 			sZephyrinfopage.modelnameCheck("Enter AC model name");
 			sZephyrinfopage.capacityCheck("Enter capacity in ton");
 			sZephyrinfopage.Roomsizecheck("Select room size");
-			sZephyrinfopage.clickonRoomSize();
 			Thread.sleep(1000);
 			adddevicepage.clickNextButtonsZephyrInfo();
 			adddevicepage.checkdevicedetailstoast();

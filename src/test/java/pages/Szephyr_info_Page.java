@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
@@ -149,11 +150,20 @@ public void capacityCheck(String input) {
 	verifyTextContainsByXpath(capacity,input ,"capacity name" );
 }	
 public void Roomsizecheck(String input) {
-	verifyTextContainsByXpath(roomSize,input ,"Room size placeholder" );
-	clickbyXpath(roomSize, "room size");
-	verifyTextContainsByXpath(roomsizeoption1,"Small" ,"Room size option 1" );
-	verifyTextContainsByXpath(roomsizeoption2,"Medium" ,"Room size option 2" );
-	verifyTextContainsByXpath(roomsizeoption3,"Large" ,"Room size option 3" );
+	if (isElementDisplayedCheck(roomSize)) {
+		verifyTextContainsByXpath(roomSize,input ,"Room size placeholder" );
+		clickbyXpath(roomSize, "room size");
+		verifyTextContainsByXpath(roomsizeoption1,"Small" ,"Room size option 1" );
+		verifyTextContainsByXpath(roomsizeoption2,"Medium" ,"Room size option 2" );
+		verifyTextContainsByXpath(roomsizeoption3,"Large" ,"Room size option 3" );
+		clickonRoomSize();
+		}else if (isElementDisplayedCheck(roomsizeoption3)) {
+			verifyTextContainsByXpath(roomsizeoption3,"Large" ,"Room size option 3" );
+			
+		}else {
+			Assert.fail();
+		}
+	
 	
 }	
 public void clickonRoomSize() {

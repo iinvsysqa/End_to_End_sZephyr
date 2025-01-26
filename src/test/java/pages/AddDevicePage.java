@@ -654,6 +654,7 @@ public class AddDevicePage extends GenericWrappers {
 		try {
 			Thread.sleep(5000);
 			if(isElementDisplayedCheck(signUpLink)) {
+				landingpage.clickSignUpLink();
 				signuppage.enterUserName(userName);
 				signuppage.enterEmailId(emaId);
 				signuppage.clickSignUpTCCheckBox();

@@ -1044,7 +1044,7 @@ public class AddDevicePage extends GenericWrappers {
 
 	}
 	
-public void removingDevice() throws InterruptedException {
+public void removingDevice() throws Exception {
 
 	int n=5;
 	while (n>0) {

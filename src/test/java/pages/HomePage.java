@@ -176,10 +176,13 @@ public class HomePage extends GenericWrappers{
 	public void clickMenuBarButton() {
 		clickbyXpath(menuBarButton, " Menu Bar ");
 	}
-	public void clickMenuBarButtonafterpairing() {
+	public void clickMenuBarButtonafterpairing() throws Exception {
+		
 		if (isiconDisplayed(menuBarButtonafterpairing, "menu bar after pairing element displayed")) {
+			Thread.sleep(5000);
 			clickbyXpath(menuBarButtonafterpairing, " Menu Bar ");
 			}else if (isiconDisplayed(menuBarButtonafterpairing_withoutconnectivity, "without connectivity menu bar icon")) {
+				Thread.sleep(5000);
 				clickbyXpath(menuBarButtonafterpairing_withoutconnectivity, " Menu Bar ");
 				
 			}

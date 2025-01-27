@@ -160,8 +160,8 @@ public class Ble_with_router extends MobileAppWrappers {
 			homepage.backnavigation();
 			devicemenupage.clickResetDeviceButton();
 			devicemenupage.clickcancel();
-			devicemenupage.ClickaddrouterButton();
-			devicemenupage.clickcancel();
+			devicemenupage.ClickaddrouterButton(2);
+//			devicemenupage.clickcancel();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 //			devicemenupage.checkLEDdefaultvalue();

@@ -159,8 +159,8 @@ public class Ble_without_router extends MobileAppWrappers {
 		homepage.backnavigation();
 		devicemenupage.clickResetDeviceButton();
 		devicemenupage.clickcancel();
-		devicemenupage.ClickaddrouterButton();
-		devicemenupage.clickcancel();
+		devicemenupage.ClickaddrouterButton(1);
+//		devicemenupage.clickcancel();
 		homepage.backnavigation();
 		devicemenupage.checkUsername_devicesettings("Home page");
 //		devicemenupage.checkLEDdefaultvalue();

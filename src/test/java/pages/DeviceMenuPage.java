@@ -169,6 +169,8 @@ public class DeviceMenuPage extends GenericWrappers{
 	private WebElement energysavingHeader;
 	@FindBy(xpath = "//*[@resource-id='Toggle_of_Infinite']")
 	private WebElement DurationforOnToggle;
+	@FindBy(xpath = "//*[@resource-id='changeSSISpaswdx']")
+	private WebElement changeSSID;
 	
 	
 	
@@ -362,12 +364,23 @@ verifyTextContainsByXpathinAttributes(quietLEDToggleEnable,"false", "Led default
 	}
 	
 	@SuppressWarnings("deprecation")
-	public void ClickaddrouterButton() {
+	public void ClickaddrouterButton(int mode) {
+		switch (mode) {
+		case 1:
 //		expWaitforPairing(ClickaddrouterButton);
-		driver.findElement(MobileBy.AndroidUIAutomator(
-			    "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"));"))
-			    .click();
-//		clickbyXpath(ClickaddrouterButton, " add router button ");
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"));")).click();
+		clickbyXpath(ClickCancelWifi, "cancel wifi");
+		break;
+		case 2:
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"RemoveRouterContx\"))")).click();
+		clickbyXpath(ClickCancelWifi, "cancel wifi");
+		clickbyXpath(changeSSID, "SSID button");
+		clickbyXpath(ClickCancelWifi, "cancel wifi");
+		break;
+		
+		}
+		
+		
 	}
 	public void checkcontentlowvoltage() {	
 		verifyTextContainsByXpath(lowvoltageconfiguration, "Low voltage configuration" , "Device Settings");

@@ -625,7 +625,7 @@ public class GenericWrappers {
 			// Check if the password entry field is displayed
 			try {
 				WebElement enterPasswordField = driver.findElement(MobileBy.xpath("//android.widget.EditText[@resource-id=\"com.android.settings:id/password\"]")); // Replace with the actual XPath
-				WebElement enterPasswordFieldOnePlus = driver.findElement(MobileBy.xpath("(//android.widget.LinearLayout[@resource-id=\"com.oplus.wirelesssettings:id/edittext_container\"])[1]")); // Replace with the actual XPath
+//				WebElement enterPasswordFieldOnePlus = driver.findElement(MobileBy.xpath("(//android.widget.LinearLayout[@resource-id=\"com.oplus.wirelesssettings:id/edittext_container\"])[1]")); // Replace with the actual XPath
 				if (isElementDisplayedCheck(enterPasswordField)) {
 					// Enter the WiFi password
 					enterValueByXpathwifipage(enterPasswordField, "Wi-Fi password", wifiPassword);
@@ -641,16 +641,16 @@ public class GenericWrappers {
 
 				}
 				
-				else if (isElementDisplayedCheck(enterPasswordFieldOnePlus)) {
-					enterValueByXpathwifipage(enterPasswordFieldOnePlus, "Wi-Fi password", wifiPassword);
-					WebElement savebutton = driver.findElement(MobileBy.xpath("//android.widget.TextView[@resource-id=\"com.oplus.wirelesssettings:id/menu_save\"]")); 
-				 if (isElementDisplayedCheck(savebutton)) {
-					clickbyXpath(savebutton, "save button");
-					
-					Thread.sleep(3000);
-				}
-					
-				} 
+//				else if (isElementDisplayedCheck(enterPasswordFieldOnePlus)) {
+//					enterValueByXpathwifipage(enterPasswordFieldOnePlus, "Wi-Fi password", wifiPassword);
+//					WebElement savebutton = driver.findElement(MobileBy.xpath("//android.widget.TextView[@resource-id=\"com.oplus.wirelesssettings:id/menu_save\"]")); 
+//				 if (isElementDisplayedCheck(savebutton)) {
+//					clickbyXpath(savebutton, "save button");
+//					
+//					Thread.sleep(3000);
+//				}
+//					
+//				} 
 				else {
 					System.out.println("Already connected or password is saved.");
 				

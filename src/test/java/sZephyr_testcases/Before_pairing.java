@@ -82,7 +82,8 @@ public class Before_pairing extends MobileAppWrappers {
 			readwrite.write("reboot\r");
 			Thread.sleep(3000);
 
-			//home page ui check 
+			//home page ui check
+			loginpage.verifysignInPage();
 			homepage.register_Page_ScreenShot_Check();
 			homepage.SignIn_Page_ScreenShot_Check();
 			homepage.SignUp_Page_ScreenShot_Check();

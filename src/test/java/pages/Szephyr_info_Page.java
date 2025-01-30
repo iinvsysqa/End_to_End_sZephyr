@@ -107,10 +107,6 @@ public class Szephyr_info_Page extends GenericWrappers{
 		clickbyXpath(firmware_update_popup_button, " popup_open ");
 	}
 	
-	public void clickOTA_OK_Button() {	
-		expWaitforFirmware(OTA_OK_Button);
-		clickbyXpath(OTA_OK_Button, " OTA_Update Success");
-	}
 	
 	public void clickbackButton() {	
 		clickbyXpath(backButton, " Device_BackIcon");

@@ -667,8 +667,58 @@ public class AddDevicePage extends GenericWrappers {
 				otppage.submitButton();
 				verifyAddDevicePage("Add Device");
 
-			} 
-		} catch (NoSuchElementException e) {
+			} else if (isElementDisplayedCheck(addDeviceButton)) {
+				homepage.clickMenuBarButton();
+				homepage.clickAccountinfobutton();
+				accountinfopage.deleteaccount_toregisterpage();
+				
+				landingpage.clickSignUpLink();
+				signuppage.enterUserName(userName);
+				signuppage.enterEmailId(emaId);
+				signuppage.clickSignUpTCCheckBox();
+				signuppage.clickSignUpButton();
+				otppage.verifyOTPVerificationTitle("OTP Verification");
+				otppage.enterOTPField1("1");
+				otppage.enterOTPField2("2");
+				otppage.enterOTPField3("3");
+				otppage.enterOTPField4("4");
+				otppage.submitButton();
+				verifyAddDevicePage("Add Device");
+			}else{
+				homepage.clickMenuBarButtonafterpairing();
+				devicemenupage.clickMenuBarRemoveDevice();
+				devicemenupage.clickRemoveDevicePopupYesButton();
+				Thread.sleep(2000);//or5000
+				if (isElementDisplayedCheck(deviceofflinealertTitle)) {
+					String text = deviceofflinealertTitle.getText();
+					System.out.println(text + "  Alert pop-up displayed");
+					clickbyXpath(alertok, "Alert ok button");
+
+				} else if (isElementDisplayedCheck(buttonPressAlert)) {
+					String text = buttonPressAlert.getText();
+					System.out.println(text + "  Alert pop-up displayed");
+					clickbyXpath(alertok, "Alert ok button");
+			}
+				
+				homepage.clickMenuBarButton();
+				homepage.clickAccountinfobutton();
+				accountinfopage.deleteaccount_toregisterpage();
+				
+				landingpage.clickSignUpLink();
+				signuppage.enterUserName(userName);
+				signuppage.enterEmailId(emaId);
+				signuppage.clickSignUpTCCheckBox();
+				signuppage.clickSignUpButton();
+				otppage.verifyOTPVerificationTitle("OTP Verification");
+				otppage.enterOTPField1("1");
+				otppage.enterOTPField2("2");
+				otppage.enterOTPField3("3");
+				otppage.enterOTPField4("4");
+				otppage.submitButton();
+				verifyAddDevicePage("Add Device");
+				
+			}
+			} catch (NoSuchElementException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Account is not deleted before_unable to signup");
 		}

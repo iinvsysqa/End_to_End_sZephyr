@@ -1,7 +1,6 @@
 package wrappers;
 
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import org.testng.annotations.AfterMethod;
@@ -21,77 +20,72 @@ public class MobileAppWrappers extends GenericWrappers {
 	protected String dataSheetName;
 	protected static String testCaseName;
 	protected static String testDescription;
+	@SuppressWarnings("unused")
 	private PrintStream originalOut;
-    private PrintStream fileOut;
-    String baseRemotePath = loadProp("BASEREMOTEPATH");  // Base FTP directory path
-    String localDirectory =loadProp("LOCALAPPPATH") ;  // Local directory to save file
-    String newFileName = loadProp("NEWFILENAME");  // New file name
-    
-    
-    String server = "192.168.10.34";//192.168.10.34
+	@SuppressWarnings("unused")
+	private PrintStream fileOut;
+	String baseRemotePath = loadProp("BASEREMOTEPATH"); // Base FTP directory path
+	String localDirectory = loadProp("LOCALAPPPATH"); // Local directory to save file
+	String newFileName = loadProp("NEWFILENAME"); // New file name
+
+	String server = "192.168.10.34";// 192.168.10.34
 	int port = 21;
 	String user = "qa_usr";
 	String pass = "nw9f2hgo@123";
-	
+
 	@BeforeSuite
-	public void beforeSuite() throws FileNotFoundException, IOException, InterruptedException{
-		
-		
-		//get app from FTP
-//		FTPUploader(server, port, user, pass);
-		//getLatestApk(baseRemotePath, localDirectory, newFileName);
-		
-//		disconnect();
-		
-		
-		Reporter.startResult();//START TESTNG RESULT
-		
-	        // Redirect console output to a file
-//		originalOut = System.out;
-//	        fileOut = new PrintStream(new FileOutputStream("test-output/console-output.txt"));
-//	        System.setOut(fileOut);
-//	        System.out.println("Test suite started. Output is redirected to file.");
-	        
-	        //START GETTING APP LOG
-		GetAppLog applog= new GetAppLog();
+	public void beforeSuite() throws FileNotFoundException, IOException, InterruptedException {
+
+		// get app from FTP
+		// FTPUploader(server, port, user, pass);
+		// getLatestApk(baseRemotePath, localDirectory, newFileName);
+
+		// disconnect();
+
+		Reporter.startResult();// START TESTNG RESULT
+
+		// Redirect console output to a file
+		// originalOut = System.out;
+		// fileOut = new PrintStream(new
+		// FileOutputStream("test-output/console-output.txt"));
+		// System.setOut(fileOut);
+		// System.out.println("Test suite started. Output is redirected to file.");
+
+		// START GETTING APP LOG
+		GetAppLog applog = new GetAppLog();
 		applog.startLogProcess();
 
-		
 	}
 
 	@BeforeTest
-	public void beforeTest() throws FileNotFoundException, IOException, Exception{
-		
+	public void beforeTest() throws FileNotFoundException, IOException, Exception {
+
 	}
 
-	@BeforeMethod 
-	public void beforeMethod(){ 
+	@BeforeMethod
+	public void beforeMethod() {
 		Reporter.startTestCase();
 
 	}
 
 	@AfterSuite
-	public void afterSuite(){
+	public void afterSuite() {
 		Reporter.endResult();
-//		System.out.println("Test suite finished. Closing output redirection.");
-//        fileOut.close();
-//        System.setOut(originalOut);
+		// System.out.println("Test suite finished. Closing output redirection.");
+		// fileOut.close();
+		// System.setOut(originalOut);
 	}
 
-
 	@AfterTest
-	public void afterTest() throws IOException{
+	public void afterTest() throws IOException {
 
-		
 	}
 
 	@AfterMethod
-	public void afterMethod(){
-//		quitBrowser();
+	public void afterMethod() {
+		// quitBrowser();
 		try {
 			// FTP server credentials
-
-			
 
 			// Local log files
 			String appLogPath = "./app_log.txt";
@@ -107,16 +101,13 @@ public class MobileAppWrappers extends GenericWrappers {
 			createAndNavigateToSubdirectory(existingDirectory, newSubDir);
 
 			// Upload files to the new subdirectory
-			uploadFile(appLogPath,  testCaseName+"App.txt");
-			uploadFile(deviceLogPath, testCaseName+".txt");
-			
+			uploadFile(appLogPath, testCaseName + "App.txt");
+			uploadFile(deviceLogPath, testCaseName + ".txt");
 
-			String remotefilepath =existingDirectory+newSubDir;
-			String Filename="/"+ testCaseName+".txt";
-			Reporter.reportStep(" FTP Path : "+ remotefilepath +
-					"<br>"
-					+"Device Log File name:"+Filename, "INFO");
-			
+			String remotefilepath = existingDirectory + newSubDir;
+			String Filename = "/" + testCaseName + ".txt";
+			Reporter.reportStep(" FTP Path : " + remotefilepath + "<br>" + "Device Log File name:" + Filename, "INFO");
+
 			// Disconnect from FTP server
 			disconnect();
 
@@ -126,11 +117,11 @@ public class MobileAppWrappers extends GenericWrappers {
 		}
 		driver.terminateApp(packages);
 		driver.quit();
-		
+
 	}
 
-	@DataProvider(name="fetchData")
-	public Object[][] getData(){
+	@DataProvider(name = "fetchData")
+	public Object[][] getData() {
 		return DataInputProvider.getSheet(dataSheetName);
 	}
 

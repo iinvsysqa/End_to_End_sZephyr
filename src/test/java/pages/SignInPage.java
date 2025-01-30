@@ -106,7 +106,7 @@ public class SignInPage extends GenericWrappers {
 			try {
 				Thread.sleep(5000);
 				if(isElementDisplayedCheck(signUpLink)) {
-verifyTextContainsByXpath(signUpLink, "SignUp", "Register Page");
+verifyTextContainsByXpath(signUpLink, "Sign Up", "Register Page");
 
 				} else if (isElementDisplayedCheck(addDeviceButton)) {
 					homepage.clickMenuBarButton();

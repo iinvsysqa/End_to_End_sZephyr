@@ -4,10 +4,11 @@
 
 	<test thread-count="5" name="Default test" verbose="2">
 
-	<classes>
-<class name="sZephyr_testcases.Before_pairing"/>
-</classes>
+<packages>
 		
+			<package name="sZephyr_testcases" />
+			
+		</packages>
 		
 
 	</test> <!--

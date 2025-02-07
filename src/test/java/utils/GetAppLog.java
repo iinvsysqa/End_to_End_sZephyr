@@ -9,7 +9,8 @@ public class GetAppLog {
 	
 	 private final Path logFile = Path.of("app_log.txt");
 
-	 private String getDesktopPath() {
+	 @SuppressWarnings("unused")
+	private String getDesktopPath() {
 	        String homeDir = System.getProperty("user.home");
 	        return homeDir + File.separator + "Desktop";
 	    }

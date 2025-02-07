@@ -1,25 +1,16 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 
-import static org.testng.Assert.fail;
-
 import java.io.IOException;
-import java.time.Duration;
-
 import org.openqa.selenium.WebElement;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.NoSuchElementException;
-import java.util.Properties;
-
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.python.core.exceptions;
-import org.testng.Assert;
 import org.testng.annotations.Parameters;
 
 import io.appium.java_client.MobileBy;

@@ -1,0 +1,1957 @@
+--------- beginning of main
+02-03 00:06:47.182 25953 26034 I ReactNativeJS: 'URL MODE==========>', 'STAGING', 'STAGING', 'STAGING'
+02-03 00:06:47.207 25953 26034 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+02-03 00:06:47.207 25953 26034 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+02-03 00:06:47.242 25953 26034 I ReactNativeJS: 'PRODUCT_ID FROM PACKAGE NAME:', '6'
+02-03 00:06:47.280 25953 26034 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+02-03 00:06:47.287 25953 26034 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+02-03 00:06:47.320 25953 26034 I ReactNativeJS: 2
+02-03 00:06:47.394 25953 26034 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+02-03 00:06:47.394 25953 26034 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+02-03 00:06:47.620 25953 26034 I ReactNativeJS: Running "Geezer
+02-03 00:06:47.644 25953 26034 I ReactNativeJS: 
+02-03 00:06:47.646 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:47:645 AM ] ', 'INFO', 'GENERAL_INFO', '251', 'update available check function called'
+02-03 00:06:47.647 25953 26034 I ReactNativeJS: 
+02-03 00:06:47.648 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:47:648 AM ] ', 'INFO', 'API', '', 'SEND API_ID: 451 Data: App Version Check Payload {"app_version":"14891","product_type":"6"}'
+02-03 00:06:47.838 25953 26034 I ReactNativeJS: 'Error during log append:', [SyntaxError: JSON Parse error: Unexpected character: D]
+02-03 00:06:47.839 25953 26034 I ReactNativeJS: 
+02-03 00:06:47.839 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:47:839 AM ] ', 'INFO', 'GENERAL_INFO', '267', 'Data: FCM-TOKEN Created e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8'
+02-03 00:06:47.839 25953 26034 I ReactNativeJS: 
+02-03 00:06:47.840 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:47:839 AM ] ', 'INFO', 'GENERAL_INFO', '268', 'Data: FCM-TOKEN Type string'
+02-03 00:06:47.840 25953 26034 I ReactNativeJS: 
+02-03 00:06:47.840 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:47:840 AM ] ', 'INFO', 'GENERAL_INFO', '269', 'Data: Stored FCM-TOKEN Locally Success e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8'
+02-03 00:06:47.841 25953 26034 I ReactNativeJS: 
+02-03 00:06:47.842 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:47:841 AM ] ', 'network state', true, { details: 
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:    { isConnectionExpensive: false,
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:      subnet: '255.255.255.0',
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:      ipAddress: '192.168.1.100',
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:      frequency: 2417,
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:      strength: 99,
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:      bssid: '40:3f:8c:b7:6d:38',
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:      ssid: 'TP-Link_6D38(With_Internet)' },
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:   isConnected: true,
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:   type: 'wifi',
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:   isInternetReachable: true,
+02-03 00:06:47.842 25953 26034 I ReactNativeJS:   isWifiEnabled: true }, undefined
+02-03 00:06:47.843 25953 26034 I ReactNativeJS: 'BLE_MTU_SIZE inside fetch', 512, 'number'
+02-03 00:06:48.574 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.576 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:575 AM ] ', 'INFO', 'API', '', 'RECV API_ID: 451 Data: App Version Check API response {"message":"Invalid value","status":"failed"}'
+02-03 00:06:48.578 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.579 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:579 AM ] ', 'INFO', 'GENERAL_INFO', '257', 'Data: App Version Check API failed response failed'
+02-03 00:06:48.580 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.581 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:581 AM ] ', 'Application URL config====>', 'https://ftp.iinvsys.com:55576/core1/sac/', undefined, undefined
+02-03 00:06:48.591 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.607 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:591 AM ] ', 'app state retrieve data55============>', '679ee54a0162a90799654545', { verified: true,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   pushNotifyToken: 'e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   _id: '679ee54a0162a90799654545',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   UserName: 'testuser',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   EmailId: 'testuser@gmail.com',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   MobileNumber: null,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   __v: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   firmwareAutoUpload: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   firmwareAutoDownload: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   svr_ota: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   currentOTAIndex: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   curCacheBuildNum: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   latest_Bin_File_Length: null,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   latest_firmware_vrs: null,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   age: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:   gender: '' }, [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     onOffStatus: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     loading: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:06:48.607 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z' } ]
+02-03 00:06:48.607 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.609 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:607 AM ] ', 'INFO', 'COMMUNICATION', '111', 'establish communication triggered [{"serial_no":"SAC00020250128BA","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":0,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"","model_name":"","capacity":"","room_size":"","auto_onoff_enable":false,"sch_ovr_auto_onoff":false,"dev_led_quiet_mode":false,"high_temp_thrs":28,"low_temp_thrs":24,"latitude":11.9392812,"longitude":79.8083306,"cur_firm_vrs":"1.13","hw_vrs":"0.3","product_type":"6","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"D4:D4:DA:4B:79:AA","app_id":1,"token_key":16,"build_number":57,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"onOffStatus":false,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":false,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6798e6c1f412e9078da14e75","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2050-03-13T18:30:00.000Z","localConnection":false,"serverConnection":false,"connection":false}]'
+02-03 00:06:48.609 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.610 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:609 AM ] ', 'INFO', 'HARDWARE_INFO', 'SOCKET.IO', 'Pre condition : Server connection demolished true'
+02-03 00:06:48.610 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.610 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:610 AM ] ', 'INFO', 'HARDWARE_INFO', 'SOCKET.IO', 'Create a socket.io for serial number: SAC00020250128BA'
+02-03 00:06:48.615 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.616 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:615 AM ] ', 'INFO', 'COMMUNICATION', '11126', 'serial number to router mapping: {"SAC00020250128BA":""}'
+02-03 00:06:48.616 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.617 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:616 AM ] ', 'INFO', 'COMMUNICATION', '11127', 'serial number to IP address mapping: {"SAC00020250128BA":""}'
+02-03 00:06:48.617 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.617 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:617 AM ] ', 'INFO', 'COMMUNICATION', '11128', 'all routers to verify for communication: []'
+02-03 00:06:48.618 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.618 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:618 AM ] ', 'INFO', 'COMMUNICATION', '112', 'communication Setup step-1 Checking permission'
+02-03 00:06:48.620 25953 26034 I ReactNativeJS: 3
+02-03 00:06:48.621 25953 26034 I ReactNativeJS: 'RETRIEVE_TOKEN', { isLoading: true,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   userDetails: null,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   guestDetails: null,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   userToken: null,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   deviceOnOffStatus: true,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   deviceConnnectedStatus: false,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   associative_devices: [],
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   language: null,
+02-03 00:06:48.621 25953 26034 I ReactNativeJS:   guestAssociativeDevices: [] }
+02-03 00:06:48.629 25953 26034 I ReactNativeJS: 'RETRIEVE_TOKEN==================================>', { type: 'RETRIEVE_TOKEN',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:   details: 
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:    { verified: true,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      pushNotifyToken: 'e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      _id: '679ee54a0162a90799654545',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      UserName: 'testuser',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      EmailId: 'testuser@gmail.com',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      MobileNumber: null,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      __v: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      firmwareAutoUpload: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      firmwareAutoDownload: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      svr_ota: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      currentOTAIndex: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      curCacheBuildNum: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      latest_Bin_File_Length: null,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      latest_firmware_vrs: null,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      age: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:      gender: '' },
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:   token: '679ee54a0162a90799654545',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:   guestDetails: null,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:   associative_devices: 
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:    [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        name: 'testuser_1',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        is_admin: true,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        router_ssid: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        router_mac: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        heating_dur_usg_limit: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        inverse_schedule_dur: 20,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        infinityOn_Toggle: true,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        brand_name: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        model_name: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        capacity: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        room_size: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        auto_onoff_enable: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        sch_ovr_auto_onoff: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        dev_led_quiet_mode: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        high_temp_thrs: 28,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        low_temp_thrs: 24,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        latitude: 11.9392812,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        longitude: 79.8083306,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        cur_firm_vrs: '1.13',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        hw_vrs: '0.3',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        product_type: '6',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        svr_ota: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        max_alaram_supported: 24,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        device_OTA_State: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        update_Status: 'NotUpdated',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        app_id: 1,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        token_key: 16,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        build_number: 57,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        IP_add: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        energy_config_mode: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        low_volt_thrs: 160,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        high_volt_thrsh: 275,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        enable_low_volt: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        enable_high_volt: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        onOffStatus: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        current: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        voltage: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        power: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        is_appid_exist: true,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        temp: '',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        temp_connect_status: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        loading: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        auth_status: 2,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        temperQueryStatus: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        eleTempQueryStatus: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        srv_vrs: 0,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        cert_vrs: 2,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        srv_typ: 1,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        latest_cert_vrs: 2,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        localConnection: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        serverConnection: false,
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:        connection: false } ],
+02-03 00:06:48.629 25953 26034 I ReactNativeJS:   language: 'English' }
+02-03 00:06:48.632 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.633 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:632 AM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of airplane mode false'
+02-03 00:06:48.675 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.676 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:676 AM ] ', 'WARN', 'HARDWARE_INFO', 'SOCKET.IO', 'room id emited to device server: SAC00020250128BA'
+02-03 00:06:48.683 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.684 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:683 AM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of location : "already-enabled"'
+02-03 00:06:48.690 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.691 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:691 AM ] ', 'INFO', 'PERMISSION', '32', 'permission grant of the request: [true]'
+02-03 00:06:48.691 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.691 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:691 AM ] ', 'INFO', 'PERMISSION', '32', 'Permission resolved for connectivity'
+02-03 00:06:48.692 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.692 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:692 AM ] ', 'INFO', 'COMMUNICATION', '113', 'communication Setup step-2 trying to turn ON BLE'
+02-03 00:06:48.698 25953 26034 I ReactNativeJS: mdns instance created
+02-03 00:06:48.705 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.705 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:705 AM ] ', 'INFO', 'COMMUNICATION', '118', 'communication Setup step-3 trying to turn ON Necessary Listner'
+02-03 00:06:48.706 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.707 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:706 AM ] ', 'INFO', 'COMMUNICATION', '119', 'listners enable successfully [object Object],[object Object],[object Object]'
+02-03 00:06:48.707 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.708 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:707 AM ] ', 'INFO', 'COMMUNICATION', '1110', 'communication Setup step-4 communication setup completed trying to proceed communication'
+02-03 00:06:48.708 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.708 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:708 AM ] ', 'INFO', 'COMMUNICATION', '1110', 'Proceed communication with BLE: undefined'
+02-03 00:06:48.712 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.713 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:712 AM ] ', 'INFO', 'COMMUNICATION', '1150', 'BLE POWER Status: PoweredOn'
+02-03 00:06:48.714 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.714 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:714 AM ] ', 'INFO', 'COMMUNICATION', '1151', 'BLE POWER ON triggering BLE communication PoweredOn'
+02-03 00:06:48.715 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.715 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:715 AM ] ', 'INFO', 'COMMUNICATION', '1111', 'proceed BLE Communication step-0 checking BLE permission  deviceMAC true'
+02-03 00:06:48.720 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.720 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:720 AM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of airplane mode false'
+02-03 00:06:48.729 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.730 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:729 AM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of location : "already-enabled"'
+02-03 00:06:48.732 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.733 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:733 AM ] ', 'INFO', 'PERMISSION', '32', 'permission grant of the request: [true]'
+02-03 00:06:48.733 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.733 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:733 AM ] ', 'INFO', 'PERMISSION', '32', 'Permission resolved for connectivity'
+02-03 00:06:48.733 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.734 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:733 AM ] ', 'INFO', 'COMMUNICATION', '1112', 'proceed BLE Communication step-1 auto connection'
+02-03 00:06:48.734 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.734 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:734 AM ] ', 'INFO', 'COMMUNICATION', '1113', 'avaliable BLE mac address {"SAC00020250128BA":"D4:D4:DA:4B:79:AA"} disconnected device ["SAC00020250128BA"]'
+02-03 00:06:48.734 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.734 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:734 AM ] ', 'INFO', 'COMMUNICATION', '1114', 'auto connect {"mode":1,"address":"D4:D4:DA:4B:79:AA","serial_no":"SAC00020250128BA"}'
+02-03 00:06:48.735 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.735 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:735 AM ] ', 'INFO', 'COMMUNICATION', '1127', 'establish connection with device for data:  {"mode":1,"address":"D4:D4:DA:4B:79:AA","serial_no":"SAC00020250128BA"}'
+02-03 00:06:48.735 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.735 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:735 AM ] ', 'INFO', 'COMMUNICATION', '1128', 'all connection status: false'
+02-03 00:06:48.736 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.736 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:736 AM ] ', 'INFO', 'COMMUNICATION', '1129', 'all message sending status :  false'
+02-03 00:06:48.736 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.736 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:736 AM ] ', 'INFO', 'COMMUNICATION', '1131', 'proceed BLE Communication step-3 initiate the BLE connect for ID: D4:D4:DA:4B:79:AA'
+02-03 00:06:48.737 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.737 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:737 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'Bluetooth connect function iniitated in Pairing for mac: D4:D4:DA:4B:79:AA'
+02-03 00:06:48.740 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.740 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:740 AM ] ', 'WARN', 'HARDWARE_INFO', 'SOCKET.IO', 'device connection data from server: {"data":false,"serial_no":"SAC00020250128BA"}'
+02-03 00:06:48.740 25953 26034 I ReactNativeJS: 'Emitting \'setConnection\' event', undefined
+02-03 00:06:48.741 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.741 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:741 AM ] ', 'setconnectionFunc function called', { data: false, serial_no: 'SAC00020250128BA' }, undefined, undefined
+02-03 00:06:48.741 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.741 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:741 AM ] ', 'setconnectionFunc AllDeviceData===================>', null, undefined, undefined
+02-03 00:06:48.742 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.742 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:742 AM ] ', 'associative device doesn\'t have length', null, null, undefined
+02-03 00:06:48.773 25953 26034 I ReactNativeJS: 'connectivity.........', {}
+02-03 00:06:48.970 25953 26034 I ReactNativeJS: ***energy func called***
+02-03 00:06:48.970 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.978 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:970 AM ] ', 'Home.js LoginState ==>', { isLoading: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   userDetails: 
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:    { verified: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      pushNotifyToken: 'e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      _id: '679ee54a0162a90799654545',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      UserName: 'testuser',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      EmailId: 'testuser@gmail.com',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      MobileNumber: null,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      __v: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      firmwareAutoUpload: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      firmwareAutoDownload: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      svr_ota: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      currentOTAIndex: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      curCacheBuildNum: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      latest_Bin_File_Length: null,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      latest_firmware_vrs: null,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      age: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:      gender: '' },
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   guestDetails: null,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   userToken: '679ee54a0162a90799654545',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   deviceOnOffStatus: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   deviceConnnectedStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   associative_devices: 
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:    [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        name: 'testuser_1',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        is_admin: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        router_ssid: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        router_mac: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        heating_dur_usg_limit: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        inverse_schedule_dur: 20,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        infinityOn_Toggle: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        brand_name: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        model_name: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        capacity: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        room_size: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        auto_onoff_enable: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        sch_ovr_auto_onoff: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        dev_led_quiet_mode: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        high_temp_thrs: 28,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        low_temp_thrs: 24,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        latitude: 11.9392812,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        longitude: 79.8083306,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        cur_firm_vrs: '1.13',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        hw_vrs: '0.3',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        product_type: '6',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        svr_ota: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        max_alaram_supported: 24,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        device_OTA_State: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        update_Status: 'NotUpdated',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        app_id: 1,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        token_key: 16,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        build_number: 57,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        IP_add: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        energy_config_mode: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        low_volt_thrs: 160,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        high_volt_thrsh: 275,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        enable_low_volt: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        enable_high_volt: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        onOffStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        current: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        voltage: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        power: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        is_appid_exist: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        temp: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        temp_connect_status: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        loading: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        auth_status: 2,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        temperQueryStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        eleTempQueryStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        srv_vrs: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        cert_vrs: 2,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        srv_typ: 1,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        latest_cert_vrs: 2,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        localConnection: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        serverConnection: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        connection: false } ],
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   language: 'English',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:   guestAssociativeDevices: 
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:    [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        name: 'testuser_1',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        is_admin: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        router_ssid: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        router_mac: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        heating_dur_usg_limit: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        inverse_schedule_dur: 20,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        infinityOn_Toggle: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        brand_name: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        model_name: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        capacity: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        room_size: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        auto_onoff_enable: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        sch_ovr_auto_onoff: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        dev_led_quiet_mode: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        high_temp_thrs: 28,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        low_temp_thrs: 24,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        latitude: 11.9392812,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        longitude: 79.8083306,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        cur_firm_vrs: '1.13',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        hw_vrs: '0.3',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        product_type: '6',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        svr_ota: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        max_alaram_supported: 24,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        device_OTA_State: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        update_Status: 'NotUpdated',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        app_id: 1,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        token_key: 16,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        build_number: 57,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        IP_add: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        energy_config_mode: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        low_volt_thrs: 160,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        high_volt_thrsh: 275,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        enable_low_volt: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        enable_high_volt: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        onOffStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        current: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        voltage: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        power: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        is_appid_exist: true,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        temp: '',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        temp_connect_status: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        loading: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        auth_status: 2,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        temperQueryStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        eleTempQueryStatus: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        srv_vrs: 0,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        cert_vrs: 2,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        srv_typ: 1,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        latest_cert_vrs: 2,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        localConnection: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        serverConnection: false,
+02-03 00:06:48.978 25953 26034 I ReactNativeJS:        connection: false } ] }, undefined, undefined
+02-03 00:06:48.978 25953 26034 I ReactNativeJS: 
+02-03 00:06:48.991 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:978 AM ] ', 'Home.js associative_devices ==> ', [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     loading: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:06:48.991 25953 26034 I ReactNativeJS:     connection: false } ], undefined, undefined
+02-03 00:06:48.999 25953 26034 I ReactNativeJS: 
+02-03 00:06:49.000 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:48:999 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'Checking the BLE current state PoweredOn'
+02-03 00:06:49.000 25953 26034 I ReactNativeJS: 
+02-03 00:06:49.000 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:49:0 AM ] ', 'addEventListener', 'active', undefined, undefined
+02-03 00:06:49.001 25953 26034 I ReactNativeJS: 
+02-03 00:06:49.001 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:49:1 AM ] ', 'AppState', 'active', undefined, undefined
+02-03 00:06:49.001 25953 26034 I ReactNativeJS: 
+02-03 00:06:49.001 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:49:1 AM ] ', 'deep linking =====================>', '', undefined, undefined
+02-03 00:06:49.003 25953 26034 I ReactNativeJS: 
+02-03 00:06:49.004 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:49:3 AM ] ', 'INFO', 'GENERAL_INFO', '1621', 'Analytics step 25 : No session data is stored in the application\'s local storage '
+02-03 00:06:49.132 25953 25953 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{d255b7d V.E...... ......ID 0,0-720,1456 #b}
+02-03 00:06:49.169 25953 26034 I ReactNativeJS: 
+02-03 00:06:49.173 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:49:169 AM ] ', 'file: home.js:1691 , onViewRef , viewableItems:', [ { index: 0,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:     item: 
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:      { serial_no: 'SAC00020250128BA',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        name: 'testuser_1',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        is_admin: true,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        router_ssid: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        router_mac: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        heating_dur_usg_limit: 0,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        inverse_schedule_dur: 20,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        infinityOn_Toggle: true,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        brand_name: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        model_name: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        capacity: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        room_size: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        auto_onoff_enable: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        sch_ovr_auto_onoff: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        dev_led_quiet_mode: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        high_temp_thrs: 28,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        low_temp_thrs: 24,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        latitude: 11.9392812,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        longitude: 79.8083306,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        cur_firm_vrs: '1.13',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        hw_vrs: '0.3',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        product_type: '6',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        svr_ota: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        max_alaram_supported: 24,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        device_OTA_State: 0,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        update_Status: 'NotUpdated',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        app_id: 1,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        token_key: 16,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        build_number: 57,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        IP_add: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        energy_config_mode: 0,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        low_volt_thrs: 160,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        high_volt_thrsh: 275,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        enable_low_volt: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        enable_high_volt: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        onOffStatus: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        current: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        voltage: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        power: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        is_appid_exist: true,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        temp: '',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        temp_connect_status: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        loading: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        auth_status: 2,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        temperQueryStatus: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        eleTempQueryStatus: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        srv_vrs: 0,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        cert_vrs: 2,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        srv_typ: 1,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        latest_cert_vrs: 2,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        localConnection: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        serverConnection: false,
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:        connection: false },
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:     key: 'SAC00020250128BA',
+02-03 00:06:49.173 25953 26034 I ReactNativeJS:     isViewable: true } ], undefined, undefined
+02-03 00:06:50.496 25953 26034 I ReactNativeJS: 
+02-03 00:06:50.496 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:50:496 AM ] ', 'addEventListener', 'background', undefined, undefined
+02-03 00:06:50.497 25953 26034 I ReactNativeJS: 
+02-03 00:06:50.497 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:50:497 AM ] ', 'deep linking =====================>', '', undefined, undefined
+02-03 00:06:50.497 25953 26034 I ReactNativeJS: 
+02-03 00:06:50.498 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:50:497 AM ] ', {}, 'analytics_Session_data==============>', undefined, undefined
+02-03 00:06:50.498 25953 26034 I ReactNativeJS: 
+02-03 00:06:50.504 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:50:498 AM ] ', null, 'analytics_Session_data==============>', undefined, undefined
+02-03 00:06:50.599 25953 26034 I ReactNativeJS: Logs written successfully!
+02-03 00:06:50.599 25953 26034 I ReactNativeJS: 
+02-03 00:06:50.600 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:50:599 AM ] ', 'AppState', 'background', undefined, undefined
+02-03 00:06:51.339 25953 26034 I ReactNativeJS: 
+02-03 00:06:51.340 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:51:339 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'BLE is connected to mac: D4:D4:DA:4B:79:AA'
+02-03 00:06:51.381 25953 26034 I ReactNativeJS: 
+02-03 00:06:51.382 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:51:381 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'Connected mac address: D4:D4:DA:4B:79:AA status: true'
+02-03 00:06:52.064 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.068 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:64 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'MTU size of Mobile: 512'
+02-03 00:06:52.184 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.184 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:184 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'MTU after, negotiation with device: 256'
+02-03 00:06:52.375 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.376 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:376 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'BLE connected device and with MTU ofD4:D4:DA:4B:79:AA with mtu of 256'
+02-03 00:06:52.377 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.378 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:377 AM ] ', 'INFO', 'COMMUNICATION', '1132', 'BLE connect resolved for MAC: D4:D4:DA:4B:79:AA {"listner":"Listener","mtu":256}'
+02-03 00:06:52.378 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.380 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:378 AM ] ', 'INFO', 'COMMUNICATION', '1144', 'proceed BLE Communication step-4 initiate the BLE connectivity establishment: D4:D4:DA:4B:79:AA'
+02-03 00:06:52.381 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.381 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:381 AM ] ', 'INFO', 'COMMUNICATION', '1145', 'Connected to device through BLE: D4:D4:DA:4B:79:AA serial_Number: SAC00020250128BA'
+02-03 00:06:52.382 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.383 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:382 AM ] ', 'INFO', 'COMMUNICATION', '1146', 'Trying to establish security for the device: D4:D4:DA:4B:79:AA serial_Number: SAC00020250128BA'
+02-03 00:06:52.383 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.385 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:383 AM ] ', 'INFO', 'GENERAL_INFO', '243', 'Data: POJO Input Data {"serial_Number":"SAC00020250128BA","randomNumber":false,"securityStatus":false} Action 1'
+02-03 00:06:52.385 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.386 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:385 AM ] ', 'INFO', 'GENERAL_INFO', '244', 'Data: POJO Output Data {"SAC00020250128BA":{"serial_Number":"SAC00020250128BA","randomNumber":false,"securityStatus":false}}'
+02-03 00:06:52.393 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.394 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:393 AM ] ', 'INFO', 'GENERAL_INFO', '243', 'Data: POJO Input Data {"serial_Number":"SAC00020250128BA","randomNumber":"0e93699d71e799324d57f3a9a22529c5"} Action 0'
+02-03 00:06:52.395 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.396 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:395 AM ] ', 'INFO', 'GENERAL_INFO', '244', 'Data: POJO Output Data {"SAC00020250128BA":{"serial_Number":"SAC00020250128BA","randomNumber":"0e93699d71e799324d57f3a9a22529c5","securityStatus":false}}'
+02-03 00:06:52.398 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.399 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:398 AM ] ', 'INFO', 'GENERAL_INFO', '341', 'Data: Send message in retries function 170,6,1,33,167,5,0,0,1,0,16,0,14,147,105,157,113,231,153,50,77,87,243,169,162,37,41,197,99,250,196,29 SAC00020250128BA 1 39 1'
+02-03 00:06:52.400 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.401 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:400 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250128BA Msg_Id: 39 Frame: 170,6,1,33,167,5,0,0,1,0,16,0,14,147,105,157,113,231,153,50,77,87,243,169,162,37,41,197,99,250,196,29 Trans_Id: 1 InterFace: 1 Auth: 1 forceInterface: 1 Data:""'
+02-03 00:06:52.402 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.403 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:403 AM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+02-03 00:06:52.404 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.405 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:404 AM ] ', 'INFO', 'GENERAL_INFO', '348', 'file: retry_Message.js:154 , Retry_Message_Timer, message_Queue_Manager: 1738521412399 false'
+02-03 00:06:52.406 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.407 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:406 AM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity D4:D4:DA:4B:79:AA [170,6,1,33,167,5,0,0,1,0,16,0,14,147,105,157,113,231,153,50,77,87,243,169,162,37,41,197,99,250,196,29]'
+02-03 00:06:52.408 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.410 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:408 AM ] ', 'INFO', 'GENERAL_INFO', '342', 'Data: retry_Message.js:34 , Retry_Message_Timer , timerID: 1738521412399 175 170,6,1,33,167,5,0,0,1,0,16,0,14,147,105,157,113,231,153,50,77,87,243,169,162,37,41,197,99,250,196,29 SAC00020250128BA 1 39 true 1'
+02-03 00:06:52.412 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.412 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:412 AM ] ', 'WARN', 'COMMUNICATION', '1147', 'Sending BLE security frame {"frame":[170,6,1,33,167,5,0,0,1,0,16,0,14,147,105,157,113,231,153,50,77,87,243,169,162,37,41,197,99,250,196,29],"trancact":1} serial_Number: SAC00020250128BA'
+02-03 00:06:52.669 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.671 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:670 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,33,167,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,242,250,254,222]'
+02-03 00:06:52.680 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.688 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:688 AM ] ', 'INFO', 'GENERAL_INFO', '243', 'Data: POJO Input Data {"serial_Number":"SAC00020250128BA","securityStatus":true} Action 0'
+02-03 00:06:52.689 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.693 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:689 AM ] ', 'INFO', 'GENERAL_INFO', '244', 'Data: POJO Output Data {"SAC00020250128BA":{"serial_Number":"SAC00020250128BA","randomNumber":"0e93699d71e799324d57f3a9a22529c5","securityStatus":true}}'
+02-03 00:06:52.694 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.695 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:694 AM ] ', 'INFO', 'GENERAL_INFO', '343', 'Data: file: retry_Message.js Timer cleared 39 SAC00020250128BA 1'
+02-03 00:06:52.697 25953 26034 E ReactNativeJS: 'data getting', { data: true, serial_no: 'SAC00020250128BA' }
+02-03 00:06:52.712 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.713 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:713 AM ] ', 'localsetConnectionFunc function called', { data: true, serial_no: 'SAC00020250128BA' }, undefined, undefined
+02-03 00:06:52.715 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.716 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:715 AM ] ', 'INFO', 'COMMUNICATION', '1153', 'Handshake successful for BLE'
+02-03 00:06:52.716 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.717 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:717 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAC00020250128BA Msg_Id: 39 Trans_Id: 1 InterFace: 1 SetOrQuery: 1 Data: {"app_id":0,"handshake_status":0}'
+02-03 00:06:52.723 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.724 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:724 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '122', 'Error: ERROR Invalid Message ID in message Distributor 39'
+02-03 00:06:52.725 25953 26034 I ReactNativeJS: 
+02-03 00:06:52.726 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:52:725 AM ] ', 'All_Devices && All_Devices?.length', 1, undefined, undefined
+02-03 00:06:52.727 25953 26034 I ReactNativeJS: 'current...........', { localConnection: false,
+02-03 00:06:52.727 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:06:52.727 25953 26034 I ReactNativeJS:   connection: false }
+02-03 00:06:52.728 25953 26034 E ReactNativeJS: 'data one isss', true
+02-03 00:06:52.740 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:06:52.740 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:06:52.740 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:06:52.740 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:06:52.855 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   localConnection: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   serverConnection: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   connection: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   loading: false,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   localConnection: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   serverConnection: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   connection: undefined,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   loading: false,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:06:52.855 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:06:52.884 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   localConnection: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   serverConnection: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   connection: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   loading: false,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   localConnection: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   serverConnection: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   connection: undefined,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   loading: false,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:06:52.884 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:06:52.916 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:06:52.916 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:06:52.916 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:06:52.916 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:06:53.074 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.075 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:74 AM ] ', 'Local set connection function -connection parameter', false, false, false
+02-03 00:06:53.076 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.077 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:76 AM ] ', 'INFO', 'Home_helper.js', 'attempt to destroy server connectivity since device is connected locally', ''
+02-03 00:06:53.078 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.079 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:78 AM ] ', 'INFO', 'HARDWARE_INFO', 'SOCKET.IO', 'socket disconnect trigger for serial number: '
+02-03 00:06:53.081 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.082 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:82 AM ] ', 'WARN', 'HARDWARE_INFO', 'SOCKET.IO', 'socket disconnected from server io client disconnect'
+02-03 00:06:53.083 25953 26034 I ReactNativeJS: Emitting 'setConnection' event on disconnect
+02-03 00:06:53.083 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.084 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:83 AM ] ', 'setconnectionFunc function called', { data: false, serial_no: 'SAC00020250128BA' }, undefined, undefined
+02-03 00:06:53.085 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.090 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:85 AM ] ', 'setconnectionFunc AllDeviceData===================>', [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     loading: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:06:53.090 25953 26034 I ReactNativeJS:     connection: false } ], undefined, undefined
+02-03 00:06:53.091 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.092 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:91 AM ] ', 'INFO', 'socketsetConnectionFunc', { data: false, serial_no: 'SAC00020250128BA' }, undefined
+02-03 00:06:53.092 25953 26034 E ReactNativeJS: 'data reciveing 2', { data: false, serial_no: 'SAC00020250128BA' }
+02-03 00:06:53.100 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.101 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:101 AM ] ', '[warn] ', 'Home_helper.js', 'trying to update connection twice in server connection', ''
+02-03 00:06:53.104 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.113 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:104 AM ] ', 'INFO', 'All_Devices before updateAllDeviceStatus', [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     loading: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:     connection: false } ], { serial_no: 'SAC00020250128BA',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   name: 'testuser_1',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   is_admin: true,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   router_ssid: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   router_mac: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   heating_dur_usg_limit: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   inverse_schedule_dur: 20,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   infinityOn_Toggle: true,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   brand_name: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   model_name: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   capacity: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   room_size: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   auto_onoff_enable: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   sch_ovr_auto_onoff: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   dev_led_quiet_mode: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   high_temp_thrs: 28,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   low_temp_thrs: 24,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   latitude: 11.9392812,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   longitude: 79.8083306,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   cur_firm_vrs: '1.13',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   hw_vrs: '0.3',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   product_type: '6',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   svr_ota: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   max_alaram_supported: 24,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   device_OTA_State: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   update_Status: 'NotUpdated',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   app_id: 1,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   token_key: 16,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   build_number: 57,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   IP_add: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   energy_config_mode: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   low_volt_thrs: 160,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   high_volt_thrsh: 275,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   enable_low_volt: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   enable_high_volt: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   onOffStatus: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   is_appid_exist: true,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   temp: '',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   loading: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   temperQueryStatus: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   eleTempQueryStatus: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   srv_vrs: 0,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   cert_vrs: 2,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   srv_typ: 1,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   latest_cert_vrs: 2,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:06:53.113 25953 26034 I ReactNativeJS:   connection: false }
+02-03 00:06:53.130 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:06:53.130 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:06:53.130 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:06:53.130 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:06:53.305 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.310 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:305 AM ] ', 'data in updateAllDeviceStatus', [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     loading: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:06:53.310 25953 26034 I ReactNativeJS:     connection: false } ], undefined, undefined
+02-03 00:06:53.312 25953 26034 I ReactNativeJS: 3
+02-03 00:06:53.350 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:06:53.350 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:06:53.350 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:06:53.350 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:06:53.547 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.548 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:547 AM ] ', 'INFO', 'localsetConnectionFunc', { data: true, serial_no: 'SAC00020250128BA' }, undefined
+02-03 00:06:53.549 25953 26034 I ReactNativeJS: 'INFO', 'localsetConnectionFunc', { data: true, serial_no: 'SAC00020250128BA' }
+02-03 00:06:53.549 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.549 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:549 AM ] ', 'checkfunctionname', 'localsetConnectionFunc', undefined, undefined
+02-03 00:06:53.554 25953 26034 I ReactNativeJS: 16, 1
+02-03 00:06:53.555 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.560 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:555 AM ] ', 'INFO', 'Home_helper.js', 'ALLDevice inside device Loading control', [ { serial_no: 'SAC00020250128BA',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     loading: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:06:53.560 25953 26034 I ReactNativeJS:     connection: false } ]
+02-03 00:06:53.561 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.569 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:562 AM ] ', 'INFO', 'Home_helper.js', 'params of deviceLoading control ', 'SAC00020250128BA true undefined'
+02-03 00:06:53.571 25953 26034 I ReactNativeJS: 'inside All_Devices && All_Devices?.length  ', true, true
+02-03 00:06:53.596 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:06:53.596 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:06:53.596 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:06:53.596 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:06:53.800 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.801 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:800 AM ] ', 'INFO', 'GENERAL_INFO', '233', 'Data: Authendication Frame before send via local connection [170,8,1,34,163,7,0,0,16,0,0,0,70,187,159,103,1,1,83,65,67,48,48,48,50,48,50,53,48,49,50,56,66,65,0,0,162,58,2,198]'
+02-03 00:06:53.802 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.803 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:802 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250128BA Msg_Id: 35 Frame: 170,8,1,34,163,7,0,0,16,0,0,0,70,187,159,103,1,1,83,65,67,48,48,48,50,48,50,53,48,49,50,56,66,65,0,0,162,58,2,198 Trans_Id: 2 InterFace: undefined Auth: 1 forceInterface: undefined Data:{"app_id":1,"token_key":16,"is_admin":true,"serial_no":"SAC00020250128BA"}'
+02-03 00:06:53.804 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.805 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:804 AM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+02-03 00:06:53.815 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.819 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:816 AM ] ', 'INFO', 'GENERAL_INFO', '2977', 'Invalid Case'
+02-03 00:06:53.820 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.821 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:820 AM ] ', 'INFO', 'GENERAL_INFO', '2976', 'Data : {"user_id":"679ee54a0162a90799654545","con_link":2,"conn_sts_time":1738521413,"con_status":true,"serial_no":"SAC00020250128BA","synced":false}'
+02-03 00:06:53.825 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.826 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:825 AM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity D4:D4:DA:4B:79:AA [170,12,1,34,176,38,233,178,74,58,52,142,166,253,253,203,99,140,196,213,28,240,169,75,211,204,43,162,131,245,204,130,76,169,37,92,68,63,208,218,111,147,242,103,194,224,204,179,82,142,106,138,209,60,245,76]'
+02-03 00:06:53.865 25953 26034 I ReactNativeJS: 
+02-03 00:06:53.866 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:53:866 AM ] ', 'INFO', 'API', '2998', 'SEND API_ID: 301 Data: setDeviceConDisAPI payload {"connection_Device_Data":[{"user_id":"679ee54a0162a90799654545","con_link":2,"conn_sts_time":1738521413,"con_status":true,"synced":false,"device_Id":"6798e6c1f412e9078da14e75"}]}'
+02-03 00:06:54.196 25953 26034 I ReactNativeJS: 
+02-03 00:06:54.197 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:54:196 AM ] ', 'INFO', 'API', '2998', 'RECV API_ID: 301 Data: setDeviceConDisAPI response {"message":"Successfully updated","status":"success"}'
+02-03 00:06:58.296 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.296 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:296 AM ] ', 'addEventListener', 'active', undefined, undefined
+02-03 00:06:58.296 25953 26034 I ReactNativeJS: App has came to the foreground!
+02-03 00:06:58.297 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.297 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:297 AM ] ', 'AppState', 'background', undefined, undefined
+02-03 00:06:58.297 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.298 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:297 AM ] ', 'deep linking =====================>', '', undefined, undefined
+02-03 00:06:58.304 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.304 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:304 AM ] ', 'INFO', 'COMMUNICATION', '1167', 'proceed MDNS Communication step-0 initiate the MDNS permission check'
+02-03 00:06:58.312 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.314 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:313 AM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of airplane mode false'
+02-03 00:06:58.433 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.433 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:433 AM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of location : "already-enabled"'
+02-03 00:06:58.450 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.451 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:450 AM ] ', 'INFO', 'PERMISSION', '32', 'permission grant of the request: [true]'
+02-03 00:06:58.451 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.451 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:451 AM ] ', 'INFO', 'PERMISSION', '32', 'Permission resolved for connectivity'
+02-03 00:06:58.452 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.452 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:452 AM ] ', 'INFO', 'COMMUNICATION', '1170', 'proceed MDNS Communication step-1 initiate the MDNS Initilization'
+02-03 00:06:58.453 25953 26034 I ReactNativeJS: 
+02-03 00:06:58.453 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:6:58:453 AM ] ', 'INFO', 'COMMUNICATION', '1171', 'Trying to initilize zeroconfig'
+02-03 00:07:14.215 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.216 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:216 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,150,124,54,222,117,24,53,227,118,196,220,121,96,76,116,43,160,23,85,176]'
+02-03 00:07:14.223 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.224 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:223 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAC00020250128BA Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":255,"message":""}'
+02-03 00:07:14.224 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.225 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:224 AM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 255, message: '' }
+02-03 00:07:14.226 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.226 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:226 AM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,35,170,1,0,0,0,0,5,255,255,252,251,35 SAC00020250128BA'
+02-03 00:07:14.227 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.227 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:227 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250128BA Msg_Id: undefined Frame: 170,2,1,35,170,1,0,0,0,0,5,255,255,252,251,35 Trans_Id: undefined InterFace: undefined Auth: 0 forceInterface: undefined Data:undefined'
+02-03 00:07:14.227 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.228 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:228 AM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+02-03 00:07:14.228 25953 26034 I ReactNativeJS: 
+02-03 00:07:14.229 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:14:229 AM ] ', 'WARN', 'GENERAL_INFO', '128', 'Data: couldn\'t send message to the device due to interface change currentConnection: 1 interFace: undefined authStatus: 0'
+02-03 00:07:34.251 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.252 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:252 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,2,160,56,95,23,220,211,91,193,96,34,98,56,101,208,212,185,130,231,109]'
+02-03 00:07:34.257 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.258 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:258 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAC00020250128BA Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":254,"message":""}'
+02-03 00:07:34.259 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.260 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:259 AM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 254, message: '' }
+02-03 00:07:34.261 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.262 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:261 AM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,36,170,1,0,0,0,0,5,254,255,252,251,37 SAC00020250128BA'
+02-03 00:07:34.262 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.263 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:263 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250128BA Msg_Id: undefined Frame: 170,2,1,36,170,1,0,0,0,0,5,254,255,252,251,37 Trans_Id: undefined InterFace: undefined Auth: 0 forceInterface: undefined Data:undefined'
+02-03 00:07:34.263 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.264 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:263 AM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+02-03 00:07:34.264 25953 26034 I ReactNativeJS: 
+02-03 00:07:34.264 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:34:264 AM ] ', 'WARN', 'GENERAL_INFO', '128', 'Data: couldn\'t send message to the device due to interface change currentConnection: 1 interFace: undefined authStatus: 0'
+02-03 00:07:54.241 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.243 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:242 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,114,248,40,250,189,193,182,195,228,40,162,65,133,97,179,123,251,139,113,220]'
+02-03 00:07:54.250 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.250 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:250 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAC00020250128BA Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":253,"message":""}'
+02-03 00:07:54.251 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.251 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:251 AM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 253, message: '' }
+02-03 00:07:54.252 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.253 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:253 AM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,37,170,1,0,0,0,0,5,253,255,252,251,39 SAC00020250128BA'
+02-03 00:07:54.253 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.254 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:254 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250128BA Msg_Id: undefined Frame: 170,2,1,37,170,1,0,0,0,0,5,253,255,252,251,39 Trans_Id: undefined InterFace: undefined Auth: 0 forceInterface: undefined Data:undefined'
+02-03 00:07:54.254 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.254 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:254 AM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+02-03 00:07:54.254 25953 26034 I ReactNativeJS: 
+02-03 00:07:54.255 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:54:254 AM ] ', 'WARN', 'GENERAL_INFO', '128', 'Data: couldn\'t send message to the device due to interface change currentConnection: 1 interFace: undefined authStatus: 0'
+02-03 00:07:58.554 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:07:58.554 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:07:58.554 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:07:58.554 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:07:58.697 25953 26034 I ReactNativeJS: 
+02-03 00:07:58.697 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:7:58:697 AM ] ', 'INFO', 'GENERAL_INFO', '1621', 'Analytics step 25 : No session data is stored in the application\'s local storage '
+02-03 00:08:02.648 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:02.648 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:02.648 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:08:02.648 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:08:02.822 25953 26034 I ReactNativeJS: 
+02-03 00:08:02.823 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:2:823 AM ] ', 'INFO', 'GENERAL_INFO', '1621', 'Analytics step 25 : No session data is stored in the application\'s local storage '
+02-03 00:08:04.812 25953 26034 I ReactNativeJS: getting set function
+02-03 00:08:04.812 25953 26034 I ReactNativeJS: 
+02-03 00:08:04.813 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:4:813 AM ] ', 'INFO', 'GENERAL_INFO', '2331', 'Data: Remove Device Func {"device_redirected":false,"serial_no":"SAC00020250128BA","alertType":0} undefined'
+02-03 00:08:04.837 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:04.837 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:04.837 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:08:04.837 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:08:05.016 25953 26034 I ReactNativeJS: 'appid encode data', { setorquery: 1,
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   message: 'appID_status',
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   token: 16,
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   app_id: 1,
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   action_cmd1: 1,
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   action_cmd2: 0,
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   setapp_key: 0,
+02-03 00:08:05.016 25953 26034 I ReactNativeJS:   user_type: 1 }
+02-03 00:08:05.017 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.018 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:17 AM ] ', 'INFO', 'GENERAL_INFO', '2332', 'Data: Remove Device Removing appid {"setorquery":1,"message":"appID_status","token":16,"app_id":1,"action_cmd1":1,"action_cmd2":0,"setapp_key":0,"user_type":1}'
+02-03 00:08:05.019 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.019 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:19 AM ] ', 'checkfunctionname', 'remove_device_func', undefined, undefined
+02-03 00:08:05.020 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.020 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:20 AM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAC00020250128BA Msg_Id: 13 Frame: 170,3,1,38,141,2,0,0,16,0,0,0,1,10,0,0,201,244,254,217 Trans_Id: 6 InterFace: undefined Auth: 0 forceInterface: undefined Data:{"device_redirected":false,"serial_no":"SAC00020250128BA","alertType":0}'
+02-03 00:08:05.021 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.021 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:21 AM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+02-03 00:08:05.021 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.022 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:22 AM ] ', 'WARN', 'GENERAL_INFO', '128', 'Data: couldn\'t send message to the device due to interface change currentConnection: 1 interFace: undefined authStatus: 0'
+02-03 00:08:05.022 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.026 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:23 AM ] ', 'INFO', 'Home_helper.js', 'ALLDevice inside device Loading control', [ { serial_no: 'SAC00020250128BA',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     loading: true,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:08:05.026 25953 26034 I ReactNativeJS:     connection: false } ]
+02-03 00:08:05.027 25953 26034 I ReactNativeJS: 
+02-03 00:08:05.027 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:5:27 AM ] ', 'INFO', 'Home_helper.js', 'params of deviceLoading control ', 'SAC00020250128BA true undefined'
+02-03 00:08:05.027 25953 26034 I ReactNativeJS: 'inside All_Devices && All_Devices?.length  ', true, true
+02-03 00:08:05.041 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:05.041 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:05.041 25953 26034 I ReactNativeJS:      localConnection: true,
+02-03 00:08:05.041 25953 26034 I ReactNativeJS:      connection: true } }
+02-03 00:08:10.027 25953 26034 I ReactNativeJS: getting set function
+02-03 00:08:10.027 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.030 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:28 AM ] ', 'INFO', 'GENERAL_INFO', '2331', 'Data: Remove Device Func {"device_redirected":true,"serial_no":"SAC00020250128BA","alertType":2} undefined'
+02-03 00:08:10.030 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.031 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:30 AM ] ', 'INFO', 'GENERAL_INFO', '2330', 'Data: Remove device fallback executed SAC00020250128BA'
+02-03 00:08:10.031 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.033 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:32 AM ] ', 'INFO', 'GENERAL_INFO', '2340', 'Before calling events===>'
+02-03 00:08:10.034 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.035 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:34 AM ] ', 'INFO', 'GENERAL_INFO', '2341', 'How many times calling===>'
+02-03 00:08:10.035 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.037 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:35 AM ] ', 'INFO', 'GENERAL_INFO', '2333', 'Data: Device removed by device response undefined [{"serial_no":"SAC00020250128BA","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":0,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"","model_name":"","capacity":"","room_size":"","auto_onoff_enable":false,"sch_ovr_auto_onoff":false,"dev_led_quiet_mode":false,"high_temp_thrs":28,"low_temp_thrs":24,"latitude":11.9392812,"longitude":79.8083306,"cur_firm_vrs":"1.13","hw_vrs":"0.3","product_type":"6","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"D4:D4:DA:4B:79:AA","app_id":1,"token_key":16,"build_number":57,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"onOffStatus":false,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":true,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6798e6c1f412e9078da14e75","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2050-03-13T18:30:00.000Z","localConnection":false,"serverConnection":false,"connection":false}]}'
+02-03 00:08:10.039 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.040 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:39 AM ] ', 'INFO', 'GENERAL_INFO', '2336', 'Data: App removed device else part {"device_redirected":true,"serial_no":"SAC00020250128BA","alertType":2}}'
+02-03 00:08:10.042 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.045 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:42 AM ] ', 'INFO', 'APP_STATE', '232', 'DEVICE_DETAILS Serial_No: SAC00020250128BA CURR_ASSO_DATA: [{"serial_no":"SAC00020250128BA","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":0,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"","model_name":"","capacity":"","room_size":"","auto_onoff_enable":false,"sch_ovr_auto_onoff":false,"dev_led_quiet_mode":false,"high_temp_thrs":28,"low_temp_thrs":24,"latitude":11.9392812,"longitude":79.8083306,"cur_firm_vrs":"1.13","hw_vrs":"0.3","product_type":"6","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"D4:D4:DA:4B:79:AA","app_id":1,"token_key":16,"build_number":57,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"onOffStatus":false,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":true,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6798e6c1f412e9078da14e75","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2050-03-13T18:30:00.000Z","localConnection":false,"serverConnection":false,"connection":false}] UPDATE_VALUE: {"serial_no":"SAC00020250128BA","user_id":"679ee54a0162a90799654545"}'
+02-03 00:08:10.046 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.047 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:46 AM ] ', 'INFO', 'GENERAL_INFO', '2335', 'Data: REMOVE DEVICE CONTEXT {"serial_no":"SAC00020250128BA","user_id":"679ee54a0162a90799654545"}'
+02-03 00:08:10.051 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.053 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:51 AM ] ', 'INFO', 'GENERAL_INFO', '2335', 'Data: ASSOCIATIVE DEVICES CONTEXT [{"serial_no":"SAC00020250128BA","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":0,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"","model_name":"","capacity":"","room_size":"","auto_onoff_enable":false,"sch_ovr_auto_onoff":false,"dev_led_quiet_mode":false,"high_temp_thrs":28,"low_temp_thrs":24,"latitude":11.9392812,"longitude":79.8083306,"cur_firm_vrs":"1.13","hw_vrs":"0.3","product_type":"6","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"D4:D4:DA:4B:79:AA","app_id":1,"token_key":16,"build_number":57,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"onOffStatus":0,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":false,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6798e6c1f412e9078da14e75","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2050-03-13T18:30:00.000Z"}]'
+02-03 00:08:10.054 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.056 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:54 AM ] ', 'INFO', 'GENERAL_INFO', '2335', 'Data: ASSOCIATIVE DEVICES CONTEXT [{"serial_no":"SAC00020250128BA","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":0,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"","model_name":"","capacity":"","room_size":"","auto_onoff_enable":false,"sch_ovr_auto_onoff":false,"dev_led_quiet_mode":false,"high_temp_thrs":28,"low_temp_thrs":24,"latitude":11.9392812,"longitude":79.8083306,"cur_firm_vrs":"1.13","hw_vrs":"0.3","product_type":"6","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"D4:D4:DA:4B:79:AA","app_id":1,"token_key":16,"build_number":57,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"onOffStatus":0,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":false,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6798e6c1f412e9078da14e75","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2050-03-13T18:30:00.000Z"}] INDEX 0 getDynamicCertInProgress [object Object] '
+02-03 00:08:10.057 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.060 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:58 AM ] ', 'INFO', 'COMMUNICATION', '11109', 'remove connection triggered for serial number: SAC00020250128BA'
+02-03 00:08:10.060 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.063 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:60 AM ] ', 'ERROR', 'COMMUNICATION', '11123', 'Pre Condition : Start Demolish exiting device connectivity[{"serial_no":"SAC00020250128BA","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":0,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"","model_name":"","capacity":"","room_size":"","auto_onoff_enable":false,"sch_ovr_auto_onoff":false,"dev_led_quiet_mode":false,"high_temp_thrs":28,"low_temp_thrs":24,"latitude":11.9392812,"longitude":79.8083306,"cur_firm_vrs":"1.13","hw_vrs":"0.3","product_type":"6","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"D4:D4:DA:4B:79:AA","app_id":1,"token_key":16,"build_number":57,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"onOffStatus":false,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":true,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6798e6c1f412e9078da14e75","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2050-03-13T18:30:00.000Z","localConnection":false,"serverConnection":false,"connection":false}]'
+02-03 00:08:10.075 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.076 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:75 AM ] ', 'INFO', 'HARDWARE_INFO', 'SOCKET.IO', 'Pre condition : Server connection demolished false'
+02-03 00:08:10.076 25953 26034 I ReactNativeJS: { remove: [Function: remove] }
+02-03 00:08:10.077 25953 26034 I ReactNativeJS: { remove: [Function: remove] }
+02-03 00:08:10.078 25953 26034 I ReactNativeJS: { remove: [Function: remove] }
+02-03 00:08:10.079 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.079 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:79 AM ] ', 'INFO', 'COMMUNICATION', '1155', 'BLE disconencted for serial number: undefined Disconnected reson: {"status":99999}'
+02-03 00:08:10.079 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.080 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:80 AM ] ', 'INFO', 'COMMUNICATION', '1159', 'BLE connection closed triggered {"data":false,"serial_no":"SAC00020250128BA"}'
+02-03 00:08:10.081 25953 26034 E ReactNativeJS: 'data getting', { data: false, serial_no: 'SAC00020250128BA' }
+02-03 00:08:10.093 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.094 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:94 AM ] ', 'localsetConnectionFunc function called', { data: false, serial_no: 'SAC00020250128BA' }, undefined, undefined
+02-03 00:08:10.095 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.096 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:95 AM ] ', 'All_Devices && All_Devices?.length', 1, undefined, undefined
+02-03 00:08:10.097 25953 26034 I ReactNativeJS: 'current...........', { serverConnection: false,
+02-03 00:08:10.097 25953 26034 I ReactNativeJS:   localConnection: true,
+02-03 00:08:10.097 25953 26034 I ReactNativeJS:   connection: true }
+02-03 00:08:10.097 25953 26034 E ReactNativeJS: 'data one isss', false
+02-03 00:08:10.105 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:10.105 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:10.105 25953 26034 I ReactNativeJS:      localConnection: false,
+02-03 00:08:10.105 25953 26034 I ReactNativeJS:      connection: false } }
+02-03 00:08:10.175 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   localConnection: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   connection: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   localConnection: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   connection: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.175 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:08:10.198 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   localConnection: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   connection: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   localConnection: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   connection: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.198 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:08:10.216 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:10.216 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:10.216 25953 26034 I ReactNativeJS:      localConnection: false,
+02-03 00:08:10.216 25953 26034 I ReactNativeJS:      connection: false } }
+02-03 00:08:10.341 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.342 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:341 AM ] ', 'Local set connection function -connection parameter', true, false, true
+02-03 00:08:10.342 25953 26034 I ReactNativeJS: 'else..............', undefined, undefined
+02-03 00:08:10.342 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.343 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:343 AM ] ', 'getDynamicCertInProgress()  ====>', {}, undefined, undefined
+02-03 00:08:10.343 25953 26034 I ReactNativeJS: 'final1........', {}, undefined
+02-03 00:08:10.343 25953 26034 I ReactNativeJS: 'final2........', {}, undefined
+02-03 00:08:10.344 25953 26034 I ReactNativeJS: 'final3........', { eleTempQueryStatus: false, temperQueryStatus: false }, undefined
+02-03 00:08:10.345 25953 26034 I ReactNativeJS: 'final........', { eleTempQueryStatus: false, temperQueryStatus: false }, { SAC00020250128BA: { eleTempQueryStatus: false, temperQueryStatus: false } }
+02-03 00:08:10.374 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.374 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:08:10.393 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.393 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:08:10.411 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.412 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:411 AM ] ', 'INFO', 'Home_helper.js', 'attempt to create server connectivity since device is disconnected locally', ''
+02-03 00:08:10.412 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.412 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:412 AM ] ', 'INFO', 'GENERAL_INFO', '344', 'Data: file: retry_Message.js clearing timer in destroySpecific_deviceTimer function SAC00020250128BA'
+02-03 00:08:10.413 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.413 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:413 AM ] ', 'WARN', 'HARDWARE_INFO', 'SOCKET.IO', 'no permission to create socket: false'
+02-03 00:08:10.414 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.417 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:414 AM ] ', 'reset_periodic_electrical_data All_Devices', [ { serial_no: 'SAC00020250128BA',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     loading: true,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:08:10.417 25953 26034 I ReactNativeJS:     connection: false } ], 'SAC00020250128BA', undefined
+02-03 00:08:10.418 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.419 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:418 AM ] ', 'INFO', 'GENERAL_INFO', '1333', ' ota_connectionLostUpdate function called ==> false'
+02-03 00:08:10.419 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.430 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:419 AM ] ', 'ERROR', 'GENERAL_INFO', '1334', ' ota_connectionLostUpdate ==> undefined'
+02-03 00:08:10.432 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.438 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:432 AM ] ', 'INFO', 'All_Devices before updateAllDeviceStatus', [ { serial_no: 'SAC00020250128BA',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     loading: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:     connection: false } ], { serial_no: 'SAC00020250128BA',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   name: 'testuser_1',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   is_admin: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   router_ssid: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   router_mac: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   heating_dur_usg_limit: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   inverse_schedule_dur: 20,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   infinityOn_Toggle: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   brand_name: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   model_name: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   capacity: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   room_size: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   auto_onoff_enable: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   sch_ovr_auto_onoff: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   dev_led_quiet_mode: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   high_temp_thrs: 28,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   low_temp_thrs: 24,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   latitude: 11.9392812,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   longitude: 79.8083306,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   cur_firm_vrs: '1.13',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   hw_vrs: '0.3',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   product_type: '6',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   svr_ota: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   max_alaram_supported: 24,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   device_OTA_State: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   update_Status: 'NotUpdated',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   app_id: 1,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   token_key: 16,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   build_number: 57,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   IP_add: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   energy_config_mode: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   low_volt_thrs: 160,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   high_volt_thrsh: 275,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   enable_low_volt: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   enable_high_volt: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   onOffStatus: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   is_appid_exist: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   temp: '',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   temperQueryStatus: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   eleTempQueryStatus: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   srv_vrs: 0,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   cert_vrs: 2,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   srv_typ: 1,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   latest_cert_vrs: 2,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.438 25953 26034 I ReactNativeJS:   connection: false }
+02-03 00:08:10.451 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:10.451 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:10.451 25953 26034 I ReactNativeJS:      localConnection: false,
+02-03 00:08:10.451 25953 26034 I ReactNativeJS:      connection: false } }
+02-03 00:08:10.568 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.571 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:568 AM ] ', 'data in updateAllDeviceStatus', [ { serial_no: 'SAC00020250128BA',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     loading: true,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:08:10.571 25953 26034 I ReactNativeJS:     connection: false } ], undefined, undefined
+02-03 00:08:10.573 25953 26034 I ReactNativeJS: 3
+02-03 00:08:10.600 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:10.600 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:10.600 25953 26034 I ReactNativeJS:      localConnection: false,
+02-03 00:08:10.600 25953 26034 I ReactNativeJS:      connection: false } }
+02-03 00:08:10.766 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:10.766 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:10.766 25953 26034 I ReactNativeJS:      localConnection: false,
+02-03 00:08:10.766 25953 26034 I ReactNativeJS:      connection: false } }
+02-03 00:08:10.904 25953 26034 I ReactNativeJS: 
+02-03 00:08:10.905 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:10:904 AM ] ', 'INFO', 'localsetConnectionFunc', { data: false, serial_no: 'SAC00020250128BA' }, undefined
+02-03 00:08:10.906 25953 26034 I ReactNativeJS: 'INFO', 'localsetConnectionFunc', { data: false, serial_no: 'SAC00020250128BA' }
+02-03 00:08:10.906 25953 26034 I ReactNativeJS: 'connection data false', { data: false, serial_no: 'SAC00020250128BA' }
+02-03 00:08:10.941 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.941 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:08:10.964 25953 26034 I ReactNativeJS: { geezer_name: 'testuser_1',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   index: 0 }, { geezer_name: 'testuser_1',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   current: '',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   voltage: '',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   power: '',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   showText: true,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   temp: undefined,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   OnOff: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   localConnection: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   serverConnection: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   connection: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   height: 182,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   loading: true,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   auth_status: 2,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   temp_connect_status: false,
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   serial_no: 'SAC00020250128BA',
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   elementProps: [Function: elementProps],
+02-03 00:08:10.964 25953 26034 I ReactNativeJS:   index: 0 }
+02-03 00:08:10.988 25953 26034 I ReactNativeJS: 'connectivity.........', { SAC00020250128BA: 
+02-03 00:08:10.988 25953 26034 I ReactNativeJS:    { serverConnection: false,
+02-03 00:08:10.988 25953 26034 I ReactNativeJS:      localConnection: false,
+02-03 00:08:10.988 25953 26034 I ReactNativeJS:      connection: false } }
+02-03 00:08:11.130 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.130 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:130 AM ] ', 'INFO', 'HARDWARE_INFO', 'BLE', 'BLE disconnected for : D4:D4:DA:4B:79:AA'
+02-03 00:08:11.131 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.131 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:131 AM ] ', 'INFO', 'GENERAL_INFO', '243', 'Data: POJO Input Data {"serial_Number":"SAC00020250128BA","randomNumber":false,"securityStatus":false} Action 0'
+02-03 00:08:11.132 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.132 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:132 AM ] ', 'INFO', 'GENERAL_INFO', '244', 'Data: POJO Output Data {"SAC00020250128BA":{"serial_Number":"SAC00020250128BA","randomNumber":false,"securityStatus":false}}'
+02-03 00:08:11.132 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.133 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:133 AM ] ', 'INFO', 'GENERAL_INFO', '344', 'Data: file: retry_Message.js clearing timer in destroySpecific_deviceTimer function SAC00020250128BA'
+02-03 00:08:11.133 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.134 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:134 AM ] ', 'INFO', 'HARDWARE_INFO', 'SOCKET.IO', 'socket disconnect trigger for serial number: '
+02-03 00:08:11.135 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.135 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:135 AM ] ', 'Common App state handler:lineNo removeAsyncStorage: ', [ 'OTA_Resume_status' ], 1, undefined
+02-03 00:08:11.136 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.136 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:136 AM ] ', 'ERROR', 'GENERAL_INFO', '2335', 'Data: REMOVE DEVICE CONTEXT ALLDEVICE [] INDEX 0'
+02-03 00:08:11.137 25953 26034 I ReactNativeJS: 3
+02-03 00:08:11.240 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.241 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:240 AM ] ', 'INFO', 'API', '2335', 'SEND API_ID: 2 Data: deleteDevice API payload {"serial_no":"SAC00020250128BA","user_id":"679ee54a0162a90799654545"}'
+02-03 00:08:11.245 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.246 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:245 AM ] ', 'INFO', 'GENERAL_INFO', '2250', 'Data: {"isLoading":false,"userDetails":{"verified":true,"pushNotifyToken":"e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8","_id":"679ee54a0162a90799654545","UserName":"testuser","EmailId":"testuser@gmail.com","MobileNumber":null,"__v":0,"firmwareAutoUpload":false,"firmwareAutoDownload":false,"svr_ota":false,"currentOTAIndex":0,"curCacheBuildNum":0,"latest_Bin_File_Length":null,"latest_firmware_vrs":null,"age":"","gender":""},"guestDetails":null,"userToken":"679ee54a0162a90799654545","deviceOnOffStatus":true,"deviceConnnectedStatus":false,"associative_devices":[],"language":"English","guestAssociativeDevices":[]} Data1: "SAC00020250128BA"'
+02-03 00:08:11.246 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.247 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:246 AM ] ', 'INFO', 'GENERAL_INFO', '2978', 'Data : SAC00020250128BA'
+02-03 00:08:11.248 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.249 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:248 AM ] ', 'checkfunctionname', 'remove_device_success', undefined, undefined
+02-03 00:08:11.252 25953 26034 I ReactNativeJS: 'flatListRef.current.scrollToIndex({ index: i })', [TypeError: Cannot read property 'scrollToIndex' of null]
+02-03 00:08:11.287 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:11.307 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:11.307 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.308 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:308 AM ] ', 'INFO', 'GENERAL_INFO', '2338', 'Data: Remove device alert type 2'
+02-03 00:08:11.321 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.325 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:321 AM ] ', 'INFO', 'Home_helper.js', 'ALLDevice inside device Loading control', [ { serial_no: 'SAC00020250128BA',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     name: 'testuser_1',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     is_admin: true,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     router_ssid: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     router_mac: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     heating_dur_usg_limit: 0,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     inverse_schedule_dur: 20,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     infinityOn_Toggle: true,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     brand_name: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     model_name: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     capacity: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     room_size: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     auto_onoff_enable: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     sch_ovr_auto_onoff: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     dev_led_quiet_mode: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     high_temp_thrs: 28,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     low_temp_thrs: 24,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     latitude: 11.9392812,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     longitude: 79.8083306,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     cur_firm_vrs: '1.13',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     hw_vrs: '0.3',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     product_type: '6',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     svr_ota: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     max_alaram_supported: 24,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     device_OTA_State: 0,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     update_Status: 'NotUpdated',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     BLE_mac: 'D4:D4:DA:4B:79:AA',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     app_id: 1,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     token_key: 16,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     build_number: 57,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     IP_add: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     energy_config_mode: 0,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     low_volt_thrs: 160,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     high_volt_thrsh: 275,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     enable_low_volt: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     enable_high_volt: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     onOffStatus: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     current: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     voltage: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     power: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     is_appid_exist: true,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     temp: '',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     temp_connect_status: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     loading: true,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     auth_status: 2,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     temperQueryStatus: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     eleTempQueryStatus: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     device_Id: '6798e6c1f412e9078da14e75',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     srv_vrs: 0,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     cert_vrs: 2,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     srv_typ: 1,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     latest_cert_vrs: 2,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     cert_expiry: '2050-03-13T18:30:00.000Z',
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     localConnection: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     serverConnection: false,
+02-03 00:08:11.325 25953 26034 I ReactNativeJS:     connection: false } ]
+02-03 00:08:11.326 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.326 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:326 AM ] ', 'INFO', 'Home_helper.js', 'params of deviceLoading control ', 'SAC00020250128BA false undefined'
+02-03 00:08:11.326 25953 26034 I ReactNativeJS: 'inside All_Devices && All_Devices?.length  ', false, false
+02-03 00:08:11.374 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:11.396 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:11.396 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.397 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:397 AM ] ', 'INFO', 'Home_helper.js', 'ALLDevice inside device authStatusControl', []
+02-03 00:08:11.397 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.398 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:397 AM ] ', 'INFO', 'Home_helper.js', 'params of authStatusControl ', 'SAC00020250128BA 2 undefined'
+02-03 00:08:11.400 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.401 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:400 AM ] ', 'INFO', 'GENERAL_INFO', '2976', 'Data : {"dev_app_last_discon_time":1738521490,"serial_no":"SAC00020250128BA"}'
+02-03 00:08:11.402 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.403 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:402 AM ] ', 'INFO', 'GENERAL_INFO', '2977', 'Invalid Case'
+02-03 00:08:11.403 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.404 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:403 AM ] ', 'INFO', 'GENERAL_INFO', '2976', 'Data : {"user_id":"679ee54a0162a90799654545","con_link":2,"conn_sts_time":1738521490,"con_status":false,"serial_no":"SAC00020250128BA","synced":false}'
+02-03 00:08:11.437 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.438 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:437 AM ] ', 'INFO', 'API', '2999', 'SEND API_ID: 22 Data: DeviceInfoApi payload {"DeviceStatus_Array":[{"serial_no":"SAC00020250128BA","device_data":{"dev_app_last_discon_time":1738521490,"serial_no":"SAC00020250128BA"}}]}'
+02-03 00:08:11.501 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.501 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:501 AM ] ', 'INFO', 'GENERAL_INFO', '2251', 'Data: {}'
+02-03 00:08:11.501 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.502 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:501 AM ] ', 'INFO', 'GENERAL_INFO', '2253', 'Data: {}'
+02-03 00:08:11.513 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.514 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:513 AM ] ', 'INFO', 'API', '2335', 'RECV API_ID: 2 Data: deleteDevice API response {"doc":{"verified":true,"pushNotifyToken":"e24TLm31TM-nJBBtGy35s_:APA91bFky5rVUCIy7FjztFs-OuOrPXJLsPhE-sw3caH1xpm34pABHEnHhLcDwybStNMaaM9EuepWy5b_F1IY9QtylZgzPWnUHcB99H9hKZAth8_EA6yOjb8","_id":"679ee54a0162a90799654545","UserName":"testuser","EmailId":"testuser@gmail.com","MobileNumber":null,"otp":"3741","associative_devices":[],"createdAt":"2025-02-02T03:23:54.223Z","updatedAt":"2025-02-02T18:38:11.428Z","__v":0},"message":" device removed successfully in user table","status":"success"}'
+02-03 00:08:11.523 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.523 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:523 AM ] ', 'INFO', 'API', '2998', 'SEND API_ID: 301 Data: setDeviceConDisAPI payload {"connection_Device_Data":[{"user_id":"679ee54a0162a90799654545","con_link":2,"conn_sts_time":1738521490,"con_status":false,"synced":false,"device_Id":"6798e6c1f412e9078da14e75"}]}'
+02-03 00:08:11.545 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:548 AM ] ', '-----', { [Error: Request failed with status code 401]
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:   config: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:    { url: 'https://ftp.iinvsys.com:55576/core1/sac/devices/device_status_update',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      method: 'post',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      data: '{"DeviceStatus_Array":[{"serial_no":"SAC00020250128BA","device_data":{"dev_app_last_discon_time":1738521490,"serial_no":"SAC00020250128BA"}}]}',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      headers: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:       { Accept: 'application/json, text/plain, */*',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:         'Content-Type': 'application/json',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:         'x-auth-token': '679ee54a0162a90799654545' },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      transformRequest: [ [Function: transformRequest] ],
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      transformResponse: [ [Function: transformResponse] ],
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      timeout: 10000,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      adapter: [Function: xhrAdapter],
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      xsrfCookieName: 'XSRF-TOKEN',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      xsrfHeaderName: 'X-XSRF-TOKEN',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      maxContentLength: -1,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      maxBodyLength: -1,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      validateStatus: [Function: validateStatus],
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      transitional: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:       { silentJSONParsing: true,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:         forcedJSONParsing: true,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:         clarifyTimeoutError: false } },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:   request: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:    { UNSENT: 0,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      OPENED: 1,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      HEADERS_RECEIVED: 2,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      LOADING: 3,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      DONE: 4,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      readyState: 4,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      status: 401,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      timeout: 10000,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      withCredentials: true,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      upload: {},
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _aborted: false,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _hasError: false,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _method: 'POST',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _perfKey: 'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/core1/sac/devices/device_status_update',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _response: '{"message":"Unauthorized access, missing device serial number","status":"failed"}',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _url: 'https://ftp.iinvsys.com:55576/core1/sac/devices/device_status_update',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _timedOut: false,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _trackingName: 'unknown',
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _incrementalEvents: false,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:      _performanceLogger: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:       { _timespans: 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:          { 'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/core1/status/appversion': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541336234.293244,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541336961.204551,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 726.9113073348999 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/socket.io/?EIO=4&transport=polling&t=PJ7ytHa': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541337002.582398,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541337030.669167,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 28.086769104003906 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/socket.io/?EIO=4&transport=polling&t=PJ7ytI6&sid=4qLfeke-9BICivJDAAYN': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541337036.733551,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541337050.104321,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 13.37076997756958 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/socket.io/?EIO=4&transport=polling&t=PJ7ytI9&sid=4qLfeke-9BICivJDAAYN': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541337038.777859,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541337059.463705,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 20.685845851898193 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/socket.io/?EIO=4&transport=polling&t=PJ7ytIX&sid=4qLfeke-9BICivJDAAYN': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541337063.24709,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541337118.524013,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 55.276923179626465 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/socket.io/?EIO=4&transport=polling&t=PJ7ytIY&sid=4qLfeke-9BICivJDAAYN': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541337064.417244,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541337100.211628,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 35.79438400268555 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/core1/sac/device_Maintainance/device_connection_Update': 
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:             { startTime: 2541342265.226783,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               startExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endExtras: undefined,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               endTime: 2541342581.863706,
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:               totalTime: 316.63692331314087 },
+02-03 00:08:11.577 25953 26034 I ReactNativeJS:            'network_XMLHttpRequest_https://ftp.iinvsys.com:55576/core
+02-03 00:08:11.581 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.582 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:581 AM ] ', 'INFO', 'API', '2999', 'RECV API_ID: 22 Data: DeviceInfoApi response undefined'
+02-03 00:08:11.584 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.585 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:585 AM ] ', 'ERROR', 'GENERAL_INFO', '2960', 'Data : false'
+02-03 00:08:11.591 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.592 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:591 AM ] ', 'file: Listeners.js:581 , removeNotificationData , bithandling:', { SAC00020250128BA: 0 }, undefined, undefined
+02-03 00:08:11.593 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.594 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:593 AM ] ', 'file: Listeners.js:596 , removeNotificationData , localtemp: else', 0, undefined, undefined
+02-03 00:08:11.595 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.595 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:595 AM ] ', 'file: Listeners.js:676 , remove maintanence_data , maintanence_data: if', {}, undefined, undefined
+02-03 00:08:11.595 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.596 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:596 AM ] ', 'file: Listeners.js:690 , remove maintanence_data , localtemp: else', undefined, undefined, undefined
+02-03 00:08:11.597 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.598 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:598 AM ] ', 'INFO', 'GENERAL_INFO', '2979', 'Data : {}'
+02-03 00:08:11.599 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.599 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:599 AM ] ', 'INFO', 'GENERAL_INFO', '2981', 'Data : {}'
+02-03 00:08:11.604 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.605 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:605 AM ] ', 'INFO', 'GENERAL_INFO', '2985', 'Data : {}'
+02-03 00:08:11.607 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.608 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:607 AM ] ', 'INFO', 'GENERAL_INFO', '1658', 'Data : {}'
+02-03 00:08:11.609 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.609 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:609 AM ] ', 'INFO', 'GENERAL_INFO', '1659', 'Data : {}'
+02-03 00:08:11.738 25953 26034 I ReactNativeJS: 
+02-03 00:08:11.739 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:11:739 AM ] ', 'INFO', 'API', '2998', 'RECV API_ID: 301 Data: setDeviceConDisAPI response {"message":"Successfully updated","status":"success"}'
+02-03 00:08:32.092 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:32.107 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:35.264 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:35.292 25953 26034 I ReactNativeJS: 
+02-03 00:08:35.292 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:35:292 AM ] ', 'INFO', 'GENERAL_INFO', '191', 'Data: undefined'
+02-03 00:08:35.307 25953 26034 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+02-03 00:08:39.288 25953 26034 I ReactNativeJS: 
+02-03 00:08:39.290 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:39:289 AM ] ', 'INFO', 'API', '192', 'SEND API_ID: 210 Data: accountDelete API payload {"user_id":"679ee54a0162a90799654545"}'
+02-03 00:08:39.457 25953 26034 I ReactNativeJS: 
+02-03 00:08:39.459 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:39:458 AM ] ', 'INFO', 'API', '192', 'RECV API_ID: 210 Data: accountDelete API response {"message":"Account deleted successfully","status":"success"}'
+02-03 00:08:39.462 25953 26034 I ReactNativeJS: 
+02-03 00:08:39.462 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:39:462 AM ] ', 'ERROR', 'COMMUNICATION', '11123', 'Pre Condition : Start Demolish exiting device connectivity[]'
+02-03 00:08:39.463 25953 26034 I ReactNativeJS: 
+02-03 00:08:39.463 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:39:463 AM ] ', 'Pre Condition : Demolish connection - First device pairning', undefined, undefined, undefined
+02-03 00:08:39.464 25953 26034 I ReactNativeJS: 
+02-03 00:08:39.465 25953 26034 I ReactNativeJS: '[D: 3/2/2025 T: 0:8:39:464 AM ] ', 'Common App state handler:lineNo removeAsyncStorage: ', [ 'userToken',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'userDetails',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'userinfo',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'offlinebuffer_api',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'OTA_Resume_status',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'LatestBuildNumber',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'Notifications',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'maintenance_event',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'GeyzerSocketData',
+02-03 00:08:39.465 25953 26034 I ReactNativeJS:   'GeyzerWaterData' ], 10, undefined
+02-03 00:08:39.469 25953 26034 I ReactNativeJS: 3
+02-03 00:08:39.527 25953 26034 I ReactNativeJS: Page landing into welcome screen
+02-03 00:08:39.539 25953 26034 I ReactNativeJS: 
+02-03 00:08:39.540 25953 26034 I ReactNativeJS: '[D: 3/2/2025

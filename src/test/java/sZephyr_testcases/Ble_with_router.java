@@ -1,13 +1,8 @@
 package sZephyr_testcases;
 
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import io.appium.java_client.MobileBy;
 import pages.AccountsInfoPage;
 import pages.AddDevicePage;
 import pages.Analytics;
@@ -22,14 +17,6 @@ import pages.OtpPage;
 import pages.Reportpage;
 import pages.Schedularpage;
 import wrappers.MobileAppWrappers;
-
-import static org.testng.Assert.fail;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.List;
-
-import org.openqa.selenium.JavascriptExecutor;
 
 public class Ble_with_router extends MobileAppWrappers {
 

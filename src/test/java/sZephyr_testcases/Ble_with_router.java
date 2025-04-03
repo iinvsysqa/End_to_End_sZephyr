@@ -74,22 +74,22 @@ public class Ble_with_router extends MobileAppWrappers {
 			readwrite.openPort();
 			adddevicepage.pair(2);
 			//sZephyr info page check
-		/*	sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
+			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
 			sZephyrinfopage.brandNameCheck("Select Brand");
 			sZephyrinfopage.modelnameCheck("Enter AC model name");
 			sZephyrinfopage.capacityCheck("Enter capacity in ton");
 			sZephyrinfopage.Roomsizecheck("Select room size");
-			Thread.sleep(1000);*/
+			Thread.sleep(1000);
 			adddevicepage.clickNextButtonsZephyrInfo();
-//			adddevicepage.checkdevicedetailstoast();
+			adddevicepage.checkdevicedetailstoast();
 			//device setings page check
-//			devicemenupage.checkLEDdefaultvalue();
-//			devicemenupage.infinitePoweronDefaultvalue();
+			devicemenupage.checkLEDdefaultvalue();
+			devicemenupage.infinitePoweronDefaultvalue();
 			adddevicepage.clickSubmitButtonDeviceSetting();
-//			adddevicepage.checkdevicesettingstoast();
+			adddevicepage.checkdevicesettingstoast();
 			
 			//home page check
-/*			devicemenupage.checkUsername_devicesettings("Home page");
+			devicemenupage.checkUsername_devicesettings("Home page");
 			adddevicepage.bleConnectivityCheck();
 			homepage.getCurrentvalue();
 			homepage.getVoltvalue();
@@ -130,7 +130,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			adddevicepage.newDevicePairingscreencheck();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
-			*/
+			
 //			//navigate to device settings 
 			homepage.clickMenuBarButtonafterpairing();
 			devicemenupage.clickDeviceSettingsButton();

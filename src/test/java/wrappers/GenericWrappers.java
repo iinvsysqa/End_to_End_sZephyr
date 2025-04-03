@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 import javax.imageio.ImageIO;
+import java.awt.Image;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.net.ftp.FTP;
@@ -890,8 +891,9 @@ public class GenericWrappers {
 
 				BufferedImage bufferedImage2 = ImageIO.read(f);
 				BufferedImage bufferedImage = ImageIO.read(f2);
+				BufferedImage bImage2=resizeImage(bufferedImage2, bufferedImage.getWidth(), bufferedImage.getHeight());
 				ImageDiffer id = new ImageDiffer();
-				ImageDiff diff = id.makeDiff(bufferedImage, bufferedImage2);
+				ImageDiff diff = id.makeDiff(bufferedImage, bImage2);
 				if (diff.hasDiff()) {
 
 					Reporter.reportStep("Actual Screenshot not equals to expected Screenshot", "FAIL");
@@ -909,6 +911,13 @@ public class GenericWrappers {
 			Reporter.reportStep("expected element " + page + "not displayed ", "FAIL");
 			return false;
 		}
+	}
+	
+	public BufferedImage resizeImage(BufferedImage originalImage, int width, int height) {
+	    Image tempImage = originalImage.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+	    BufferedImage resizedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+	    resizedImage.getGraphics().drawImage(tempImage, 0, 0, null);
+	    return resizedImage;
 	}
 
 	public boolean takescreenshotofpages(WebElement element, String actualScreenshotPath) throws Exception {

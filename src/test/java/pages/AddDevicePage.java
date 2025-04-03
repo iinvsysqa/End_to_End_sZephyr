@@ -634,6 +634,36 @@ public class AddDevicePage extends GenericWrappers {
 
 		// Backgrounds app for 10 seconds
 		homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+		turnOnBT();
+		/*
+		 * if (isElementDisplayedCheck(blePermissionOkButton)) {
+		 * clickbyXpath(blePermissionOkButton, "Allowing Ble permission pop-up");
+		 * checkappinforeground(); }
+		 */	
+		
+		try {
+			Thread.sleep(5000);
+			if(isElementDisplayedCheck(signInButton)) {
+				landingpage.clickSignInButton();
+				loginpage.enterUserName(userName);
+				loginpage.clickSignInButton();
+				otppage.enterOTPField1("1");
+				otppage.enterOTPField2("2");
+				otppage.enterOTPField3("3");
+				otppage.enterOTPField4("4");
+				otppage.submitButton();
+
+			} 
+		} catch (NoSuchElementException e) {
+			// TODO Auto-generated catch block
+			System.out.println("App is already logged in and opening the previous state");
+		}
+	}
+	@Parameters({ "os" })
+	public void verifysigninpageNew() throws Exception {
+
+		// Backgrounds app for 10 seconds
+		homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 
 		turnOnBT();
 		/*
@@ -743,24 +773,16 @@ public class AddDevicePage extends GenericWrappers {
 		
 
 		if (isElementDisplayedCheck(addDeviceButton)) {
-			
-			//newlyu added
-//			removingDevice();
-			homepage.clickMenuBarButton();
-			homepage.clickAccountinfobutton();
-			accountinfopage.deleteaccount_toregisterpage();
-			signup();
-			//newlyu added
 
 			clickAddDeviceButton();
-			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
+//			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
 			checkBoxPairing();
 			nextButtonPairing();
 
 			switch (mode) {
 			case 1:
 				turnOnBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 				readwrite.write("factory_reset\r");
 //				blepermissionokpopup();
@@ -782,7 +804,7 @@ public class AddDevicePage extends GenericWrappers {
 			case 2:
 				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				turnOnBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();

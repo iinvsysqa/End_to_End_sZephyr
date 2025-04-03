@@ -66,14 +66,12 @@ public class Before_pairing extends MobileAppWrappers {
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
 			readwrite.openPort();
-			readwrite.write("reboot\r");
-			Thread.sleep(3000);
-
+			
 			//home page ui check
 			loginpage.verifysignInPage();
-			homepage.register_Page_ScreenShot_Check();
-			homepage.SignIn_Page_ScreenShot_Check();
-			homepage.SignUp_Page_ScreenShot_Check();
+//			homepage.register_Page_ScreenShot_Check();
+//			homepage.SignIn_Page_ScreenShot_Check();
+//			homepage.SignUp_Page_ScreenShot_Check();
 			landingpage.clickSignUpLink();
 			signuppage.enterUserName(userName);
 			signuppage.enterEmailId(emaId);

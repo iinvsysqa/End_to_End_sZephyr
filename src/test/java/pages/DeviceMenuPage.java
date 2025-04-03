@@ -2,6 +2,7 @@ package pages;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -251,6 +252,10 @@ public class DeviceMenuPage extends GenericWrappers{
 	@FindBy(xpath = "//android.widget.EditText[@text=\"20\"]")
 	private WebElement defaultMin_Devicesettings;
 	
+	private WebElement devicenameDeviceSettingsPage(String username) {
+		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+		
+	}
 	
 	public DeviceMenuPage(AndroidDriver driver) {
 		this.driver = driver;
@@ -368,14 +373,15 @@ verifyTextContainsByXpathinAttributes(quietLEDToggleEnable,"false", "Led default
 		switch (mode) {
 		case 1:
 //		expWaitforPairing(ClickaddrouterButton);
-		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"));")).click();
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"))")).click();
 		clickbyXpath(ClickCancelWifi, "cancel button");
 		break;
 		case 2:
-		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"RemoveRouterContx\"))")).click();
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Change SSID/Password\"))"));
+		clickbyXpath(changeSSID, " Change SSID/ Password ");
 		clickbyXpath(ClickCancelWifi, "cancel button");
-		clickbyXpath(changeSSID, "SSID button");
-		clickbyXpath(ClickCancelWifi, "cancel button");
+		//clickbyXpath(changeSSID, "SSID button");
+		//clickbyXpath(ClickCancelWifi, "cancel button");
 		break;
 		
 		}
@@ -583,7 +589,7 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		}
 		
 		public void checkUsername_devicesettings(String content) {
-			verifyTextContainsByXpath(devicenameDeviceSettingsPage, loadProp("USERNAME"), content);
+			verifyTextContainsByXpath(devicenameDeviceSettingsPage(loadProp("USERNAMEINAPP")), loadProp("USERNAME"), content);
 		}
 		public void checkLowVoltDefautvalue_devicesettings() {
 			clickLowVoltagebutton();

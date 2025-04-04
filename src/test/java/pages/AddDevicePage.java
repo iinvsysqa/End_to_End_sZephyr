@@ -629,12 +629,12 @@ public class AddDevicePage extends GenericWrappers {
 		verifyAddDevicePage("Add Device");
 	}
 	
-	
 	@Parameters({ "os" })
 	public void verifysigninpage() throws Exception {
 
 		// Backgrounds app for 10 seconds
 //		homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+
 
 		turnOnBT();
 		/*
@@ -644,6 +644,7 @@ public class AddDevicePage extends GenericWrappers {
 		 */	
 		
 		try { 
+
 			Thread.sleep(5000);
 			if(isElementDisplayedCheck(signUpLink)) {
 				landingpage.clickSignUpLink();
@@ -677,6 +678,7 @@ public class AddDevicePage extends GenericWrappers {
 //				otppage.submitButton();
 //				verifyAddDevicePage("Add Device");
 				System.out.println("initiatepairing mode");
+
 			}else{
 				homepage.clickMenuBarButtonafterpairing();
 				devicemenupage.clickMenuBarRemoveDevice();
@@ -708,6 +710,7 @@ public class AddDevicePage extends GenericWrappers {
 //				otppage.enterOTPField3("3");
 //				otppage.enterOTPField4("4");
 //				otppage.submitButton();
+
 				verifyAddDevicePage("Add Device");
 				
 			}
@@ -756,6 +759,7 @@ public class AddDevicePage extends GenericWrappers {
 
 			clickAddDeviceButton();
 			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
+
 			checkBoxPairing();
 			nextButtonPairing();
 
@@ -763,6 +767,7 @@ public class AddDevicePage extends GenericWrappers {
 			case 1:
 				turnOnBT();
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+
 				startPairingButton();
 				readwrite.write("factory_reset\r");
 //				blepermissionokpopup();
@@ -772,6 +777,7 @@ public class AddDevicePage extends GenericWrappers {
 //				Thread.sleep(3000);
 //				blepermissionokpopup();
 				Thread.sleep(5000);
+
 				clickWifiCancelButton();
 				Thread.sleep(30000);
 				
@@ -785,6 +791,7 @@ public class AddDevicePage extends GenericWrappers {
 //				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				turnOnBT();
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();
@@ -807,10 +814,12 @@ public class AddDevicePage extends GenericWrappers {
 				turnOffBT();
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				readwrite.write("factory_reset\r");
+
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();
 //				nearByPermission();
+
 
 				blepermissionokpopup();
 				Thread.sleep(5000);
@@ -833,6 +842,7 @@ public class AddDevicePage extends GenericWrappers {
 				
 			case 4:
 //				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+
 				turnOffBT();
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
@@ -849,6 +859,7 @@ public class AddDevicePage extends GenericWrappers {
 
 				enterWiFiPassword("12345678911");
 				Thread.sleep(5000);
+
 				clickEnterButton();
 
 				Thread.sleep(5*20*1000);
@@ -871,11 +882,13 @@ public class AddDevicePage extends GenericWrappers {
 			case 5:
 //				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 
+
 				turnOffBT();
 
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 				readwrite.write("factory_reset\r");
+
 
 			    blepermissioncancelpopup();
 //				Thread.sleep(3000);
@@ -893,6 +906,7 @@ public class AddDevicePage extends GenericWrappers {
 //				}
 			    Thread.sleep(5000);
 				clickWifiCancelButton();
+
 				Thread.sleep(5*20*1000);
 
 				if(!isElementDisplayedCheck(devicewifipop_upOK))  {
@@ -1018,6 +1032,7 @@ public class AddDevicePage extends GenericWrappers {
 	}
 	
 	public void blepermissionokpopup() throws Exception {
+
 		if (isElementDisplayedCheck(BleOKpopup)) {
 			BleOKpopup.click();
 			Thread.sleep(2000);

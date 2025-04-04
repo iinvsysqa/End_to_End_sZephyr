@@ -72,6 +72,7 @@ public class Before_pairing extends MobileAppWrappers {
 			homepage.register_Page_ScreenShot_Check();
 			homepage.SignIn_Page_ScreenShot_Check();
 			homepage.SignUp_Page_ScreenShot_Check();
+
 			landingpage.clickSignUpLink();
 			signuppage.enterUserName(userName);
 			signuppage.enterEmailId(emaId);

@@ -69,8 +69,6 @@ public class Smartconfig extends MobileAppWrappers {
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
 			readwrite.openPort();
-			readwrite.write("reboot\r");
-			Thread.sleep(3000);
 			adddevicepage.pair(3);
 			adddevicepage.blepermissionokpopup();
 

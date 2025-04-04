@@ -409,6 +409,7 @@ public class GenericWrappers {
 
 				// Reopen the app, it should maintain its previous state (same page)
 				driver.activateApp(packages);
+				Thread.sleep(10000);
 				Reporter.reportStep("The app was reopened successfully.", "PASS");
 			}
 		} catch (Exception e) {
@@ -896,9 +897,8 @@ public class GenericWrappers {
 
 				BufferedImage bufferedImage2 = ImageIO.read(f);
 				BufferedImage bufferedImage = ImageIO.read(f2);
-				BufferedImage bImage2=resizeImage(bufferedImage2, bufferedImage.getWidth(), bufferedImage.getHeight());
 				ImageDiffer id = new ImageDiffer();
-				ImageDiff diff = id.makeDiff(bufferedImage, bImage2);
+				ImageDiff diff = id.makeDiff(bufferedImage, bufferedImage2);
 				if (diff.hasDiff()) {
 
 					Reporter.reportStep("Actual Screenshot not equals to expected Screenshot", "FAIL");

@@ -70,9 +70,7 @@ public class Ble_without_router extends MobileAppWrappers {
 		
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
-			readwrite.openPort();
-			readwrite.write("reboot\r");
-			Thread.sleep(3000);
+		readwrite.openPort();
 		adddevicepage.pair(1);
 		//sZephyr info page check
 		sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));

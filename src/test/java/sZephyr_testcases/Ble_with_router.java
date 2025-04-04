@@ -74,6 +74,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			readwrite.openPort();
 			adddevicepage.pair(2);
 			//sZephyr info page check
+			adddevicepage.blepermissionokpopup();
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
 			sZephyrinfopage.brandNameCheck("Select Brand");
 			sZephyrinfopage.modelnameCheck("Enter AC model name");
@@ -162,7 +163,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			devicemenupage.clickLogoutButton();
 			devicemenupage.clickcancel();
 			devicemenupage.checkUsername_devicesettings("Home page");
-			
+		
 			//navigate to report page 
 			homepage.clickMenuBarButtonafterpairing();
 			homepage.clickReportButton();
@@ -173,6 +174,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			
 			//Connectivity test
 			killAndReopenApp();
+			adddevicepage.blepermissionokpopup();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			adddevicepage.bleConnectivityCheck();
 			homepage.getCurrentvalue();
@@ -219,7 +221,6 @@ public class Ble_with_router extends MobileAppWrappers {
 			readwrite.closePort();
 		}
 		catch (Exception e) {
-			killAndReopenApp();
 			readwrite.closePort();
 			fail(e);
 		}

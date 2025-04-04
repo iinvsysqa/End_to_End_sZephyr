@@ -1,0 +1,555 @@
+--------- beginning of main
+04-04 16:49:19.841 30607 30665 I ReactNativeJS: 
+04-04 16:49:19.842 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:19:842 PM ] ', 'INFO', 'API', '271', 'SEND API_ID: 201 Data: register API payload {"UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":""}'
+04-04 16:49:19.962 30607 30665 I ReactNativeJS: 
+04-04 16:49:19.962 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:19:962 PM ] ', 'INFO', 'API', '271', 'RECV API_ID: 201 Data: register API response {"data":{"verified":false,"pushNotifyToken":"","_id":"67efc0371fd115cdaddb1978","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"otp":null,"associative_devices":[],"createdAt":"2025-04-04T11:19:19.832Z","updatedAt":"2025-04-04T11:19:19.832Z","__v":0},"status":"success","message":"Updated Successfully"}'
+04-04 16:49:19.975 30607 30665 E ReactNativeJS: 'phoneNumber', 'undefined'
+04-04 16:49:32.549 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.550 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:550 PM ] ', 'INFO', 'GENERAL_INFO', '2612', 'Data: Retrieved FCM-TOKEN Locally Success fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-04 16:49:32.577 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.578 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:577 PM ] ', 'INFO', 'API', '273', 'SEND API_ID: 203 Data: User otpVerify API payload {"otp1":"1234","_id":"67efc0371fd115cdaddb1978","pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8"}'
+04-04 16:49:32.670 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.671 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:670 PM ] ', 'INFO', 'API', '273', 'RECV API_ID: 203 Data: User otpVerify API response {"user":{"verified":true,"pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8","_id":"67efc0371fd115cdaddb1978","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"otp":"0851","associative_devices":[],"createdAt":"2025-04-04T11:19:19.832Z","updatedAt":"2025-04-04T11:19:32.538Z","__v":0},"status":"success","message":"user login successfully"}'
+04-04 16:49:32.671 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.672 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:671 PM ] ', 'INFO', 'API', '274', 'SEND API_ID: 3 Data: User getAssociativeDevices API payload {"user_id":"67efc0371fd115cdaddb1978"}'
+04-04 16:49:32.721 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.722 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:721 PM ] ', 'INFO', 'API', '274', 'RECV API_ID: 3 Data: User getAssociativeDevices API response {"status":"success","message":"combine user details","user":{"verified":true,"pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8","_id":"67efc0371fd115cdaddb1978","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"associative_devices":[],"__v":0}}'
+04-04 16:49:32.723 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.723 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:723 PM ] ', '[info] ', 'sign in data ', { status: 'success',
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:   message: 'combine user details',
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:   user: 
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      _id: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      associative_devices: [],
+04-04 16:49:32.723 30607 30665 I ReactNativeJS:      __v: 0 } }, '67efc0371fd115cdaddb1978'
+04-04 16:49:32.723 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.724 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:724 PM ] ', 'appStateHandler.js:lineNo login_Data_Handler ', { verified: true,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   _id: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   associative_devices: [],
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   __v: 0 }, '67efc0371fd115cdaddb1978', '[]'
+04-04 16:49:32.724 30607 30665 I ReactNativeJS: 'user details ==> ', { verified: true,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   _id: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   __v: 0,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   firmwareAutoUpload: false,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   firmwareAutoDownload: false,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   svr_ota: false,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   currentOTAIndex: 0,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   curCacheBuildNum: 0,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   latest_Bin_File_Length: null,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   latest_firmware_vrs: null,
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   age: '',
+04-04 16:49:32.724 30607 30665 I ReactNativeJS:   gender: '' }
+04-04 16:49:32.735 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.736 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:736 PM ] ', 'INFO', 'COMMUNICATION', '111', 'establish communication triggered []'
+04-04 16:49:32.737 30607 30665 I ReactNativeJS: 'user details and associative device ==> ', { user_Details: 
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      _id: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      __v: 0,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      firmwareAutoUpload: false,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      firmwareAutoDownload: false,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      svr_ota: false,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      currentOTAIndex: 0,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      curCacheBuildNum: 0,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      latest_Bin_File_Length: null,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      latest_firmware_vrs: null,
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      age: '',
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:      gender: '' },
+04-04 16:49:32.737 30607 30665 I ReactNativeJS:   associative_devices: [] }
+04-04 16:49:32.737 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.738 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:737 PM ] ', 'Sign details after modification, user_Details, associative_devices', { verified: true,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   _id: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   __v: 0,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   firmwareAutoUpload: false,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   firmwareAutoDownload: false,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   svr_ota: false,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   currentOTAIndex: 0,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   curCacheBuildNum: 0,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   latest_Bin_File_Length: null,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   latest_firmware_vrs: null,
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   age: '',
+04-04 16:49:32.738 30607 30665 I ReactNativeJS:   gender: '' }, [], undefined
+04-04 16:49:32.739 30607 30665 I ReactNativeJS: 3
+04-04 16:49:32.739 30607 30665 I ReactNativeJS: 'LOGIN ...prevState', null
+04-04 16:49:32.739 30607 30665 I ReactNativeJS: 'LOGIN action.details', []
+04-04 16:49:32.779 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.779 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:779 PM ] ', 'Home.js LoginState ==>', { isLoading: false,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   userDetails: 
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      _id: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      __v: 0,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      firmwareAutoUpload: false,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      firmwareAutoDownload: false,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      svr_ota: false,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      currentOTAIndex: 0,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      curCacheBuildNum: 0,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      latest_Bin_File_Length: null,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      latest_firmware_vrs: null,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      age: '',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:      gender: '' },
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   guestDetails: null,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   userToken: '67efc0371fd115cdaddb1978',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   deviceOnOffStatus: true,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   deviceConnnectedStatus: false,
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   associative_devices: [],
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   language: 'English',
+04-04 16:49:32.779 30607 30665 I ReactNativeJS:   guestAssociativeDevices: [] }, undefined, undefined
+04-04 16:49:32.779 30607 30665 I ReactNativeJS: 
+04-04 16:49:32.780 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:32:779 PM ] ', 'Home.js associative_devices ==> ', [], undefined, undefined
+04-04 16:49:32.780 30607 30665 I ReactNativeJS: 'flatListRef.current.scrollToIndex({ index: i })', [TypeError: Cannot read property 'scrollToIndex' of undefined]
+04-04 16:49:32.816 30607 30607 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:49:32.817 30607 30607 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:49:39.544 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:39.549 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:42.549 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:42.559 30607 30665 I ReactNativeJS: 
+04-04 16:49:42.559 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:42:559 PM ] ', 'INFO', 'GENERAL_INFO', '191', 'Data: undefined'
+04-04 16:49:42.565 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:54.930 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:54.941 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:58.555 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:58.578 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:49:58.589 30607 30665 I ReactNativeJS: 
+04-04 16:49:58.589 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:58:589 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-04 16:49:58.589 30607 30665 I ReactNativeJS: 
+04-04 16:49:58.590 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:58:589 PM ] ', 'addEventListener', 'background', undefined, undefined
+04-04 16:49:58.590 30607 30665 I ReactNativeJS: 
+04-04 16:49:58.590 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:58:590 PM ] ', null, 'analytics_Session_data==============>', undefined, undefined
+04-04 16:49:58.590 30607 30665 I ReactNativeJS: 
+04-04 16:49:58.590 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:58:590 PM ] ', null, 'analytics_Session_data==============>', undefined, undefined
+04-04 16:49:59.177 30607 30665 I ReactNativeJS: Logs written successfully!
+04-04 16:49:59.177 30607 30665 I ReactNativeJS: 
+04-04 16:49:59.177 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:49:59:177 PM ] ', 'AppState', 'background', undefined, undefined
+04-04 16:50:01.276 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.277 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:276 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-04 16:50:01.277 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.277 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:277 PM ] ', 'addEventListener', 'active', undefined, undefined
+04-04 16:50:01.277 30607 30665 I ReactNativeJS: App has came to the foreground!
+04-04 16:50:01.277 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.277 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:277 PM ] ', 'AppState', 'background', undefined, undefined
+04-04 16:50:01.283 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.283 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:283 PM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of airplane mode false'
+04-04 16:50:01.301 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.301 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:301 PM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of location : "already-enabled"'
+04-04 16:50:01.302 30607 30665 E ReactNativeJS: 'permission', { 'android.permission.BLUETOOTH_SCAN': 'granted',
+04-04 16:50:01.302 30607 30665 E ReactNativeJS:   'android.permission.BLUETOOTH_CONNECT': 'granted',
+04-04 16:50:01.302 30607 30665 E ReactNativeJS:   'android.permission.ACCESS_FINE_LOCATION': 'granted' }
+04-04 16:50:01.302 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.302 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:302 PM ] ', 'INFO', 'PERMISSION', '32', 'permission grant of the request: [true]'
+04-04 16:50:01.302 30607 30665 I ReactNativeJS: 
+04-04 16:50:01.303 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:1:302 PM ] ', 'INFO', 'PERMISSION', '32', 'Permission resolved for connectivity'
+04-04 16:50:14.550 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:14.558 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:17.534 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:17.538 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:17.542 30607 30665 I ReactNativeJS: data buffer lenght function called
+04-04 16:50:17.542 30607 30665 I ReactNativeJS: 
+04-04 16:50:17.542 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:17:542 PM ] ', 'INFO', 'GENERAL_INFO', '1750', 'Date buffer.length : 0'
+04-04 16:50:17.557 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:17.570 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:22.843 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:22.848 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:24.852 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:24.856 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:27.928 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:27.956 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:48.507 30607 30665 I ReactNativeJS: 'denied', 'result================>'
+04-04 16:50:48.520 30607 30665 I ReactNativeJS: 
+04-04 16:50:48.520 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:48:520 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-04 16:50:48.520 30607 30665 I ReactNativeJS: 
+04-04 16:50:48.520 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:48:520 PM ] ', 'addEventListener', 'background', undefined, undefined
+04-04 16:50:48.520 30607 30665 I ReactNativeJS: 
+04-04 16:50:48.521 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:48:520 PM ] ', null, 'analytics_Session_data==============>', undefined, undefined
+04-04 16:50:48.521 30607 30665 I ReactNativeJS: 
+04-04 16:50:48.521 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:48:521 PM ] ', null, 'analytics_Session_data==============>', undefined, undefined
+04-04 16:50:49.024 30607 30665 I ReactNativeJS: Logs written successfully!
+04-04 16:50:49.024 30607 30665 I ReactNativeJS: 
+04-04 16:50:49.024 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:49:24 PM ] ', 'AppState', 'background', undefined, undefined
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: 
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:49:68 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: 
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:49:68 PM ] ', 'addEventListener', 'active', undefined, undefined
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: App has came to the foreground!
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: 
+04-04 16:50:49.068 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:50:49:68 PM ] ', 'AppState', 'background', undefined, undefined
+04-04 16:50:59.847 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:50:59.853 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:01.504 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:01.512 30607 30665 I ReactNativeJS: 
+04-04 16:51:01.513 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:1:512 PM ] ', 'INFO', 'GENERAL_INFO', '191', 'Data: undefined'
+04-04 16:51:01.518 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:06.533 30607 30665 I ReactNativeJS: 
+04-04 16:51:06.533 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:6:533 PM ] ', 'INFO', 'API', '192', 'SEND API_ID: 210 Data: accountDelete API payload {"user_id":"67efc0371fd115cdaddb1978"}'
+04-04 16:51:07.078 30607 30665 I ReactNativeJS: 
+04-04 16:51:07.080 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:7:79 PM ] ', 'INFO', 'API', '192', 'RECV API_ID: 210 Data: accountDelete API response {"message":"Account deleted successfully","status":"success"}'
+04-04 16:51:07.082 30607 30665 I ReactNativeJS: 
+04-04 16:51:07.083 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:7:82 PM ] ', 'ERROR', 'COMMUNICATION', '11123', 'Pre Condition : Start Demolish exiting device connectivity[]'
+04-04 16:51:07.083 30607 30665 I ReactNativeJS: 
+04-04 16:51:07.084 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:7:84 PM ] ', 'Pre Condition : Demolish connection - First device pairning', undefined, undefined, undefined
+04-04 16:51:07.084 30607 30665 I ReactNativeJS: 
+04-04 16:51:07.089 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:7:84 PM ] ', 'Common App state handler:lineNo removeAsyncStorage: ', [ 'userToken',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'userDetails',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'userinfo',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'offlinebuffer_api',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'OTA_Resume_status',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'LatestBuildNumber',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'Notifications',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'maintenance_event',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'GeyzerSocketData',
+04-04 16:51:07.089 30607 30665 I ReactNativeJS:   'GeyzerWaterData' ], 10, undefined
+04-04 16:51:07.094 30607 30665 I ReactNativeJS: 3
+04-04 16:51:07.153 30607 30665 I ReactNativeJS: Page landing into welcome screen
+04-04 16:51:07.157 30607 30665 I ReactNativeJS: 
+04-04 16:51:07.158 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:7:157 PM ] ', '[info] ', 'Home.js ', 'firstEmitterInit is changed', true
+04-04 16:51:07.184 30607 30607 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:51:07.185 30607 30607 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:51:13.784 30607 30665 I ReactNativeJS: 
+04-04 16:51:13.784 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:13:784 PM ] ', 'INFO', 'API', '272', 'SEND API_ID: 202 Data: User login API Payload {"field":"UserName","value":"testuser002"}'
+04-04 16:51:13.874 30607 30665 I ReactNativeJS: 
+04-04 16:51:13.874 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:13:874 PM ] ', 'INFO', 'API', '272', 'RECV API_ID: 202 Data: User login API response {"message":"User not found","status":"failed"}'
+04-04 16:51:25.889 30607 30665 I ReactNativeJS: 
+04-04 16:51:25.889 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:25:889 PM ] ', 'INFO', 'API', '271', 'SEND API_ID: 201 Data: register API payload {"UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":""}'
+04-04 16:51:25.987 30607 30665 I ReactNativeJS: 
+04-04 16:51:25.988 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:25:987 PM ] ', 'INFO', 'API', '271', 'RECV API_ID: 201 Data: register API response {"data":{"verified":false,"pushNotifyToken":"","_id":"67efc0b5730d58cda241aaef","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"otp":null,"associative_devices":[],"createdAt":"2025-04-04T11:21:25.853Z","updatedAt":"2025-04-04T11:21:25.853Z","__v":0},"status":"success","message":"Updated Successfully"}'
+04-04 16:51:26.033 30607 30665 E ReactNativeJS: 'phoneNumber', 'undefined'
+04-04 16:51:40.693 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.694 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:693 PM ] ', 'INFO', 'GENERAL_INFO', '2612', 'Data: Retrieved FCM-TOKEN Locally Success fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-04 16:51:40.713 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.714 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:714 PM ] ', 'INFO', 'API', '273', 'SEND API_ID: 203 Data: User otpVerify API payload {"otp1":"1234","_id":"67efc0b5730d58cda241aaef","pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8"}'
+04-04 16:51:40.826 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.826 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:826 PM ] ', 'INFO', 'API', '273', 'RECV API_ID: 203 Data: User otpVerify API response {"user":{"verified":true,"pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8","_id":"67efc0b5730d58cda241aaef","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"otp":"7228","associative_devices":[],"createdAt":"2025-04-04T11:21:25.853Z","updatedAt":"2025-04-04T11:21:40.687Z","__v":0},"status":"success","message":"user login successfully"}'
+04-04 16:51:40.826 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.827 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:826 PM ] ', 'INFO', 'API', '274', 'SEND API_ID: 3 Data: User getAssociativeDevices API payload {"user_id":"67efc0b5730d58cda241aaef"}'
+04-04 16:51:40.955 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.956 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:955 PM ] ', 'INFO', 'API', '274', 'RECV API_ID: 3 Data: User getAssociativeDevices API response {"status":"success","message":"combine user details","user":{"verified":true,"pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8","_id":"67efc0b5730d58cda241aaef","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"associative_devices":[],"__v":0}}'
+04-04 16:51:40.956 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.957 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:956 PM ] ', '[info] ', 'sign in data ', { status: 'success',
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:   message: 'combine user details',
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:   user: 
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      _id: '67efc0b5730d58cda241aaef',
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      associative_devices: [],
+04-04 16:51:40.957 30607 30665 I ReactNativeJS:      __v: 0 } }, '67efc0b5730d58cda241aaef'
+04-04 16:51:40.958 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.959 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:958 PM ] ', 'appStateHandler.js:lineNo login_Data_Handler ', { verified: true,
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   _id: '67efc0b5730d58cda241aaef',
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   associative_devices: [],
+04-04 16:51:40.959 30607 30665 I ReactNativeJS:   __v: 0 }, '67efc0b5730d58cda241aaef', '[]'
+04-04 16:51:40.960 30607 30665 I ReactNativeJS: 'user details ==> ', { verified: true,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   _id: '67efc0b5730d58cda241aaef',
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   __v: 0,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   firmwareAutoUpload: false,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   firmwareAutoDownload: false,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   svr_ota: false,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   currentOTAIndex: 0,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   curCacheBuildNum: 0,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   latest_Bin_File_Length: null,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   latest_firmware_vrs: null,
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   age: '',
+04-04 16:51:40.960 30607 30665 I ReactNativeJS:   gender: '' }
+04-04 16:51:40.980 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.980 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:980 PM ] ', 'INFO', 'COMMUNICATION', '111', 'establish communication triggered []'
+04-04 16:51:40.981 30607 30665 I ReactNativeJS: 'user details and associative device ==> ', { user_Details: 
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      _id: '67efc0b5730d58cda241aaef',
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      __v: 0,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      firmwareAutoUpload: false,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      firmwareAutoDownload: false,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      svr_ota: false,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      currentOTAIndex: 0,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      curCacheBuildNum: 0,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      latest_Bin_File_Length: null,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      latest_firmware_vrs: null,
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      age: '',
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:      gender: '' },
+04-04 16:51:40.981 30607 30665 I ReactNativeJS:   associative_devices: [] }
+04-04 16:51:40.981 30607 30665 I ReactNativeJS: 
+04-04 16:51:40.982 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:40:981 PM ] ', 'Sign details after modification, user_Details, associative_devices', { verified: true,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   _id: '67efc0b5730d58cda241aaef',
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   __v: 0,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   firmwareAutoUpload: false,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   firmwareAutoDownload: false,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   svr_ota: false,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   currentOTAIndex: 0,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   curCacheBuildNum: 0,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   latest_Bin_File_Length: null,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   latest_firmware_vrs: null,
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   age: '',
+04-04 16:51:40.982 30607 30665 I ReactNativeJS:   gender: '' }, [], undefined
+04-04 16:51:40.983 30607 30665 I ReactNativeJS: 3
+04-04 16:51:40.983 30607 30665 I ReactNativeJS: 'LOGIN ...prevState', null
+04-04 16:51:40.983 30607 30665 I ReactNativeJS: 'LOGIN action.details', []
+04-04 16:51:41.025 30607 30665 I ReactNativeJS: 
+04-04 16:51:41.026 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:41:25 PM ] ', 'Home.js LoginState ==>', { isLoading: false,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   userDetails: 
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      _id: '67efc0b5730d58cda241aaef',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      __v: 0,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      firmwareAutoUpload: false,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      firmwareAutoDownload: false,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      svr_ota: false,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      currentOTAIndex: 0,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      curCacheBuildNum: 0,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      latest_Bin_File_Length: null,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      latest_firmware_vrs: null,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      age: '',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:      gender: '' },
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   guestDetails: null,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   userToken: '67efc0b5730d58cda241aaef',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   deviceOnOffStatus: true,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   deviceConnnectedStatus: false,
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   associative_devices: [],
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   language: 'English',
+04-04 16:51:41.026 30607 30665 I ReactNativeJS:   guestAssociativeDevices: [] }, undefined, undefined
+04-04 16:51:41.026 30607 30665 I ReactNativeJS: 
+04-04 16:51:41.026 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:41:26 PM ] ', 'Home.js associative_devices ==> ', [], undefined, undefined
+04-04 16:51:41.026 30607 30665 I ReactNativeJS: 'flatListRef.current.scrollToIndex({ index: i })', [TypeError: Cannot read property 'scrollToIndex' of undefined]
+04-04 16:51:41.056 30607 30607 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:51:41.058 30607 30607 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:51:43.812 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:43.817 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:45.903 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:45.916 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:45.917 30607 30665 I ReactNativeJS: data buffer lenght function called
+04-04 16:51:45.917 30607 30665 I ReactNativeJS: 
+04-04 16:51:45.917 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:45:917 PM ] ', 'INFO', 'GENERAL_INFO', '1750', 'Date buffer.length : 0'
+04-04 16:51:45.927 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:45.936 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:48.512 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:48.517 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:51:48.518 30607 30665 I ReactNativeJS: 
+04-04 16:51:48.518 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:48:518 PM ] ', 'ERROR', 'COMMUNICATION', '11123', 'Pre Condition : Start Demolish exiting device connectivity[]'
+04-04 16:51:48.518 30607 30665 I ReactNativeJS: 
+04-04 16:51:48.518 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:48:518 PM ] ', 'Pre Condition : Demolish connection - First device pairning', undefined, undefined, undefined
+04-04 16:51:48.518 30607 30665 I ReactNativeJS: 
+04-04 16:51:48.518 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:48:518 PM ] ', 'Common App state handler:lineNo removeAsyncStorage: ', [ 'userToken',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'userDetails',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'userinfo',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'offlinebuffer_api',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'OTA_Resume_status',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'LatestBuildNumber',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'Notifications',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'maintenance_event',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'GeyzerSocketData',
+04-04 16:51:48.518 30607 30665 I ReactNativeJS:   'GeyzerWaterData' ], 10, undefined
+04-04 16:51:48.519 30607 30665 I ReactNativeJS: 3
+04-04 16:51:48.532 30607 30665 I ReactNativeJS: Page landing into welcome screen
+04-04 16:51:48.536 30607 30665 I ReactNativeJS: 
+04-04 16:51:48.536 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:48:536 PM ] ', '[info] ', 'Home.js ', 'firstEmitterInit is changed', true
+04-04 16:51:48.569 30607 30607 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:51:48.569 30607 30607 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:51:53.853 30607 30665 I ReactNativeJS: 
+04-04 16:51:53.853 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:53:853 PM ] ', 'INFO', 'API', '272', 'SEND API_ID: 202 Data: User login API Payload {"field":"UserName","value":"testuser002"}'
+04-04 16:51:53.946 30607 30665 I ReactNativeJS: 
+04-04 16:51:53.947 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:51:53:947 PM ] ', 'INFO', 'API', '272', 'RECV API_ID: 202 Data: User login API response {"EmailId":"testuser002@gmail.com","MobileNumber":null,"_id":"67efc0b5730d58cda241aaef","message":"found correct user","status":"success"}'
+04-04 16:51:53.998 30607 30665 E ReactNativeJS: 'phoneNumber', 'undefined'
+04-04 16:52:02.513 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.513 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:513 PM ] ', 'INFO', 'GENERAL_INFO', '2612', 'Data: Retrieved FCM-TOKEN Locally Success fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-04 16:52:02.548 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.549 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:548 PM ] ', 'INFO', 'API', '273', 'SEND API_ID: 203 Data: User otpVerify API payload {"otp1":"1234","_id":"67efc0b5730d58cda241aaef","pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8"}'
+04-04 16:52:02.597 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.598 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:597 PM ] ', 'INFO', 'API', '273', 'RECV API_ID: 203 Data: User otpVerify API response {"user":{"verified":true,"pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8","_id":"67efc0b5730d58cda241aaef","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"otp":"3775","associative_devices":[],"createdAt":"2025-04-04T11:21:25.853Z","updatedAt":"2025-04-04T11:22:02.463Z","__v":0},"status":"success","message":"user login successfully"}'
+04-04 16:52:02.598 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.598 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:598 PM ] ', 'INFO', 'API', '274', 'SEND API_ID: 3 Data: User getAssociativeDevices API payload {"user_id":"67efc0b5730d58cda241aaef"}'
+04-04 16:52:02.663 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.663 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:663 PM ] ', 'INFO', 'API', '274', 'RECV API_ID: 3 Data: User getAssociativeDevices API response {"status":"success","message":"combine user details","user":{"verified":true,"pushNotifyToken":"fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8","_id":"67efc0b5730d58cda241aaef","UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":null,"associative_devices":[],"__v":0}}'
+04-04 16:52:02.664 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.664 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:664 PM ] ', '[info] ', 'sign in data ', { status: 'success',
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:   message: 'combine user details',
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:   user: 
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      _id: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      associative_devices: [],
+04-04 16:52:02.664 30607 30665 I ReactNativeJS:      __v: 0 } }, '67efc0b5730d58cda241aaef'
+04-04 16:52:02.665 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.665 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:665 PM ] ', 'appStateHandler.js:lineNo login_Data_Handler ', { verified: true,
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   _id: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   associative_devices: [],
+04-04 16:52:02.665 30607 30665 I ReactNativeJS:   __v: 0 }, '67efc0b5730d58cda241aaef', '[]'
+04-04 16:52:02.666 30607 30665 I ReactNativeJS: 'user details ==> ', { verified: true,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   _id: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   __v: 0,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   firmwareAutoUpload: false,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   firmwareAutoDownload: false,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   svr_ota: false,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   currentOTAIndex: 0,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   curCacheBuildNum: 0,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   latest_Bin_File_Length: null,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   latest_firmware_vrs: null,
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   age: '',
+04-04 16:52:02.666 30607 30665 I ReactNativeJS:   gender: '' }
+04-04 16:52:02.681 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.681 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:681 PM ] ', 'INFO', 'COMMUNICATION', '111', 'establish communication triggered []'
+04-04 16:52:02.682 30607 30665 I ReactNativeJS: 'user details and associative device ==> ', { user_Details: 
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      _id: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      __v: 0,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      firmwareAutoUpload: false,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      firmwareAutoDownload: false,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      svr_ota: false,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      currentOTAIndex: 0,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      curCacheBuildNum: 0,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      latest_Bin_File_Length: null,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      latest_firmware_vrs: null,
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      age: '',
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:      gender: '' },
+04-04 16:52:02.682 30607 30665 I ReactNativeJS:   associative_devices: [] }
+04-04 16:52:02.682 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.683 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:682 PM ] ', 'Sign details after modification, user_Details, associative_devices', { verified: true,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   _id: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   UserName: 'testuser002',
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   EmailId: 'testuser002@gmail.com',
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   MobileNumber: null,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   __v: 0,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   firmwareAutoUpload: false,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   firmwareAutoDownload: false,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   svr_ota: false,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   currentOTAIndex: 0,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   curCacheBuildNum: 0,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   latest_Bin_File_Length: null,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   latest_firmware_vrs: null,
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   age: '',
+04-04 16:52:02.683 30607 30665 I ReactNativeJS:   gender: '' }, [], undefined
+04-04 16:52:02.684 30607 30665 I ReactNativeJS: 3
+04-04 16:52:02.684 30607 30665 I ReactNativeJS: 'LOGIN ...prevState', null
+04-04 16:52:02.684 30607 30665 I ReactNativeJS: 'LOGIN action.details', []
+04-04 16:52:02.729 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.730 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:729 PM ] ', 'Home.js LoginState ==>', { isLoading: false,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   userDetails: 
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:    { verified: true,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      pushNotifyToken: 'fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      _id: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      UserName: 'testuser002',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      EmailId: 'testuser002@gmail.com',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      MobileNumber: null,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      __v: 0,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      firmwareAutoUpload: false,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      firmwareAutoDownload: false,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      svr_ota: false,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      currentOTAIndex: 0,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      curCacheBuildNum: 0,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      latest_Bin_File_Length: null,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      latest_firmware_vrs: null,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      age: '',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:      gender: '' },
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   guestDetails: null,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   userToken: '67efc0b5730d58cda241aaef',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   deviceOnOffStatus: true,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   deviceConnnectedStatus: false,
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   associative_devices: [],
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   language: 'English',
+04-04 16:52:02.730 30607 30665 I ReactNativeJS:   guestAssociativeDevices: [] }, undefined, undefined
+04-04 16:52:02.730 30607 30665 I ReactNativeJS: 
+04-04 16:52:02.730 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:2:730 PM ] ', 'Home.js associative_devices ==> ', [], undefined, undefined
+04-04 16:52:02.730 30607 30665 I ReactNativeJS: 'flatListRef.current.scrollToIndex({ index: i })', [TypeError: Cannot read property 'scrollToIndex' of undefined]
+04-04 16:52:02.757 30607 30607 I ReactNative: [GESTURE HANDLER] Tearing down gesture handler registered for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:52:02.758 30607 30607 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{9682b79 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-04 16:52:05.776 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:05.784 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:07.889 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:07.897 30607 30665 I ReactNativeJS: 
+04-04 16:52:07.897 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:7:897 PM ] ', 'INFO', 'GENERAL_INFO', '191', 'Data: undefined'
+04-04 16:52:07.903 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:19.894 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:19.900 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:22.534 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:22.559 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:22.567 30607 30665 I ReactNativeJS: 
+04-04 16:52:22.568 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:22:567 PM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of airplane mode false'
+04-04 16:52:22.575 30607 30665 I ReactNativeJS: 
+04-04 16:52:22.575 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:22:575 PM ] ', 'INFO', 'PERMISSION', '32', 'Verifying the current status of location : "already-enabled"'
+04-04 16:52:22.579 30607 30665 E ReactNativeJS: 'permission', { 'android.permission.BLUETOOTH_SCAN': 'granted',
+04-04 16:52:22.579 30607 30665 E ReactNativeJS:   'android.permission.BLUETOOTH_CONNECT': 'granted',
+04-04 16:52:22.579 30607 30665 E ReactNativeJS:   'android.permission.ACCESS_FINE_LOCATION': 'granted' }
+04-04 16:52:22.580 30607 30665 I ReactNativeJS: 
+04-04 16:52:22.580 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:22:580 PM ] ', 'INFO', 'PERMISSION', '32', 'permission grant of the request: [true]'
+04-04 16:52:22.580 30607 30665 I ReactNativeJS: 
+04-04 16:52:22.580 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:22:580 PM ] ', 'INFO', 'PERMISSION', '32', 'Permission resolved for connectivity'
+04-04 16:52:49.825 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:49.833 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:51.849 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:51.854 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:51.854 30607 30665 I ReactNativeJS: data buffer lenght function called
+04-04 16:52:51.855 30607 30665 I ReactNativeJS: 
+04-04 16:52:51.855 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:52:51:855 PM ] ', 'INFO', 'GENERAL_INFO', '1750', 'Date buffer.length : 0'
+04-04 16:52:51.866 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:51.874 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:56.805 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:56.814 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:58.547 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:52:58.555 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:53:01.052 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:53:01.075 30607 30665 I ReactNativeJS: { showText: false, height: 200 }, { showText: false, height: 200 }
+04-04 16:53:21.512 30607 30665 I ReactNativeJS: 'denied', 'result================>'
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: 
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:53:21:525 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: 
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:53:21:525 PM ] ', 'addEventListener', 'background', undefined, undefined
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: 
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: '[D: 4/4/2025 T: 16:53:21:525 PM ] ', null, 'analytics_Session_data==============>', undefined, undefined
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: 
+04-04 16:53:21.525 30607 30665 I ReactNativeJS: '[D

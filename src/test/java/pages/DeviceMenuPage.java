@@ -639,12 +639,5 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		}
 		
 		
-//		public void takeAppLog() throws FileNotFoundException, IOException {
-//			
-//			Runtime.getRuntime().exec("adb shell rm /storage/emulated/0/Download/*.txt");// to delete all .txt files 
-//		    storeLogToDownloads();
-//		    
-//			String projectRoot = System.getProperty("user.dir");
-//		    Runtime.getRuntime().exec("adb pull /storage/emulated/0/Download/sZephyrLOG.txt "+projectRoot+"/sZephyrLOG.txt");
-//			}
+
 }

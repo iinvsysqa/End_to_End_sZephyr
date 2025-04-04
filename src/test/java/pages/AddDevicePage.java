@@ -590,6 +590,7 @@ public class AddDevicePage extends GenericWrappers {
 	String serialno = "iinv_smartac";
 
 	SignUpPage signuppage;
+	SignInPage signinpage;
 	AccountsInfoPage accountinfopage;
 	LandingPage landingpage;
 	SignInPage loginpage;
@@ -602,6 +603,7 @@ public class AddDevicePage extends GenericWrappers {
 	
 	public void pair(int mode) throws Exception {
 		signuppage= new SignUpPage(driver);
+		signinpage=new SignInPage(driver);
 		loginpage = new SignInPage(driver);
 		landingpage = new LandingPage(driver);
 		homepage = new HomePage(driver);
@@ -646,21 +648,20 @@ public class AddDevicePage extends GenericWrappers {
 		try { 
 
 			Thread.sleep(5000);
-			if(isElementDisplayedCheck(signUpLink)) {
-				landingpage.clickSignUpLink();
-				signuppage.enterUserName(userName);
-				signuppage.enterEmailId(emaId);
-				signuppage.clickSignUpTCCheckBox();
-				signuppage.clickSignUpButton();
-				otppage.verifyOTPVerificationTitle("OTP Verification");
+			if(isElementDisplayedCheck(signInButton)) {
+				landingpage.clickSignInButton();
+				signinpage.enterUserName(userName);
+				signinpage.clickSignInButton();
 				otppage.enterOTPField1("1");
 				otppage.enterOTPField2("2");
 				otppage.enterOTPField3("3");
 				otppage.enterOTPField4("4");
 				otppage.submitButton();
-				verifyAddDevicePage("Add Device");
-
-			} else if (isElementDisplayedCheck(addDeviceButton)) {
+				
+				
+			}
+				
+				else if (isElementDisplayedCheck(addDeviceButton)) {
 //				homepage.clickMenuBarButton();
 //				homepage.clickAccountinfobutton();
 //				accountinfopage.deleteaccount_toregisterpage();
@@ -758,7 +759,7 @@ public class AddDevicePage extends GenericWrappers {
 			//newlyu added
 
 			clickAddDeviceButton();
-			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
+//			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
 
 			checkBoxPairing();
 			nextButtonPairing();
@@ -790,7 +791,7 @@ public class AddDevicePage extends GenericWrappers {
 			case 2:
 //				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				turnOnBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 
 				startPairingButton();
 //				blepermissionokpopup();

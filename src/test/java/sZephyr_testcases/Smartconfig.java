@@ -72,6 +72,8 @@ public class Smartconfig extends MobileAppWrappers {
 			readwrite.write("reboot\r");
 			Thread.sleep(3000);
 			adddevicepage.pair(3);
+			adddevicepage.blepermissionokpopup();
+
 			//sZephyr info page check
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
 			sZephyrinfopage.brandNameCheck("Select Brand");
@@ -172,6 +174,7 @@ public class Smartconfig extends MobileAppWrappers {
 			
 			//Connectivity test
 			killAndReopenApp();
+			adddevicepage.blepermissionokpopup();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			adddevicepage.bleConnectivityCheck();
 			homepage.getCurrentvalue();

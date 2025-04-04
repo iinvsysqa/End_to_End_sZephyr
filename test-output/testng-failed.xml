@@ -3,18 +3,31 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="sZephyr_testcases.Before_pairing">
+=======
       <class name="sZephyr_testcases.Ble_with_router">
+>>>>>>> 280cb9e6d6b4d4e493d06213e7cc378fa733b48b
         <methods>
           <include name="afterMethod"/>
           <include name="afterTest"/>
           <include name="startTestCase"/>
           <include name="afterSuite"/>
+<<<<<<< HEAD
+          <include name="homePageUICheck"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- sZephyr_testcases.Before_pairing -->
+=======
           <include name="beforeTest"/>
           <include name="Blewithrouter_pairing"/>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- sZephyr_testcases.Ble_with_router -->
+>>>>>>> 280cb9e6d6b4d4e493d06213e7cc378fa733b48b
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

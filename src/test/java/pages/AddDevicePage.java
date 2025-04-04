@@ -633,37 +633,8 @@ public class AddDevicePage extends GenericWrappers {
 	public void verifysigninpage() throws Exception {
 
 		// Backgrounds app for 10 seconds
-		homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
-		turnOnBT();
-		/*
-		 * if (isElementDisplayedCheck(blePermissionOkButton)) {
-		 * clickbyXpath(blePermissionOkButton, "Allowing Ble permission pop-up");
-		 * checkappinforeground(); }
-		 */	
-		
-		try {
-			Thread.sleep(5000);
-			if(isElementDisplayedCheck(signInButton)) {
-				landingpage.clickSignInButton();
-				loginpage.enterUserName(userName);
-				loginpage.clickSignInButton();
-				otppage.enterOTPField1("1");
-				otppage.enterOTPField2("2");
-				otppage.enterOTPField3("3");
-				otppage.enterOTPField4("4");
-				otppage.submitButton();
+//		homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 
-			} 
-		} catch (NoSuchElementException e) {
-			// TODO Auto-generated catch block
-			System.out.println("App is already logged in and opening the previous state");
-		}
-	}
-	@Parameters({ "os" })
-	public void verifysigninpageNew() throws Exception {
-
-		// Backgrounds app for 10 seconds
-		homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 
 		turnOnBT();
 		/*
@@ -672,7 +643,8 @@ public class AddDevicePage extends GenericWrappers {
 		 * checkappinforeground(); }
 		 */	
 		
-		try {
+		try { 
+
 			Thread.sleep(5000);
 			if(isElementDisplayedCheck(signUpLink)) {
 				landingpage.clickSignUpLink();
@@ -689,22 +661,24 @@ public class AddDevicePage extends GenericWrappers {
 				verifyAddDevicePage("Add Device");
 
 			} else if (isElementDisplayedCheck(addDeviceButton)) {
-				homepage.clickMenuBarButton();
-				homepage.clickAccountinfobutton();
-				accountinfopage.deleteaccount_toregisterpage();
-				
-				landingpage.clickSignUpLink();
-				signuppage.enterUserName(userName);
-				signuppage.enterEmailId(emaId);
-				signuppage.clickSignUpTCCheckBox();
-				signuppage.clickSignUpButton();
-				otppage.verifyOTPVerificationTitle("OTP Verification");
-				otppage.enterOTPField1("1");
-				otppage.enterOTPField2("2");
-				otppage.enterOTPField3("3");
-				otppage.enterOTPField4("4");
-				otppage.submitButton();
-				verifyAddDevicePage("Add Device");
+//				homepage.clickMenuBarButton();
+//				homepage.clickAccountinfobutton();
+//				accountinfopage.deleteaccount_toregisterpage();
+//				
+//				landingpage.clickSignUpLink();
+//				signuppage.enterUserName(userName);
+//				signuppage.enterEmailId(emaId);
+//				signuppage.clickSignUpTCCheckBox();
+//				signuppage.clickSignUpButton();
+//				otppage.verifyOTPVerificationTitle("OTP Verification");
+//				otppage.enterOTPField1("1");
+//				otppage.enterOTPField2("2");
+//				otppage.enterOTPField3("3");
+//				otppage.enterOTPField4("4");
+//				otppage.submitButton();
+//				verifyAddDevicePage("Add Device");
+				System.out.println("initiatepairing mode");
+
 			}else{
 				homepage.clickMenuBarButtonafterpairing();
 				devicemenupage.clickMenuBarRemoveDevice();
@@ -721,21 +695,22 @@ public class AddDevicePage extends GenericWrappers {
 					clickbyXpath(alertok, "Alert ok button");
 			}
 				
-				homepage.clickMenuBarButton();
-				homepage.clickAccountinfobutton();
-				accountinfopage.deleteaccount_toregisterpage();
-				
-				landingpage.clickSignUpLink();
-				signuppage.enterUserName(userName);
-				signuppage.enterEmailId(emaId);
-				signuppage.clickSignUpTCCheckBox();
-				signuppage.clickSignUpButton();
-				otppage.verifyOTPVerificationTitle("OTP Verification");
-				otppage.enterOTPField1("1");
-				otppage.enterOTPField2("2");
-				otppage.enterOTPField3("3");
-				otppage.enterOTPField4("4");
-				otppage.submitButton();
+//				homepage.clickMenuBarButton();
+//				homepage.clickAccountinfobutton();
+//				accountinfopage.deleteaccount_toregisterpage();
+//				
+//				landingpage.clickSignUpLink();
+//				signuppage.enterUserName(userName);
+//				signuppage.enterEmailId(emaId);
+//				signuppage.clickSignUpTCCheckBox();
+//				signuppage.clickSignUpButton();
+//				otppage.verifyOTPVerificationTitle("OTP Verification");
+//				otppage.enterOTPField1("1");
+//				otppage.enterOTPField2("2");
+//				otppage.enterOTPField3("3");
+//				otppage.enterOTPField4("4");
+//				otppage.submitButton();
+
 				verifyAddDevicePage("Add Device");
 				
 			}
@@ -773,16 +748,26 @@ public class AddDevicePage extends GenericWrappers {
 		
 
 		if (isElementDisplayedCheck(addDeviceButton)) {
+			
+			//newlyu added
+//			removingDevice();
+//			homepage.clickMenuBarButton();
+//			homepage.clickAccountinfobutton();
+//			accountinfopage.deleteaccount_toregisterpage();
+//			signup();
+			//newlyu added
 
 			clickAddDeviceButton();
-//			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
+			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
+
 			checkBoxPairing();
 			nextButtonPairing();
 
 			switch (mode) {
 			case 1:
 				turnOnBT();
-//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+
 				startPairingButton();
 				readwrite.write("factory_reset\r");
 //				blepermissionokpopup();
@@ -791,7 +776,8 @@ public class AddDevicePage extends GenericWrappers {
 
 //				Thread.sleep(3000);
 //				blepermissionokpopup();
-          
+				Thread.sleep(5000);
+
 				clickWifiCancelButton();
 				Thread.sleep(30000);
 				
@@ -802,9 +788,10 @@ public class AddDevicePage extends GenericWrappers {
 				break;
 
 			case 2:
-				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+//				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				turnOnBT();
-//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();
@@ -812,6 +799,7 @@ public class AddDevicePage extends GenericWrappers {
 				readwrite.write("factory_reset\r");
 				blepermissionokpopup();
 				enterWiFiPassword(wifiPassword);
+				Thread.sleep(5000);
 				clickEnterButton();
 				Thread.sleep(30000);
 				if(!isElementDisplayedCheck(sZephyrInfoNextButton))  {
@@ -821,16 +809,18 @@ public class AddDevicePage extends GenericWrappers {
 				break;
 				
 			case 3:
-				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+//				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				readwrite.write("reboot\r");
 				turnOffBT();
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+				readwrite.write("factory_reset\r");
+
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();
 //				nearByPermission();
 
-				readwrite.write("factory_reset\r");
+
 				blepermissionokpopup();
 				Thread.sleep(5000);
 				enterWiFiPassword(wifiPassword);
@@ -851,7 +841,8 @@ public class AddDevicePage extends GenericWrappers {
 				break;
 				
 			case 4:
-				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+//				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+
 				turnOffBT();
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
@@ -867,6 +858,8 @@ public class AddDevicePage extends GenericWrappers {
 				Thread.sleep(1000 * 10 * 3);
 
 				enterWiFiPassword("12345678911");
+				Thread.sleep(5000);
+
 				clickEnterButton();
 
 				Thread.sleep(5*20*1000);
@@ -887,12 +880,15 @@ public class AddDevicePage extends GenericWrappers {
 				break;
 
 			case 5:
-				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+//				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+
 
 				turnOffBT();
 
 				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
+				readwrite.write("factory_reset\r");
+
 
 			    blepermissioncancelpopup();
 //				Thread.sleep(3000);
@@ -908,9 +904,9 @@ public class AddDevicePage extends GenericWrappers {
 //				} else {
 //					System.out.println("Alert pop-up not displayed");
 //				}
-
+			    Thread.sleep(5000);
 				clickWifiCancelButton();
-				readwrite.write("factory_reset\r");
+
 				Thread.sleep(5*20*1000);
 
 				if(!isElementDisplayedCheck(devicewifipop_upOK))  {
@@ -1035,7 +1031,8 @@ public class AddDevicePage extends GenericWrappers {
 		
 	}
 	
-	private void blepermissionokpopup() throws Exception {
+	public void blepermissionokpopup() throws Exception {
+
 		if (isElementDisplayedCheck(BleOKpopup)) {
 			BleOKpopup.click();
 			Thread.sleep(2000);

@@ -1,5 +1,7 @@
 package pages;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -251,6 +253,15 @@ public class DeviceMenuPage extends GenericWrappers{
 	private WebElement defaultHr_Devicesettings;
 	@FindBy(xpath = "//android.widget.EditText[@text=\"20\"]")
 	private WebElement defaultMin_Devicesettings;
+	
+	@FindBy(xpath = "//*[@resource-id='menu_icon_sharelog']")
+	private WebElement shareLogbtn;
+	@FindBy(xpath = "//*[@resource-id='android:id/text1']")
+	private WebElement FTPicon;
+	@FindBy(xpath = "//*[@resource-id='com.alphainventor.filemanager:id/name']")
+	private WebElement FTPDownloads;
+	@FindBy(xpath = "//*[@resource-id='com.alphainventor.filemanager:id/text']")
+	private WebElement FTPsaveBtn;
 	
 	private WebElement devicenameDeviceSettingsPage(String username) {
 		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
@@ -626,4 +637,14 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		public void clickcancel() {
 			clickbyXpath(ClickCancelWifi, "cancelbutton");
 		}
+		
+		
+//		public void takeAppLog() throws FileNotFoundException, IOException {
+//			
+//			Runtime.getRuntime().exec("adb shell rm /storage/emulated/0/Download/*.txt");// to delete all .txt files 
+//		    storeLogToDownloads();
+//		    
+//			String projectRoot = System.getProperty("user.dir");
+//		    Runtime.getRuntime().exec("adb pull /storage/emulated/0/Download/sZephyrLOG.txt "+projectRoot+"/sZephyrLOG.txt");
+//			}
 }

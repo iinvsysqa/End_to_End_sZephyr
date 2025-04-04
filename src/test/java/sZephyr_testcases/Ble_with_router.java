@@ -44,7 +44,7 @@ public class Ble_with_router extends MobileAppWrappers {
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .
 
-		testDescription = "End to End functionality check of Ble with router pairing ";
+		testDescription = "Ble_with_router";
 	}
 
 
@@ -219,7 +219,6 @@ public class Ble_with_router extends MobileAppWrappers {
 			readwrite.closePort();
 		}
 		catch (Exception e) {
-			killAndReopenApp();
 			readwrite.closePort();
 			fail(e);
 		}

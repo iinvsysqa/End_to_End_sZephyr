@@ -44,7 +44,7 @@ public class Before_pairing extends MobileAppWrappers {
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .
 
-		testDescription = "Default contents check of before Login_and_after login check <br>delete account and signup again";
+		testDescription = "Before pairing";
 	}
 
 //Before starting delete your account "testuser007"
@@ -179,7 +179,7 @@ public class Before_pairing extends MobileAppWrappers {
 			readwrite.closePort();
 		}
 		catch (Exception e) {
-			killAndReopenApp();
+			
 			readwrite.closePort();
 			fail(e);
 		}

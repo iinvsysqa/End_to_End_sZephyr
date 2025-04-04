@@ -1,0 +1,115 @@
+--------- beginning of main
+04-03 22:25:34.516 15342 15482 I ReactNativeJS: 'URL MODE==========>', 'STAGING', 'STAGING', 'STAGING'
+04-03 22:25:34.522 15342 15482 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+04-03 22:25:34.522 15342 15482 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+04-03 22:25:34.526 15342 15482 I ReactNativeJS: 'PRODUCT_ID FROM PACKAGE NAME:', '6'
+04-03 22:25:34.534 15342 15482 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+04-03 22:25:34.534 15342 15482 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+04-03 22:25:34.538 15342 15482 I ReactNativeJS: 2
+04-03 22:25:34.551 15342 15482 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+04-03 22:25:34.551 15342 15482 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+04-03 22:25:34.607 15342 15482 I ReactNativeJS: Running "Geezer
+04-03 22:25:34.612 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.612 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:612 PM ] ', 'Application URL config====>', 'https://ftp.iinvsys.com:55576/core1/sac/', undefined, undefined
+04-03 22:25:34.620 15342 15482 I ReactNativeJS: 'Error during log append:', [Error: ENOENT: /data/user/0/com.iinvsys.szephyr/files/sZephyrLOG.txt: open failed: ENOENT (No such file or directory), open '/data/user/0/com.iinvsys.szephyr/files/sZephyrLOG.txt']
+04-03 22:25:34.628 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.628 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:628 PM ] ', 'INFO', 'GENERAL_INFO', '267', 'Data: FCM-TOKEN Created fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-03 22:25:34.628 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.628 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:628 PM ] ', 'INFO', 'GENERAL_INFO', '268', 'Data: FCM-TOKEN Type string'
+04-03 22:25:34.628 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.628 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:628 PM ] ', 'INFO', 'GENERAL_INFO', '269', 'Data: Stored FCM-TOKEN Locally Success fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-03 22:25:34.637 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.637 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:637 PM ] ', 'network state', true, { details: 
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:    { isConnectionExpensive: false,
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:      subnet: '255.255.255.0',
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:      ipAddress: '192.168.1.118',
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:      frequency: 2427,
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:      strength: 99,
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:      bssid: '40:3f:8c:b7:6d:38',
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:      ssid: 'TP-Link_6D38_With_Internet' },
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:   isConnected: true,
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:   type: 'wifi',
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:   isInternetReachable: true,
+04-03 22:25:34.637 15342 15482 I ReactNativeJS:   isWifiEnabled: true }, undefined
+04-03 22:25:34.639 15342 15482 I ReactNativeJS: 'BLE_MTU_SIZE inside fetch', null, 'object'
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:648 PM ] ', 'Guest associative device data ====> ', null, null, null
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: 
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:25:34:648 PM ] ', 'app.js else block line 565, userToken != null', undefined, undefined, undefined
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: 3
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: 'RETRIEVE_TOKEN', { isLoading: true,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   userDetails: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   guestDetails: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   userToken: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   deviceOnOffStatus: true,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   deviceConnnectedStatus: false,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   associative_devices: [],
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   language: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   guestAssociativeDevices: [] }
+04-03 22:25:34.648 15342 15482 I ReactNativeJS: 'RETRIEVE_TOKEN==================================>', { type: 'RETRIEVE_TOKEN',
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   details: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   token: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   guestDetails: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   associative_devices: null,
+04-03 22:25:34.648 15342 15482 I ReactNativeJS:   language: 'English' }
+04-03 22:25:34.782 15342 15482 I ReactNativeJS: Page landing into welcome screen
+04-03 22:25:34.805 15342 15342 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{6b70635 V.E...... .......D 0,0-1080,2219 #b aid=1073741830}
+04-03 22:26:11.466 15342 15482 I ReactNativeJS: 
+04-03 22:26:11.466 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:26:11:466 PM ] ', 'INFO', 'API', '271', 'SEND API_ID: 201 Data: register API payload {"UserName":"testuser002","EmailId":"testuser002@gmail.com","MobileNumber":""}'
+04-03 22:26:11.694 15342 15482 I ReactNativeJS: 
+04-03 22:26:11.694 15342 15482 I ReactNativeJS: '[D: 3/4/2025 T: 22:26:11:694 PM ] ', 'INFO', 'API', '271', 'RECV API_ID: 201 Data: register API response {"status":"failed","message":"Username and Email ID both are already exists"}'
+04-03 22:27:10.964 15863 15926 I ReactNativeJS: 'URL MODE==========>', 'STAGING', 'STAGING', 'STAGING'
+04-03 22:27:10.970 15863 15926 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+04-03 22:27:10.970 15863 15926 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+04-03 22:27:10.975 15863 15926 I ReactNativeJS: 'PRODUCT_ID FROM PACKAGE NAME:', '6'
+04-03 22:27:10.983 15863 15926 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+04-03 22:27:10.984 15863 15926 E ReactNativeJS: ViewPropTypes will be removed from React Native, along with all other PropTypes. We recommend that you migrate away from PropTypes and switch to a type system like TypeScript. If you need to continue using ViewPropTypes, migrate to the 'deprecated-react-native-prop-types' package.
+04-03 22:27:10.988 15863 15926 I ReactNativeJS: 2
+04-03 22:27:11.001 15863 15926 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `addListener` method.
+04-03 22:27:11.001 15863 15926 W ReactNativeJS: `new NativeEventEmitter()` was called with a non-null argument without the required `removeListeners` method.
+04-03 22:27:11.053 15863 15926 I ReactNativeJS: Running "Geezer
+04-03 22:27:11.058 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.058 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:58 PM ] ', 'Application URL config====>', 'https://ftp.iinvsys.com:55576/core1/sac/', undefined, undefined
+04-03 22:27:11.066 15863 15926 I ReactNativeJS: 'Error during log append:', [Error: ENOENT: /data/user/0/com.iinvsys.szephyr/files/sZephyrLOG.txt: open failed: ENOENT (No such file or directory), open '/data/user/0/com.iinvsys.szephyr/files/sZephyrLOG.txt']
+04-03 22:27:11.072 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.072 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:72 PM ] ', 'network state', true, { details: 
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:    { isConnectionExpensive: false,
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:      subnet: '255.255.255.0',
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:      ipAddress: '192.168.1.118',
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:      frequency: 2427,
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:      strength: 99,
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:      bssid: '40:3f:8c:b7:6d:38',
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:      ssid: 'TP-Link_6D38_With_Internet' },
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:   isConnected: true,
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:   type: 'wifi',
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:   isInternetReachable: true,
+04-03 22:27:11.072 15863 15926 I ReactNativeJS:   isWifiEnabled: true }, undefined
+04-03 22:27:11.073 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.075 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:73 PM ] ', 'INFO', 'GENERAL_INFO', '267', 'Data: FCM-TOKEN Created fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-03 22:27:11.075 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.076 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:75 PM ] ', 'INFO', 'GENERAL_INFO', '268', 'Data: FCM-TOKEN Type string'
+04-03 22:27:11.076 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.076 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:76 PM ] ', 'INFO', 'GENERAL_INFO', '269', 'Data: Stored FCM-TOKEN Locally Success fLvi3FkNTo6l04F27TWotf:APA91bHA403mDmEDGv-Va4Ce0LOikdLlShhZtJ2Oz3Cq24iki-HMhPte9hOPR5XWqpvS9_d4n9YljFa2n3eQVvvCNzL_WGSDfsfhWbKml-jcDkwa-S24RY8'
+04-03 22:27:11.078 15863 15926 I ReactNativeJS: 'BLE_MTU_SIZE inside fetch', null, 'object'
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:88 PM ] ', 'Guest associative device data ====> ', null, null, null
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: 
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: '[D: 3/4/2025 T: 22:27:11:88 PM ] ', 'app.js else block line 565, userToken != null', undefined, undefined, undefined
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: 3
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: 'RETRIEVE_TOKEN', { isLoading: true,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   userDetails: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   guestDetails: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   userToken: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   deviceOnOffStatus: true,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   deviceConnnectedStatus: false,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   associative_devices: [],
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   language: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   guestAssociativeDevices: [] }
+04-03 22:27:11.088 15863 15926 I ReactNativeJS: 'RETRIEVE_TOKEN==================================>', { type: 'RETRIEVE_TOKEN',
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   details: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   token: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   guestDetails: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   associative_devices: null,
+04-03 22:27:11.088 15863 15926 I ReactNativeJS:   language: 'English' }
+04-03 22:27:11.222 15863 15926 I ReactNativeJS: Page landing into welcome screen
+04-03 22:27:11.241 15863 15863 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view com.facebook.react.ReactRootView{5

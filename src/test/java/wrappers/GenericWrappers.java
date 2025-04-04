@@ -17,7 +17,12 @@ import java.util.Properties;
 import java.util.Random;
 import javax.imageio.ImageIO;
 import java.awt.Image;
-
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
@@ -946,6 +951,21 @@ public class GenericWrappers {
 			return false;
 		}
 
+	}
+	
+	public void takeAppLog() throws FileNotFoundException, IOException {
+		
+		  Runtime.getRuntime().exec("adb shell am start -a alphainventor.filemanager");
+		  String logsFilePath = "/data/data/com.example/files/logs.txt";  // Example file path inside app's sandbox
+		  byte[] logFileBytes = driver.pullFile(logsFilePath);  // Pull the file from the device
+
+          // Write the byte array to a local file
+          File localFile = new File("logs.txt");  // Local file where we will save the logs
+          try (FileOutputStream fos = new FileOutputStream(localFile)) {
+              fos.write(logFileBytes);  // Write the byte array content to the file
+          }
+
+          System.out.println("Log file saved to " + localFile.getAbsolutePath());
 	}
 	
 	

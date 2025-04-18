@@ -113,12 +113,12 @@ public class GenericWrappers {
 			}
 
 			if (driver.isAppInstalled(appPackage)) {
-				Reporter.reportStep("The app:" + appPackage + " launched successfully", "PASS");
+				//Reporter.reportStep("The app:" + appPackage + " launched successfully", "PASS");
 			} else {
 				Reporter.reportStep("The app:" + appPackage + " not launched", "FAIL");
 
 			}
-			Reporter.reportStep("App opened successfully", "INFO");
+			//Reporter.reportStep("App opened successfully", "INFO");
 			driver.executeScript("mobile: shell",
 					ImmutableMap.of("command", "pm grant com.iinvsys.szephyr android.permission.ACCESS_FINE_LOCATION"));
 			driver.executeScript("mobile: shell",

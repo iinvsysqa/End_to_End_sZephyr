@@ -28,7 +28,7 @@ public class StoreLogPage extends GenericWrappers{
 		private WebElement FTPDownloads;
 		@FindBy(xpath = "//android.widget.TextView[@resource-id=\"com.alphainventor.filemanager:id/text\" and @text=\"Save\"]")
 		private WebElement FTPsaveBtn;
-		@FindBy(xpath = "//*[@resource-id='Options_Icon']")
+		@FindBy(xpath = "//*[@resource-id='menu_bar']")
 		private WebElement menuBarButton;
 		
 		public void storeLogToDownloads() {

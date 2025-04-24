@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -276,7 +277,12 @@ public class Schedularpage extends GenericWrappers {
 				} else {
 					// Scroll backward (expected value is smaller)
 					System.out.println("Scrolling backward for: " + resourceId);
-					swipeElement(xpath, false);
+					if (Integer.parseInt(expectedValue)<=5) {
+						fastswipe(xpath, false);
+					}else {
+						
+						swipeElement(xpath, false);
+					}
 				}
 			}
 			
@@ -438,7 +444,7 @@ public class Schedularpage extends GenericWrappers {
 	public void deleteschedule() {
 
 		try {
-
+			scroll2();
 			while (createdSchedule.isDisplayed()) {
 
 				clickbyXpath(createdSchedule, "created schedules");
@@ -495,6 +501,43 @@ public class Schedularpage extends GenericWrappers {
 		driver.perform(Arrays.asList(swipe));
 	}
 	
+	private void fastswipe(String columnXPath, boolean forward) {
+
+		WebElement columnElement = driver.findElement(By.xpath(columnXPath));
+
+		// Get the location and size of the column
+		int columnCenterX = columnElement.getLocation().getX() + (columnElement.getSize().getWidth() / 2);
+		int startY = forward ? columnElement.getLocation().getY() + (int) (columnElement.getSize().getHeight() * 0.6) // Swipe
+																														// up
+																														// if
+																														// forward
+				: columnElement.getLocation().getY() + (int) (columnElement.getSize().getHeight() * 0.2); // Swipe down
+																											// if
+																											// backward
+		int endY = forward ? columnElement.getLocation().getY() + (int) (columnElement.getSize().getHeight() * 0.2) // End
+																													// at
+																													// top
+																													// for
+																													// forward
+																													// swipe
+				: columnElement.getLocation().getY() + (int) (columnElement.getSize().getHeight() * 0.6); // End at
+																											// bottom
+																											// for
+																											// backward
+																											// swipe
+
+		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+		Sequence swipe = new Sequence(finger, 1)
+				.addAction(
+						finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), columnCenterX, startY))
+				.addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg())).addAction(finger
+						.createPointerMove(Duration.ofMillis(50), PointerInput.Origin.viewport(), columnCenterX, endY))
+				.addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+
+//		driver.perform(Arrays.asList(swipe));
+		driver.perform(Collections.singletonList(swipe));
+	
+	}
 	public void checkOffState() {
 
 		verifyTextContainsByXpath(acturnoffdesc, "Please ensure sZephyr is switched ON prior to operating your AC remote", "OFF state");

@@ -858,7 +858,7 @@ public class AddDevicePage extends GenericWrappers {
 
 				Thread.sleep(1000 * 10 * 3);
 
-				enterWiFiPassword("12345678911");
+				enterWiFiPassword(wifiPassword);
 				Thread.sleep(5000);
 
 				clickEnterButton();

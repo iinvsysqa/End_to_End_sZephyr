@@ -108,7 +108,7 @@ public class MobileAppWrappers extends GenericWrappers {
 
 			// Local log files
 			String appLogPath = "./sZephyrLOG.txt";
-			String deviceLogPath = "./serial_log.txt";
+			String deviceLogPath = "./device.log";
 
 			// FTP paths
 			String existingDirectory = "/Internal_Project/FULL_VALIDATION_PACKAGES_LOGS/LOGS/2024/Automation_Logs/";

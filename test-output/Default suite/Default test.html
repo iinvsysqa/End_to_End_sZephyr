@@ -55,17 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<<<<<<< HEAD
-<td>Started on:</td><td>Thu Jun 05 19:58:46 IST 2025</td>
+<td>Started on:</td><td>Thu Jun 05 20:47:24 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>596 seconds (596062 ms)</td>
-=======
-<td>Started on:</td><td>Fri Apr 18 15:12:09 IST 2025</td>
-</tr>
-<tr><td>Total time:</td><td>114 seconds (114685 ms)</td>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+<tr><td>Total time:</td><td>7 seconds (7822 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -74,9 +68,6 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<<<<<<< HEAD
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-=======
 <tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
@@ -85,17 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='sZephyr_testcases.Schedule.afterMethod()'><b>afterMethod</b><br>Test class: sZephyr_testcases.Schedule</td>
+<td title='sZephyr_testcases.Before_pairing.afterMethod()'><b>afterMethod</b><br>Test class: sZephyr_testcases.Before_pairing</td>
 <td><div><pre>java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:50)
-	at wrappers.GenericWrappers.clickbyXpath(GenericWrappers.java:147)
-	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:37)
+	at wrappers.GenericWrappers.killAndReopenApp(GenericWrappers.java:409)
+	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:35)
 	at pages.StoreLogPage.takeAppLog(StoreLogPage.java:50)
 	at wrappers.MobileAppWrappers.afterMethod(MobileAppWrappers.java:103)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
@@ -109,7 +98,7 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
 	at org.testng.TestRunner.run(TestRunner.java:619)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -123,19 +112,17 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace851033362", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace851033362'><pre>java.lang.RuntimeException: FAILED
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace887230059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace887230059'><pre>java.lang.RuntimeException: FAILED
 	at utils.Reporter.reportStep(Reporter.java:50)
-	at wrappers.GenericWrappers.clickbyXpath(GenericWrappers.java:147)
-	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:37)
+	at wrappers.GenericWrappers.killAndReopenApp(GenericWrappers.java:409)
+	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:35)
 	at pages.StoreLogPage.takeAppLog(StoreLogPage.java:50)
 	at wrappers.MobileAppWrappers.afterMethod(MobileAppWrappers.java:103)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
@@ -149,7 +136,7 @@ function toggleAllBoxes() {
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
 	at org.testng.TestRunner.run(TestRunner.java:619)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -163,15 +150,14 @@ function toggleAllBoxes() {
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>40</td>
-<td>sZephyr_testcases.Schedule@568ff82</td></tr>
+<td>0</td>
+<td>sZephyr_testcases.Before_pairing@700fb871</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -179,15 +165,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='sZephyr_testcases.Smartconfig.Smartconfig_pairing()'><b>Smartconfig_pairing</b><br>Test class: sZephyr_testcases.Smartconfig</td>
-<td><div><pre>java.lang.IllegalArgumentException: ScreenCapture&apos;s base64 string must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:44)
-	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:52)
-	at utils.Reporter.reportStep(Reporter.java:49)
-	at wrappers.GenericWrappers.fail(GenericWrappers.java:829)
-	at sZephyr_testcases.Smartconfig.Smartconfig_pairing(Smartconfig.java:229)
+<td title='sZephyr_testcases.Before_pairing.homePageUICheck()'><b>homePageUICheck</b><br>Test class: sZephyr_testcases.Before_pairing</td>
+<td><div><pre>java.lang.NullPointerException: null value in entry: bundleId=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:176)
+	at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:285)
+	at io.appium.java_client.MobileCommand.prepareArguments(MobileCommand.java:359)
+	at io.appium.java_client.InteractsWithApps.isAppInstalled(InteractsWithApps.java:86)
+	at wrappers.GenericWrappers.initAndriodDriver(GenericWrappers.java:106)
+	at sZephyr_testcases.Before_pairing.homePageUICheck(Before_pairing.java:53)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -214,14 +200,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace950625683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace950625683'><pre>java.lang.IllegalArgumentException: ScreenCapture&apos;s base64 string must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:44)
-	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:52)
-	at utils.Reporter.reportStep(Reporter.java:49)
-	at wrappers.GenericWrappers.fail(GenericWrappers.java:829)
-	at sZephyr_testcases.Smartconfig.Smartconfig_pairing(Smartconfig.java:229)
+</pre></div><a href='#' onClick='toggleBox("stack-trace607526140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace607526140'><pre>java.lang.NullPointerException: null value in entry: bundleId=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:176)
+	at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:285)
+	at io.appium.java_client.MobileCommand.prepareArguments(MobileCommand.java:359)
+	at io.appium.java_client.InteractsWithApps.isAppInstalled(InteractsWithApps.java:86)
+	at wrappers.GenericWrappers.initAndriodDriver(GenericWrappers.java:106)
+	at sZephyr_testcases.Before_pairing.homePageUICheck(Before_pairing.java:53)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -249,14 +236,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>589</td>
-<td>sZephyr_testcases.Smartconfig@2d29b4ee</td></tr>
-=======
-<td title='sZephyr_testcases.Schedule.Smartconfig_pairing()'><b>Smartconfig_pairing</b><br>Test class: sZephyr_testcases.Schedule</td>
-<td></td>
-<td>74</td>
-<td>sZephyr_testcases.Schedule@568ff82</td></tr>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+<td>7</td>
+<td>sZephyr_testcases.Before_pairing@700fb871</td></tr>
 </table><p>
 </body>
 </html>

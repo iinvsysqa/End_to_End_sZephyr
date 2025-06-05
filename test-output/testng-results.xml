@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-06-05T19:58:46 IST" name="Default suite" finished-at="2025-06-05T20:08:42 IST" duration-ms="596062">
+  <suite started-at="2025-06-05T20:47:24 IST" name="Default suite" finished-at="2025-06-05T20:47:31 IST" duration-ms="7822">
     <groups>
     </groups>
-    <test started-at="2025-06-05T19:58:46 IST" name="Default test" finished-at="2025-06-05T20:08:42 IST" duration-ms="596062">
-      <class name="sZephyr_testcases.Smartconfig">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T19:58:45 IST" name="beforeSuite" finished-at="2025-06-05T19:58:46 IST" duration-ms="273" status="PASS">
+    <test started-at="2025-06-05T20:47:24 IST" name="Default test" finished-at="2025-06-05T20:47:31 IST" duration-ms="7822">
+      <class name="sZephyr_testcases.Before_pairing">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:23 IST" name="beforeSuite" finished-at="2025-06-05T20:47:24 IST" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T19:58:46 IST" name="beforeTest" finished-at="2025-06-05T19:58:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="beforeTest" finished-at="2025-06-05T20:47:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T19:58:46 IST" name="startTestCase" finished-at="2025-06-05T19:58:46 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="startTestCase" finished-at="2025-06-05T20:47:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T19:58:46 IST" name="beforeMethod" finished-at="2025-06-05T19:58:46 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="beforeMethod" finished-at="2025-06-05T20:47:24 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Smartconfig_pairing()[pri:3, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T19:58:46 IST" name="Smartconfig_pairing" finished-at="2025-06-05T20:08:35 IST" duration-ms="589401" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="homePageUICheck()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="homePageUICheck" finished-at="2025-06-05T20:47:31 IST" duration-ms="7232" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[ScreenCapture's base64 string must not be null or empty]]>
+              <![CDATA[null value in entry: bundleId=null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: ScreenCapture's base64 string must not be null or empty
-at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:44)
-at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:52)
-at utils.Reporter.reportStep(Reporter.java:49)
-at wrappers.GenericWrappers.fail(GenericWrappers.java:829)
-at sZephyr_testcases.Smartconfig.Smartconfig_pairing(Smartconfig.java:229)
+              <![CDATA[java.lang.NullPointerException: null value in entry: bundleId=null
+at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:176)
+at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:285)
+at io.appium.java_client.MobileCommand.prepareArguments(MobileCommand.java:359)
+at io.appium.java_client.InteractsWithApps.isAppInstalled(InteractsWithApps.java:86)
+at wrappers.GenericWrappers.initAndriodDriver(GenericWrappers.java:106)
+at sZephyr_testcases.Before_pairing.homePageUICheck(Before_pairing.java:53)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -65,50 +65,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Smartconfig_pairing -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T20:08:35 IST" name="afterMethod" finished-at="2025-06-05T20:08:42 IST" duration-ms="6631" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T20:08:42 IST" name="afterTest" finished-at="2025-06-05T20:08:42 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sZephyr_testcases.Smartconfig@2d29b4ee]" started-at="2025-06-05T20:08:42 IST" name="afterSuite" finished-at="2025-06-05T20:08:42 IST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- sZephyr_testcases.Smartconfig -->
-=======
-  <suite started-at="2025-04-18T15:12:09 IST" name="Default suite" finished-at="2025-04-18T15:14:03 IST" duration-ms="114685">
-    <groups>
-    </groups>
-    <test started-at="2025-04-18T15:12:09 IST" name="Default test" finished-at="2025-04-18T15:14:03 IST" duration-ms="114685">
-      <class name="sZephyr_testcases.Schedule">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:12:08 IST" name="beforeSuite" finished-at="2025-04-18T15:12:09 IST" duration-ms="746" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:12:09 IST" name="beforeTest" finished-at="2025-04-18T15:12:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:12:09 IST" name="startTestCase" finished-at="2025-04-18T15:12:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTestCase -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:12:09 IST" name="beforeMethod" finished-at="2025-04-18T15:12:09 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Smartconfig_pairing()[pri:3, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:12:09 IST" name="Smartconfig_pairing" finished-at="2025-04-18T15:13:23 IST" duration-ms="74389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Smartconfig_pairing -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:13:23 IST" name="afterMethod" finished-at="2025-04-18T15:14:03 IST" duration-ms="40177" status="FAIL">
+        </test-method> <!-- homePageUICheck -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:31 IST" name="afterMethod" finished-at="2025-06-05T20:47:31 IST" duration-ms="559" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[FAILED]]>
@@ -116,14 +77,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: FAILED
 at utils.Reporter.reportStep(Reporter.java:50)
-at wrappers.GenericWrappers.clickbyXpath(GenericWrappers.java:147)
-at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:37)
+at wrappers.GenericWrappers.killAndReopenApp(GenericWrappers.java:409)
+at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:35)
 at pages.StoreLogPage.takeAppLog(StoreLogPage.java:50)
 at wrappers.MobileAppWrappers.afterMethod(MobileAppWrappers.java:103)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
@@ -137,7 +96,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -151,24 +110,23 @@ at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
 at org.testng.TestNG.runSuites(TestNG.java:1134)
 at org.testng.TestNG.run(TestNG.java:1101)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:14:03 IST" name="afterTest" finished-at="2025-04-18T15:14:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:31 IST" name="afterTest" finished-at="2025-06-05T20:47:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sZephyr_testcases.Schedule@568ff82]" started-at="2025-04-18T15:14:03 IST" name="afterSuite" finished-at="2025-04-18T15:14:04 IST" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:32 IST" name="afterSuite" finished-at="2025-06-05T20:47:32 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- sZephyr_testcases.Schedule -->
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+      </class> <!-- sZephyr_testcases.Before_pairing -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,11 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-<<<<<<< HEAD
-                    <span>C:\Users\QA Automation\AppData\Local\Temp\testng-eclipse--1451969567\testng-customsuite.xml</span>
-=======
-                    <span>C:\Users\Invcuser_106\AppData\Local\Temp\testng-eclipse--1154486236\testng-customsuite.xml</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+                    <span>C:\Users\QA Automation\AppData\Local\Temp\testng-eclipse-1855503236\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -96,26 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-<<<<<<< HEAD
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="sZephyr_testcases.Smartconfig" class="method navigator-link" hash-for-method="Smartconfig_pairing">Smartconfig_pairing</a> <!-- method navigator-link -->
-=======
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="sZephyr_testcases.Schedule" class="method navigator-link" hash-for-method="Smartconfig_pairing">Smartconfig_pairing</a> <!-- method navigator-link -->
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+                        <a href="#" panel-name="suite-Default_suite" title="sZephyr_testcases.Before_pairing" class="method navigator-link" hash-for-method="homePageUICheck">homePageUICheck</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -127,30 +118,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-<<<<<<< HEAD
               <img src="failed.png"/>
-              <span class="class-name">sZephyr_testcases.Smartconfig</span>
-=======
-              <img src="passed.png"/>
-              <span class="class-name">sZephyr_testcases.Schedule</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+              <span class="class-name">sZephyr_testcases.Before_pairing</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Smartconfig_pairing">
-                  </a> <!-- Smartconfig_pairing -->
-                  <span class="method-name">Smartconfig_pairing</span>
-<<<<<<< HEAD
-                  <div class="stack-trace">java.lang.IllegalArgumentException: ScreenCapture&apos;s base64 string must not be null or empty
-	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
-	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:44)
-	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:52)
-	at utils.Reporter.reportStep(Reporter.java:49)
-	at wrappers.GenericWrappers.fail(GenericWrappers.java:829)
-	at sZephyr_testcases.Smartconfig.Smartconfig_pairing(Smartconfig.java:229)
+                  <a name="homePageUICheck">
+                  </a> <!-- homePageUICheck -->
+                  <span class="method-name">homePageUICheck</span>
+                  <div class="stack-trace">java.lang.NullPointerException: null value in entry: bundleId=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
+	at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:176)
+	at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:285)
+	at io.appium.java_client.MobileCommand.prepareArguments(MobileCommand.java:359)
+	at io.appium.java_client.InteractsWithApps.isAppInstalled(InteractsWithApps.java:86)
+	at wrappers.GenericWrappers.initAndriodDriver(GenericWrappers.java:106)
+	at sZephyr_testcases.Before_pairing.homePageUICheck(Before_pairing.java:53)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -179,20 +165,14 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 
 </div> <!-- stack-trace -->
-=======
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
+          </div> <!-- suite-Default_suite-class-failed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-<<<<<<< HEAD
-            <span class="header-content">C:\Users\QA Automation\AppData\Local\Temp\testng-eclipse--1451969567\testng-customsuite.xml</span>
-=======
-            <span class="header-content">C:\Users\Invcuser_106\AppData\Local\Temp\testng-eclipse--1154486236\testng-customsuite.xml</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+            <span class="header-content">C:\Users\QA Automation\AppData\Local\Temp\testng-eclipse-1855503236\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -201,11 +181,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-<<<<<<< HEAD
-      &lt;class name=&quot;sZephyr_testcases.Smartconfig&quot;/&gt;
-=======
-      &lt;class name=&quot;sZephyr_testcases.Schedule&quot;/&gt;
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+      &lt;class name=&quot;sZephyr_testcases.Before_pairing&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;homePageUICheck&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- sZephyr_testcases.Before_pairing --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -247,23 +227,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Smartconfig_pairing')
-<<<<<<< HEAD
-data.setCell(0, 2, 'sZephyr_testcases.Smartconfig')
-data.setCell(0, 3, 589401);
-=======
-data.setCell(0, 2, 'sZephyr_testcases.Schedule')
-data.setCell(0, 3, 74389);
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+data.setCell(0, 1, 'homePageUICheck')
+data.setCell(0, 2, 'sZephyr_testcases.Before_pairing')
+data.setCell(0, 3, 7232);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-<<<<<<< HEAD
-              <span class="suite-total-time">Total running time: 9 minutes</span>
-=======
-              <span class="suite-total-time">Total running time: 1 minutes</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -289,69 +260,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-<<<<<<< HEAD
-              <div class="chronological-class-name">sZephyr_testcases.Smartconfig</div> <!-- chronological-class-name -->
-=======
-              <div class="chronological-class-name">sZephyr_testcases.Schedule</div> <!-- chronological-class-name -->
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+              <div class="chronological-class-name">sZephyr_testcases.Before_pairing</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-<<<<<<< HEAD
-                <span class="method-start">279 ms</span>
+                <span class="method-start">269 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">startTestCase</span>
-                <span class="method-start">290 ms</span>
-=======
-                <span class="method-start">776 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">startTestCase</span>
-                <span class="method-start">817 ms</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+                <span class="method-start">278 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">841 ms</span>
+                <span class="method-start">285 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-<<<<<<< HEAD
                 <img src="failed.png">
                 </img>
-                <span class="method-name">Smartconfig_pairing</span>
-                <span class="method-start">300 ms</span>
-=======
-                <span class="method-name">Smartconfig_pairing</span>
-                <span class="method-start">859 ms</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+                <span class="method-name">homePageUICheck</span>
+                <span class="method-start">289 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">afterMethod</span>
-<<<<<<< HEAD
-                <span class="method-start">589704 ms</span>
+                <span class="method-start">7524 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">596337 ms</span>
+                <span class="method-start">8086 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">596356 ms</span>
-=======
-                <span class="method-start">75253 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">115435 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">afterSuite</span>
-                <span class="method-start">115507 ms</span>
->>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
+                <span class="method-start">8111 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

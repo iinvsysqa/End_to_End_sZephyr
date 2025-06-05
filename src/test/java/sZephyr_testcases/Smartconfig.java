@@ -39,7 +39,7 @@ public class Smartconfig extends MobileAppWrappers {
 	
 	@BeforeClass
 	public void startTestCase() {
-		testCaseName = "End to End functionality check of Ble without router pairing ";
+		testCaseName = "End to End functionality check of Smartconfig pairing ";
 		//check login username and Accounts info username are same or not 
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .

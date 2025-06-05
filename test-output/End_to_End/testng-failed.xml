@@ -3,18 +3,6 @@
 <suite name="Failed suite [End_to_End]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sZephyr_testcases.Smartconfig">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="afterSuite"/>
-          <include name="startTestCase"/>
-          <include name="beforeTest"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuite"/>
-          <include name="Smartconfig_pairing"/>
-        </methods>
-      </class> <!-- sZephyr_testcases.Smartconfig -->
       <class name="sZephyr_testcases.Ble_without_router">
         <methods>
           <include name="afterMethod"/>
@@ -27,18 +15,6 @@
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- sZephyr_testcases.Ble_without_router -->
-      <class name="sZephyr_testcases.Before_pairing">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="startTestCase"/>
-          <include name="afterSuite"/>
-          <include name="homePageUICheck"/>
-          <include name="beforeTest"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- sZephyr_testcases.Before_pairing -->
       <class name="sZephyr_testcases.Ble_with_router">
         <methods>
           <include name="afterMethod"/>

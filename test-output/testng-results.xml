@@ -1,42 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-05T20:47:24 IST" name="Default suite" finished-at="2025-06-05T20:47:31 IST" duration-ms="7822">
+  <suite started-at="2025-06-05T20:57:16 IST" name="End_to_End" finished-at="2025-06-05T21:37:08 IST" duration-ms="2392299">
     <groups>
     </groups>
-    <test started-at="2025-06-05T20:47:24 IST" name="Default test" finished-at="2025-06-05T20:47:31 IST" duration-ms="7822">
-      <class name="sZephyr_testcases.Before_pairing">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:23 IST" name="beforeSuite" finished-at="2025-06-05T20:47:24 IST" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="beforeTest" finished-at="2025-06-05T20:47:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="startTestCase" finished-at="2025-06-05T20:47:24 IST" duration-ms="1" status="PASS">
+    <test started-at="2025-06-05T20:57:16 IST" name="Default test" finished-at="2025-06-05T21:37:08 IST" duration-ms="2392299">
+      <class name="sZephyr_testcases.Ble_with_router">
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Ble_with_router@6cc4cdb9]" started-at="2025-06-05T21:10:24 IST" name="startTestCase" finished-at="2025-06-05T21:10:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="beforeMethod" finished-at="2025-06-05T20:47:24 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="homePageUICheck()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:24 IST" name="homePageUICheck" finished-at="2025-06-05T20:47:31 IST" duration-ms="7232" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="Blewithrouter_pairing()[pri:2, instance:sZephyr_testcases.Ble_with_router@6cc4cdb9]" started-at="2025-06-05T21:10:24 IST" name="Blewithrouter_pairing" finished-at="2025-06-05T21:17:47 IST" duration-ms="442655" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[null value in entry: bundleId=null]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: null value in entry: bundleId=null
-at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-at com.google.common.collect.ImmutableMap.entryOf(ImmutableMap.java:176)
-at com.google.common.collect.ImmutableMap$Builder.put(ImmutableMap.java:285)
-at io.appium.java_client.MobileCommand.prepareArguments(MobileCommand.java:359)
-at io.appium.java_client.InteractsWithApps.isAppInstalled(InteractsWithApps.java:86)
-at wrappers.GenericWrappers.initAndriodDriver(GenericWrappers.java:106)
-at sZephyr_testcases.Before_pairing.homePageUICheck(Before_pairing.java:53)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at pages.Szephyr_info_Page.Roomsizecheck(Szephyr_info_Page.java:168)
+at sZephyr_testcases.Ble_with_router.Blewithrouter_pairing(Ble_with_router.java:85)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -65,11 +50,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageUICheck -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:31 IST" name="afterMethod" finished-at="2025-06-05T20:47:31 IST" duration-ms="559" status="FAIL">
+        </test-method> <!-- Blewithrouter_pairing -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Ble_with_router@6cc4cdb9]" started-at="2025-06-05T21:10:24 IST" name="beforeMethod" finished-at="2025-06-05T21:10:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Ble_with_router@6cc4cdb9]" started-at="2025-06-05T21:17:47 IST" name="afterMethod" finished-at="2025-06-05T21:18:08 IST" duration-ms="21157" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[FAILED]]>
@@ -77,8 +66,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <full-stacktrace>
               <![CDATA[java.lang.RuntimeException: FAILED
 at utils.Reporter.reportStep(Reporter.java:50)
-at wrappers.GenericWrappers.killAndReopenApp(GenericWrappers.java:409)
-at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:35)
+at wrappers.GenericWrappers.clickbyXpath(GenericWrappers.java:147)
+at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:37)
 at pages.StoreLogPage.takeAppLog(StoreLogPage.java:50)
 at wrappers.MobileAppWrappers.afterMethod(MobileAppWrappers.java:103)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -118,15 +107,115 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:31 IST" name="afterTest" finished-at="2025-06-05T20:47:31 IST" duration-ms="0" status="PASS">
+      </class> <!-- sZephyr_testcases.Ble_with_router -->
+      <class name="sZephyr_testcases.Before_pairing">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T20:57:15 IST" name="beforeSuite" finished-at="2025-06-05T20:57:16 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T20:57:16 IST" name="beforeTest" finished-at="2025-06-05T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T20:57:16 IST" name="startTestCase" finished-at="2025-06-05T20:57:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T20:57:16 IST" name="beforeMethod" finished-at="2025-06-05T20:57:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homePageUICheck()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T20:57:16 IST" name="homePageUICheck" finished-at="2025-06-05T21:03:04 IST" duration-ms="348530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageUICheck -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T21:03:04 IST" name="afterMethod" finished-at="2025-06-05T21:03:57 IST" duration-ms="52337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T21:37:08 IST" name="afterTest" finished-at="2025-06-05T21:37:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sZephyr_testcases.Before_pairing@700fb871]" started-at="2025-06-05T20:47:32 IST" name="afterSuite" finished-at="2025-06-05T20:47:32 IST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sZephyr_testcases.Before_pairing@7975d1d8]" started-at="2025-06-05T21:37:08 IST" name="afterSuite" finished-at="2025-06-05T21:37:09 IST" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- sZephyr_testcases.Before_pairing -->
+      <class name="sZephyr_testcases.Ble_without_router">
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Ble_without_router@50f6ac94]" started-at="2025-06-05T21:03:57 IST" name="startTestCase" finished-at="2025-06-05T21:03:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="Blewithoutrouter_pairing()[pri:1, instance:sZephyr_testcases.Ble_without_router@50f6ac94]" started-at="2025-06-05T21:03:57 IST" name="Blewithoutrouter_pairing" finished-at="2025-06-05T21:09:33 IST" duration-ms="336787" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+at utils.Reporter.reportStep(Reporter.java:50)
+at wrappers.GenericWrappers.fail(GenericWrappers.java:839)
+at sZephyr_testcases.Ble_without_router.Blewithoutrouter_pairing(Ble_without_router.java:227)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blewithoutrouter_pairing -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Ble_without_router@50f6ac94]" started-at="2025-06-05T21:03:57 IST" name="beforeMethod" finished-at="2025-06-05T21:03:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Ble_without_router@50f6ac94]" started-at="2025-06-05T21:09:33 IST" name="afterMethod" finished-at="2025-06-05T21:10:24 IST" duration-ms="50658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sZephyr_testcases.Ble_without_router -->
+      <class name="sZephyr_testcases.Smartconfig">
+        <test-method is-config="true" signature="startTestCase()[pri:0, instance:sZephyr_testcases.Smartconfig@28194a50]" started-at="2025-06-05T21:18:08 IST" name="startTestCase" finished-at="2025-06-05T21:18:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method signature="Smartconfig_pairing()[pri:3, instance:sZephyr_testcases.Smartconfig@28194a50]" started-at="2025-06-05T21:18:08 IST" name="Smartconfig_pairing" finished-at="2025-06-05T21:36:40 IST" duration-ms="1112171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Smartconfig_pairing -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sZephyr_testcases.Smartconfig@28194a50]" started-at="2025-06-05T21:18:08 IST" name="beforeMethod" finished-at="2025-06-05T21:18:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sZephyr_testcases.Smartconfig@28194a50]" started-at="2025-06-05T21:36:40 IST" name="afterMethod" finished-at="2025-06-05T21:37:08 IST" duration-ms="27961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sZephyr_testcases.Smartconfig -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- End_to_End -->
 </testng-results>

@@ -1064,13 +1064,13 @@ public class AddDevicePage extends GenericWrappers {
 
 	public void checkdevicedetailstoast() {
 
-		verifyTextContainsByXpath(sZhephyrInfotoast, deviceDetailsUpdated,
+		verifyTextContainsByXpath_Toast(sZhephyrInfotoast, deviceDetailsUpdated,
 				"Device details updated successfully! toast");
 	}
 
 	public void checkdevicesettingstoast() {
 
-		verifyTextContainsByXpath(Devicesettingstoast, devicesettingsupdatesuccess,
+		verifyTextContainsByXpath_Toast(Devicesettingstoast, devicesettingsupdatesuccess,
 				"Device settings updated successfully! toast");
 	}
 

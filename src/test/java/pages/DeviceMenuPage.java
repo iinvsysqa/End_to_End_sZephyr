@@ -385,7 +385,7 @@ verifyTextContainsByXpathinAttributes(quietLEDToggleEnable,"false", "Led default
 		case 1:
 //		expWaitforPairing(ClickaddrouterButton);
 		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"))")).click();
-		clickbyXpath(ClickCancelWifi, "cancel button");
+		clickbyXpath(ClickSSIDcancelbtn, "cancel button");
 		break;
 		case 2:
 		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"RemoveRouterContx\"))")).click();

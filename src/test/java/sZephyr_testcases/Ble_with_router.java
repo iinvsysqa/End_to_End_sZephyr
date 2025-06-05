@@ -44,7 +44,7 @@ public class Ble_with_router extends MobileAppWrappers {
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .
 
-		testDescription = "End to End functionality check of Ble with router pairing ";
+		testDescription = "Ble_with_router";
 	}
 
 
@@ -74,8 +74,10 @@ public class Ble_with_router extends MobileAppWrappers {
 			readwrite.openPort();
 			Thread.sleep(3000);
 			readwrite.write("factory_reset\r");
+
 			adddevicepage.pair(2);
 			//sZephyr info page check
+			adddevicepage.blepermissionokpopup();
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
 			sZephyrinfopage.brandNameCheck("Select Brand");
 			sZephyrinfopage.modelnameCheck("Enter AC model name");
@@ -164,7 +166,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			devicemenupage.clickLogoutButton();
 			devicemenupage.clickcancel();
 			devicemenupage.checkUsername_devicesettings("Home page");
-			
+		
 			//navigate to report page 
 			homepage.clickMenuBarButtonafterpairing();
 			loginpage.clickHelpbutton();
@@ -178,6 +180,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			
 			//Connectivity test
 			killAndReopenApp();
+			adddevicepage.blepermissionokpopup();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			adddevicepage.bleConnectivityCheck();
 			homepage.getCurrentvalue();
@@ -223,7 +226,6 @@ public class Ble_with_router extends MobileAppWrappers {
 			readwrite.closePort();
 		}
 		catch (Exception e) {
-			killAndReopenApp();
 			readwrite.closePort();
 			fail(e);
 		}

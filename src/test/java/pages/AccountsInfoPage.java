@@ -49,7 +49,7 @@ public class AccountsInfoPage extends GenericWrappers{
 	@FindBy(xpath = "//android.widget.TextView[@text=\"YES\"]")
 	private WebElement RemoveDeviceYesButton;
 
-	@FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"com.szephyr:id/undefined\"]")
+	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement Clickmenubaricon;
 
 	@FindBy(xpath = "//*[@resource-id='menu_icon_accounts']")
@@ -61,7 +61,7 @@ public class AccountsInfoPage extends GenericWrappers{
 	@FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.Button[2]")
 	private WebElement Clickaccountdeleteyes;
 
-	@FindBy(xpath = "//android.view.ViewGroup[@content-desc=\"com.szephyr:id/undefined\"]")
+	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement menuBarButton;
 
 	@FindBy(xpath = "//*[@resource-id='Accounts_YourName']")

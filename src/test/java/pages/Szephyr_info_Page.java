@@ -78,6 +78,11 @@ public class Szephyr_info_Page extends GenericWrappers{
 		
 	}
 	
+	private WebElement devicenameDeviceSettingsPage(String username) {
+		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+		
+	}
+	
 	
 	
 	
@@ -173,6 +178,7 @@ public void clickonRoomSize() {
 public void checkDefaultValues_Szephyrinfopage_afterpairing() {
 
 	verifyTextContainsByXpath(userName(loadProp("USERNAMEINAPP")), loadProp("USERNAMEINAPP"),"device name" );
+
 	verifyTextContainsByXpath(roomsizeoption3, "Large", "Room size value");
 }
 }

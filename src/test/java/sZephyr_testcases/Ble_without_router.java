@@ -44,7 +44,7 @@ public class Ble_without_router extends MobileAppWrappers {
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .
 
-		testDescription = "End to End functionality check of Ble without router pairing ";
+		testDescription = "Ble_without_router";
 	}
 
 
@@ -72,6 +72,7 @@ public class Ble_without_router extends MobileAppWrappers {
 		try {
 			readwrite.openPort();
 			Thread.sleep(3000);
+
 		adddevicepage.pair(1);
 		//sZephyr info page check
 		sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
@@ -222,7 +223,6 @@ public class Ble_without_router extends MobileAppWrappers {
 		
 		}
 		catch (Exception e) {
-			killAndReopenApp();
 			readwrite.closePort();
 			fail(e);
 		}

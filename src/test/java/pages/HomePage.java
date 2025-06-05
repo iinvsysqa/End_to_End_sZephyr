@@ -108,6 +108,7 @@ public class HomePage extends GenericWrappers{
 	
 	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement menuBarButton;
+
 	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement menuBarButtonafterpairing;
 	@FindBy(xpath = "//*[@resource-id='menu_bar']")

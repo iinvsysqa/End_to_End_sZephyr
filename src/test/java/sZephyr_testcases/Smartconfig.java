@@ -44,7 +44,7 @@ public class Smartconfig extends MobileAppWrappers {
 		//check for language selection 
 		//pair with device try to del account and check for popup and try to remove device and try to del acnt and check add device page .
 
-		testDescription = "End to End functionality check of Ble without router pairing ";
+		testDescription = "Smartconfig";
 	}
 
 	//Before starting reset device via app.
@@ -74,6 +74,7 @@ public class Smartconfig extends MobileAppWrappers {
 			readwrite.write("factory_reset\r");
 			adddevicepage.pair(3);
 			adddevicepage.blepermissionokpopup();
+
 			//sZephyr info page check
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
 			sZephyrinfopage.brandNameCheck("Select Brand");
@@ -224,7 +225,6 @@ public class Smartconfig extends MobileAppWrappers {
 			readwrite.closePort();
 		}
 		catch (Exception e) {
-			killAndReopenApp();
 			readwrite.closePort();
 			fail(e);
 		}

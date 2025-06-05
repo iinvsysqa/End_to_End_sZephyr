@@ -3,7 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="sZephyr_testcases.Smartconfig">
+=======
+      <class name="sZephyr_testcases.Schedule">
+>>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
         <methods>
           <include name="afterMethod"/>
           <include name="afterTest"/>
@@ -14,7 +18,11 @@
           <include name="beforeSuite"/>
           <include name="Smartconfig_pairing"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- sZephyr_testcases.Smartconfig -->
+=======
+      </class> <!-- sZephyr_testcases.Schedule -->
+>>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

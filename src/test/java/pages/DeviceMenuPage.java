@@ -1,5 +1,7 @@
 package pages;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -252,9 +254,19 @@ public class DeviceMenuPage extends GenericWrappers{
 	@FindBy(xpath = "//android.widget.EditText[@text=\"20\"]")
 	private WebElement defaultMin_Devicesettings;
 	private WebElement userName(String username) {
-		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
-		
-	}
+			return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+			
+		}
+	@FindBy(xpath = "//*[@resource-id='menu_icon_sharelog']")
+	private WebElement shareLogbtn;
+	@FindBy(xpath = "//*[@resource-id='android:id/text1']")
+	private WebElement FTPicon;
+	@FindBy(xpath = "//*[@resource-id='com.alphainventor.filemanager:id/name']")
+	private WebElement FTPDownloads;
+	@FindBy(xpath = "//*[@resource-id='com.alphainventor.filemanager:id/text']")
+	private WebElement FTPsaveBtn;
+	
+	
 	
 	public DeviceMenuPage(AndroidDriver driver) {
 		this.driver = driver;
@@ -372,7 +384,7 @@ verifyTextContainsByXpathinAttributes(quietLEDToggleEnable,"false", "Led default
 		switch (mode) {
 		case 1:
 //		expWaitforPairing(ClickaddrouterButton);
-		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"));")).click();
+		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"Add Router\"))")).click();
 		clickbyXpath(ClickCancelWifi, "cancel button");
 		break;
 		case 2:
@@ -380,6 +392,7 @@ verifyTextContainsByXpathinAttributes(quietLEDToggleEnable,"false", "Led default
 		clickbyXpath(ClickCancelWifi, "cancel button");
 		clickbyXpath(changeSSID, "SSID button");
 		clickbyXpath(ClickSSIDcancelbtn, "cancel button");
+
 		break;
 		
 		}
@@ -588,6 +601,7 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		
 		public void checkUsername_devicesettings(String content) {
 			verifyTextContainsByXpath(userName(loadProp("USERNAMEINAPP")), loadProp("USERNAMEINAPP"), content);
+
 		}
 		public void checkLowVoltDefautvalue_devicesettings() {
 			clickLowVoltagebutton();
@@ -624,4 +638,7 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		public void clickcancel() {
 			clickbyXpath(ClickCancelWifi, "cancelbutton");
 		}
+		
+		
+
 }

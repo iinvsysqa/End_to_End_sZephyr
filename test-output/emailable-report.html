@@ -9,6 +9,7 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
+<<<<<<< HEAD
 <tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">596,062</td><td></td><td></td></tr>
 </table>
 <table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">sZephyr_testcases.Smartconfig</td><td><a href="#m0">Smartconfig_pairing</a></td><td rowspan="1">1749133726176</td><td rowspan="1">589401</td></tr></tbody>
@@ -24,13 +25,40 @@
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+=======
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">114,685</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">sZephyr_testcases.Schedule</td><td><a href="#m0">afterMethod</a></td><td rowspan="1">1744969403733</td><td rowspan="1">40177</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">sZephyr_testcases.Schedule</td><td><a href="#m1">Smartconfig_pairing</a></td><td rowspan="1">1744969329339</td><td rowspan="1">74389</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">sZephyr_testcases.Schedule#afterMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:50)
+	at wrappers.GenericWrappers.clickbyXpath(GenericWrappers.java:147)
+	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:37)
+	at pages.StoreLogPage.takeAppLog(StoreLogPage.java:50)
+	at wrappers.MobileAppWrappers.afterMethod(MobileAppWrappers.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+>>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+<<<<<<< HEAD
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+=======
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+>>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
 	at org.testng.TestRunner.privateRun(TestRunner.java:819)
 	at org.testng.TestRunner.run(TestRunner.java:619)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -44,8 +72,14 @@
 	at org.testng.TestNG.runSuites(TestNG.java:1134)
 	at org.testng.TestNG.run(TestNG.java:1101)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+<<<<<<< HEAD
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+=======
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+>>>>>>> 006a78d41e94cbe553e2b22e09f95f86d70b74e8
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">sZephyr_testcases.Schedule#Smartconfig_pairing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

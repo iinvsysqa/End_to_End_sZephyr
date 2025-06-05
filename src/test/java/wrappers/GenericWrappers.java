@@ -16,7 +16,13 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 import javax.imageio.ImageIO;
-
+import java.awt.Image;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
@@ -27,6 +33,7 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -34,6 +41,7 @@ import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.appmanagement.ApplicationState;
+import pages.DeviceMenuPage;
 import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
 
@@ -105,12 +113,12 @@ public class GenericWrappers {
 			}
 
 			if (driver.isAppInstalled(appPackage)) {
-				Reporter.reportStep("The app:" + appPackage + " launched successfully", "PASS");
+				//Reporter.reportStep("The app:" + appPackage + " launched successfully", "PASS");
 			} else {
 				Reporter.reportStep("The app:" + appPackage + " not launched", "FAIL");
 
 			}
-			Reporter.reportStep("App opened successfully", "INFO");
+			//Reporter.reportStep("App opened successfully", "INFO");
 			driver.executeScript("mobile: shell",
 					ImmutableMap.of("command", "pm grant com.iinvsys.szephyr android.permission.ACCESS_FINE_LOCATION"));
 			driver.executeScript("mobile: shell",
@@ -393,6 +401,8 @@ public class GenericWrappers {
 
 				// Reopen the app, it should maintain its previous state (same page)
 				driver.activateApp(packages);
+				Thread.sleep(5000);
+
 				Reporter.reportStep("The app was reopened successfully.", "PASS");
 			}
 		} catch (Exception e) {
@@ -889,6 +899,13 @@ public class GenericWrappers {
 			return false;
 		}
 	}
+	
+	public BufferedImage resizeImage(BufferedImage originalImage, int width, int height) {
+	    Image tempImage = originalImage.getScaledInstance(width, height, Image.SCALE_SMOOTH);
+	    BufferedImage resizedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+	    resizedImage.getGraphics().drawImage(tempImage, 0, 0, null);
+	    return resizedImage;
+	}
 
 	public boolean takescreenshotofpages(WebElement element, String actualScreenshotPath) throws Exception {
 
@@ -952,6 +969,7 @@ public class GenericWrappers {
 		// Use regular expression to remove all non-digit characters
 		String numbersOnly = str.replaceAll("\\D+", "");
 
+
 		// Convert the extracted string to an integer (optional)
 		int extractedValue = Integer.parseInt(numbersOnly);
 
@@ -985,4 +1003,21 @@ public class GenericWrappers {
             return null;
         }
     }
+
+			public void takeAppLog() throws FileNotFoundException, IOException {
+				
+				  Runtime.getRuntime().exec("adb shell am start -a alphainventor.filemanager");
+				  String logsFilePath = "/data/data/com.example/files/logs.txt";  // Example file path inside app's sandbox
+				  byte[] logFileBytes = driver.pullFile(logsFilePath);  // Pull the file from the device
+
+		          // Write the byte array to a local file
+		          File localFile = new File("logs.txt");  // Local file where we will save the logs
+		          try (FileOutputStream fos = new FileOutputStream(localFile)) {
+		              fos.write(logFileBytes);  // Write the byte array content to the file
+		          }
+
+		          System.out.println("Log file saved to " + localFile.getAbsolutePath());
+			}
+			
+			
 }

@@ -1,8 +1,13 @@
 package wrappers;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintStream;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -11,6 +16,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 
+import pages.DeviceMenuPage;
+import pages.StoreLogPage;
 import utils.DataInputProvider;
 import utils.GetAppLog;
 import utils.Reporter;
@@ -82,18 +89,30 @@ public class MobileAppWrappers extends GenericWrappers {
 	}
 
 	@AfterMethod
-	public void afterMethod() {
+	public void afterMethod() throws FileNotFoundException, IOException {
+		
+		LocalDateTime now = LocalDateTime.now();
+
+        // Format date and time
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+
+        // Convert to string and print
+        String formattedDateTime = now.format(formatter);
+		
+		StoreLogPage sl = new StoreLogPage(driver);
+		sl.takeAppLog();
 		// quitBrowser();
 		try {
+		    
 			// FTP server credentials
 
 			// Local log files
-			String appLogPath = "./app_log.txt";
-			String deviceLogPath = "./serial_log.txt";
+			String appLogPath = "./sZephyrLOG.txt";
+			String deviceLogPath = "./device.log";
 
 			// FTP paths
 			String existingDirectory = "/Internal_Project/FULL_VALIDATION_PACKAGES_LOGS/LOGS/2024/Automation_Logs/";
-			String newSubDir = "logs_" + randomnumbers(6); // Subdirectory name
+			String newSubDir = testDescription+" Logs" +formattedDateTime ; // Subdirectory name
 			// Initialize FTP connection
 			FTPUploader(server, port, user, pass);
 
@@ -101,8 +120,8 @@ public class MobileAppWrappers extends GenericWrappers {
 			createAndNavigateToSubdirectory(existingDirectory, newSubDir);
 
 			// Upload files to the new subdirectory
-			uploadFile(appLogPath, testCaseName + "App.txt");
-			uploadFile(deviceLogPath, testCaseName + ".txt");
+			uploadFile(appLogPath, testCaseName + "  AppLog.txt");
+			uploadFile(deviceLogPath, testCaseName + "  DeviceLog.txt");
 
 			String remotefilepath = existingDirectory + newSubDir;
 			String Filename = "/" + testCaseName + ".txt";

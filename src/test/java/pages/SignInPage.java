@@ -117,7 +117,7 @@ public class SignInPage extends GenericWrappers {
 			addDevicepage= new AddDevicePage(driver);
 			
 			// Backgrounds app for 10 seconds
-			homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
+//			homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 
 			turnOnBT();
 			/*

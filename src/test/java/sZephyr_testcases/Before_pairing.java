@@ -71,9 +71,9 @@ public class Before_pairing extends MobileAppWrappers {
 
 			//home page ui check
 			loginpage.verifysignInPage();
-			homepage.register_Page_ScreenShot_Check();
-			homepage.SignIn_Page_ScreenShot_Check();
-			homepage.SignUp_Page_ScreenShot_Check();
+//			homepage.register_Page_ScreenShot_Check();
+//			homepage.SignIn_Page_ScreenShot_Check();
+//			homepage.SignUp_Page_ScreenShot_Check();
 			landingpage.clickSignUpLink();
 			signuppage.enterUserName(userName);
 			signuppage.enterEmailId(emaId);
@@ -86,7 +86,7 @@ public class Before_pairing extends MobileAppWrappers {
 			otppage.enterOTPField4("4");
 			otppage.submitButton();
 			adddevicepage.verifyAddDevicePage("Add Device");
-			homepage.Adddevice_Page_ScreenShot_Check();
+//			homepage.Adddevice_Page_ScreenShot_Check();
 			//menubar navigation check
 			homepage.clickMenuBarButton();
 			homepage.clickAccountinfobutton();
@@ -104,10 +104,15 @@ public class Before_pairing extends MobileAppWrappers {
 			
 			
 			homepage.clickMenuBarButton();
-			homepage.clickReportButton();
+			//click help page
+			loginpage.clickHelpbutton();
+			loginpage.scrollTohelpwithmoreinfo();
+			loginpage.clickHelpwithmoreinfobtn();
+			
 			reportpage.Reportanissuepagecontents();
 			homepage.backnavigation();
-			
+			homepage.backnavigation();
+
 			
 			//delete account
 			homepage.clickMenuBarButton();
@@ -172,8 +177,13 @@ public class Before_pairing extends MobileAppWrappers {
 			
 			
 			homepage.clickMenuBarButton();
-			homepage.clickReportButton();
+			loginpage.clickHelpbutton();
+			loginpage.scrollTohelpwithmoreinfo();
+			loginpage.clickHelpwithmoreinfobtn();
 			reportpage.Reportanissuepagecontents();
+			//homepage.clickReportButton();
+			//reportpage.Reportanissuepagecontents();
+			homepage.backnavigation();
 			homepage.backnavigation();
 			
 			

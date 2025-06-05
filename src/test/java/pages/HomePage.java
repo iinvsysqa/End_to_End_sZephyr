@@ -87,7 +87,7 @@ public class HomePage extends GenericWrappers{
 	@FindBy(xpath = "//*[@resource-id='menu_icon_logout']")
 	private WebElement logoutButton;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"Cancel\"]")
+	@FindBy(xpath = "//android.widget.TextView[@text=\"CANCEL\"]")
 	private WebElement logoutPopupcancelButton;
 	
 	
@@ -106,11 +106,11 @@ public class HomePage extends GenericWrappers{
 	@FindBy(xpath="//*[@resource-id='home_main_on_off_swch']")
 	private WebElement deviceONOFFButton;
 	
-	@FindBy(xpath = "//*[@resource-id='Options_Icon']")
+	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement menuBarButton;
-	@FindBy(xpath = "//android.widget.TextView[@content-desc=\"com.szephyr:id/undefined\" and @text=\"\"]")
+	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement menuBarButtonafterpairing;
-	@FindBy(xpath = "//android.widget.TextView[@content-desc=\"com.szephyr:id/undefined\"]")
+	@FindBy(xpath = "//*[@resource-id='menu_bar']")
 	private WebElement menuBarButtonafterpairing_withoutconnectivity;
 	
 	@FindBy(xpath = "//*[@resource-id='menu_icon_accounts']")

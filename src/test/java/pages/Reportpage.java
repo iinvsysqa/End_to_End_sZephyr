@@ -79,8 +79,7 @@ public class Reportpage extends MobileAppWrappers {
 	@FindBy(xpath = "//android.widget.TextView[@text=\"Select your device name\"]")
 	private WebElement deviceName;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"testuser007_1\"]")
-	private WebElement deviceNameafterpairing;
+	
 	
 	@FindBy(xpath = "//android.widget.TextView[@text=\"No device found\"]")
 	private WebElement devicedropdown;
@@ -100,6 +99,10 @@ public class Reportpage extends MobileAppWrappers {
 	@FindBy(xpath = "//android.widget.TextView[@text=\"ok\"]")
 	private WebElement ok_popup;
 	
+	private WebElement userName(String username) {
+		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+		
+	}
 	private AndroidDriver driver;
 	
 
@@ -225,8 +228,8 @@ public class Reportpage extends MobileAppWrappers {
 			
 			verifyTextContainsByXpath(deviceName,"Select your device name" , "default content on device name");
 			clickbyXpath(deviceName, "device name");
-			verifyTextContainsByXpath(deviceNameafterpairing,"testuser007_1" , "dropdown of device name");
-			clickbyXpath(deviceNameafterpairing, "device name in dropdown");
+			verifyTextContainsByXpath(userName(loadProp("USERNAMEINAPP")), loadProp("USERNAMEINAPP"), "Device name in dropdown");
+			clickbyXpath(userName(loadProp("USERNAMEINAPP")), "device name in dropdown");
 			verifyTextContainsByXpath(IssueDescriptionplaceholder, "Please explain your issue", "placeholder of description");
 			verifyTextContainsByXpath(emailaddress, emaId, "email address");
 			

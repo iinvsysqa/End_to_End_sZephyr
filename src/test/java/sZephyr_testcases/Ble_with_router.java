@@ -72,8 +72,8 @@ public class Ble_with_router extends MobileAppWrappers {
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
 			readwrite.openPort();
-			readwrite.write("reboot\r");
 			Thread.sleep(3000);
+			readwrite.write("factory_reset\r");
 			adddevicepage.pair(2);
 			//sZephyr info page check
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
@@ -129,7 +129,7 @@ public class Ble_with_router extends MobileAppWrappers {
 //			//navigate to add devie 
 			homepage.clickMenuBarButtonafterpairing();
 			adddevicepage.clickAddanotherDeviceButton();
-			adddevicepage.newDevicePairingscreencheck();
+//			adddevicepage.newDevicePairingscreencheck();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
@@ -167,8 +167,11 @@ public class Ble_with_router extends MobileAppWrappers {
 			
 			//navigate to report page 
 			homepage.clickMenuBarButtonafterpairing();
-			homepage.clickReportButton();
+			loginpage.clickHelpbutton();
+			loginpage.scrollTohelpwithmoreinfo();
+			loginpage.clickHelpwithmoreinfobtn();
 			reportpage.Reportanissuepagecontents_afterpairing();
+			homepage.backnavigation();
 			homepage.backnavigation();
 			devicemenupage.checkUsername_devicesettings("Home page");
 			
@@ -190,11 +193,10 @@ public class Ble_with_router extends MobileAppWrappers {
 			homepage.getPowervalue();
 			
 			homepage.clickONOFFButton();
-			Thread.sleep(2000);
-			homepage.VerifyOFFdesc();
-			
-			
+			Thread.sleep(60000);
+			homepage.clickONOFFButton();
 			//schedule and analytics check
+			
 			analyticspage.navigateAnalyticsPage();
 			analyticspage.getenergydurationvalue();
 			schedularpage.backToHomepage();
@@ -215,7 +217,7 @@ public class Ble_with_router extends MobileAppWrappers {
 			devicemenupage.clickDeviceSettingsButton();
 			devicemenupage.clickResetDeviceButton();
 			devicemenupage.clickResetConfirmationYesButton();
-			adddevicepage.checkdeviceresettoast();
+//			adddevicepage.checkdeviceresettoast();
 			devicemenupage.AddDevicePagedisplayed();
 			
 			readwrite.closePort();

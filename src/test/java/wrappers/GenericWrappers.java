@@ -302,17 +302,7 @@ public class GenericWrappers {
 		}
 
 	}
-	public int extractintvalue(String str) {
-		// Use regular expression to remove all non-digit characters
-		String numbersOnly = str.replaceAll("\\D+", "");
 
-		// Convert the extracted string to an integer (optional)
-		int extractedValue = Integer.parseInt(numbersOnly);
-
-		// System.out.println("Extracted numbers: " + numbersOnly);
-		System.out.println("Extracted integer value: " + extractedValue);
-		return extractedValue;
-	}
 
 	public String randomnumbers(int num) {
 
@@ -648,18 +638,7 @@ public class GenericWrappers {
 		}
 	}
 
-	public WebElement scrollToText(String text) {
-		try {
-			return driver.findElement(MobileBy.AndroidUIAutomator(
-					"new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"" + text
-							+ "\"));"));
-
-		} catch (Exception e) {
-			System.out.println("Unable to scroll to text: " + text);
-			Reporter.reportStep("Unable to scroll to Field" + text, "FAIL");
-			return null;
-		}
-	}
+	
 
 	private FTPClient ftpClient;
 
@@ -938,7 +917,72 @@ public class GenericWrappers {
 		}
 
 	}
-	
-	
+	public boolean verifyTextContainsByXpath_Toast(WebElement xpath, String text, String field) {
+		boolean bReturn = false;
+		try {
+			expWait(xpath);
+			String sText = xpath.getText();
+			System.out.println(sText);
+			if (sText.trim().contains(text)) {
+				Reporter.reportStep(field + "contains " + text, "PASS");
+				bReturn = true;
+			} else {
+				Reporter.reportStep(field + " did not contain :" + text, "WARNING");
+			}
+		} catch (Exception e) {
+			Reporter.reportStep(field + " not displayed", "INFO");
+			e.printStackTrace();
+		}
+		return bReturn;
+	}
+	public static void expshortWaittwenty(WebElement xpath) {
+		try {
+			
+			WebDriverWait wait = new WebDriverWait(driver,20);
+			wait.until(ExpectedConditions.visibilityOf(xpath));
+		} catch (Exception e) {
+			System.out.println(e);
+			
+			
+			
+		}
+		
+	}
+	public int extractintvalue(String str) {
+		// Use regular expression to remove all non-digit characters
+		String numbersOnly = str.replaceAll("\\D+", "");
 
+		// Convert the extracted string to an integer (optional)
+		int extractedValue = Integer.parseInt(numbersOnly);
+
+		//          System.out.println("Extracted numbers: " + numbersOnly);
+		System.out.println("Extracted integer value: " + extractedValue);
+		return extractedValue;
+	}
+	public static int extractMinutes(String timeText) {
+	    // Regular expression to find digits followed by 'm'
+	    java.util.regex.Matcher matcher = java.util.regex.Pattern.compile("(\\d+)m").matcher(timeText);
+	    
+	    if (matcher.find()) {
+	        // group(1) is the captured number before 'm'
+	        return Integer.parseInt(matcher.group(1));
+	    } else {
+	        // If 'm' not found, you can decide what to return (0 or -1)
+	        return 0;
+	    }
+	}
+
+	
+	public WebElement scrollToText(String text) {
+        try {
+            return driver.findElement(MobileBy.AndroidUIAutomator(
+                "new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"" + text + "\"));"
+            ));
+            
+        } catch (Exception e) {
+            System.out.println("Unable to scroll to text: " + text);
+            Reporter.reportStep("Unable to scroll to Field"+text, "FAIL");
+            return null;
+        }
+    }
 }

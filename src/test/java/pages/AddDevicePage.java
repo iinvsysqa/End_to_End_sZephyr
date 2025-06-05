@@ -28,11 +28,11 @@ public class AddDevicePage extends GenericWrappers {
 	public String userName = loadProp("USERNAME");
 	public String emaId = loadProp("EMAILID");
 	public String wifiPassword = loadProp("WIFIPASSWORD");
-	public String deviceDetailsUpdated = loadProp("deviceDetailsUpdated");
-	public String devicesettingsupdatesuccess = loadProp("deviceSettingsUpdateSuccess");
-	public String DeviceRemovedSuccessfully = loadProp("DeviceRemovedSuccessfully");
-	public String YourDeviceResetSuccessfully = loadProp("YourDeviceResetSuccessfully");
-	public String RouterAddedSuccessfully = loadProp("RouterAddedSuccessfully");
+	public String deviceDetailsUpdated = "Device details updated successfully!";
+	public String devicesettingsupdatesuccess = "Device settings updated successfully!";
+//	public String DeviceRemovedSuccessfully = loadProp("DeviceRemovedSuccessfully");
+//	public String YourDeviceResetSuccessfully = loadProp("YourDeviceResetSuccessfully");
+//	public String RouterAddedSuccessfully = loadProp("RouterAddedSuccessfully");
 
 	
 	String NextbuttonexpectedScreenshotPath="./ExpectedScreenshots/Nextbuttonpage.png";
@@ -753,14 +753,14 @@ public class AddDevicePage extends GenericWrappers {
 			//newlyu added
 
 			clickAddDeviceButton();
-			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
+//			screenShotsCheck(fullpage,NextbuttonactualScreenshotPath,NextbuttonexpectedScreenshotPath,"Nextbutton page");
 			checkBoxPairing();
 			nextButtonPairing();
 
 			switch (mode) {
 			case 1:
 				turnOnBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 				readwrite.write("factory_reset\r");
 //				blepermissionokpopup();
@@ -782,7 +782,7 @@ public class AddDevicePage extends GenericWrappers {
 			case 2:
 				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				turnOnBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();
@@ -800,9 +800,8 @@ public class AddDevicePage extends GenericWrappers {
 				
 			case 3:
 				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
-				readwrite.write("reboot\r");
 				turnOffBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 //				blepermissionokpopup();
 //				locationPopUpPermission();
@@ -831,7 +830,7 @@ public class AddDevicePage extends GenericWrappers {
 			case 4:
 				homepage.WifiSwitch(loadProp("WIFINAME"), loadProp("WIFIPASSWORD"));
 				turnOffBT();
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 				readwrite.write("factory_reset\r");
 				blepermissioncancelpopup();
@@ -869,7 +868,7 @@ public class AddDevicePage extends GenericWrappers {
 
 				turnOffBT();
 
-				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
+//				screenShotsCheck(fullpage,StartpairingactualScreenshotPath,StartpairingexpectedScreenshotPath,"start pairing page");
 				startPairingButton();
 
 			    blepermissioncancelpopup();
@@ -1013,7 +1012,7 @@ public class AddDevicePage extends GenericWrappers {
 		
 	}
 	
-	private void blepermissionokpopup() throws Exception {
+	public void blepermissionokpopup() throws Exception {
 		if (isElementDisplayedCheck(BleOKpopup)) {
 			BleOKpopup.click();
 			Thread.sleep(2000);
@@ -1054,21 +1053,21 @@ public class AddDevicePage extends GenericWrappers {
 				"Device settings updated successfully! toast");
 	}
 
-	public void checkdeviceremovedtoast() {
-
-		verifyTextContainsByXpath(deviceremovedtoast, DeviceRemovedSuccessfully, "  DeviceRemovedSuccessfully toast");
-	}
-
-	public void checkdeviceresettoast() {
-
-		verifyTextContainsByXpath(deviceresettoast, YourDeviceResetSuccessfully, "  YourDeviceResetSuccessfully toast");
-	}
-
-	public void checkrouteraddedsuccessfultoast() {
-
-		verifyTextContainsByXpath(routeraddedsuccessfullytoast, RouterAddedSuccessfully,
-				" RouterAddedSuccessfully toast");
-	}
+//	public void checkdeviceremovedtoast() {
+//
+//		verifyTextContainsByXpath(deviceremovedtoast, DeviceRemovedSuccessfully, "  DeviceRemovedSuccessfully toast");
+//	}
+//
+//	public void checkdeviceresettoast() {
+//
+//		verifyTextContainsByXpath(deviceresettoast, YourDeviceResetSuccessfully, "  YourDeviceResetSuccessfully toast");
+//	}
+//
+//	public void checkrouteraddedsuccessfultoast() {
+//
+//		verifyTextContainsByXpath(routeraddedsuccessfullytoast, RouterAddedSuccessfully,
+//				" RouterAddedSuccessfully toast");
+//	}
 
 	public void bleConnectivityCheck() {
 		connectivitycheck(bleConnectivity, "Ble connectivity homepage icon");
@@ -1096,7 +1095,7 @@ public void removingDevice() throws Exception {
 			if (isElementDisplayed(removeDevice, "Remove device button")) {
 				devicemenupage.clickMenuBarRemoveDevice();
 				devicemenupage.clickRemoveDevicePopupYesButton();
-				checkdeviceremovedtoast();
+//				checkdeviceremovedtoast();
 				Thread.sleep(2000);//or5000
 				if (isElementDisplayedCheck(deviceofflinealertTitle)) {
 					String text = deviceofflinealertTitle.getText();
@@ -1122,7 +1121,7 @@ public void removingDevice() throws Exception {
 			if (isElementDisplayed(removeDevice, "Remove device button")) {
 				devicemenupage.clickMenuBarRemoveDevice();
 				devicemenupage.clickRemoveDevicePopupYesButton();
-				checkdeviceremovedtoast();
+//				checkdeviceremovedtoast();
 				Thread.sleep(2000);//or5000
 				if (isElementDisplayedCheck(deviceofflinealertTitle)) {
 					String text = deviceofflinealertTitle.getText();

@@ -2,6 +2,7 @@ package pages;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -72,8 +73,10 @@ public class Szephyr_info_Page extends GenericWrappers{
 	@FindBy(xpath="//android.widget.TextView[@text=\"Large\"]")
 	private WebElement roomsizeoption3;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"testuser007_1\"]")
-	private WebElement devicenameDeviceSettingsPage;
+	private WebElement userName(String username) {
+		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+		
+	}
 	
 	
 	
@@ -169,7 +172,7 @@ public void clickonRoomSize() {
 
 public void checkDefaultValues_Szephyrinfopage_afterpairing() {
 
-	verifyTextContainsByXpath(devicenameDeviceSettingsPage, userName,"device name" );
+	verifyTextContainsByXpath(userName(loadProp("USERNAMEINAPP")), loadProp("USERNAMEINAPP"),"device name" );
 	verifyTextContainsByXpath(roomsizeoption3, "Large", "Room size value");
 }
 }

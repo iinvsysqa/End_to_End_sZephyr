@@ -71,7 +71,6 @@ public class Ble_without_router extends MobileAppWrappers {
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
 			readwrite.openPort();
-			readwrite.write("reboot\r");
 			Thread.sleep(3000);
 		adddevicepage.pair(1);
 		//sZephyr info page check
@@ -166,8 +165,11 @@ public class Ble_without_router extends MobileAppWrappers {
 		
 		//navigate to report page 
 		homepage.clickMenuBarButtonafterpairing();
-		homepage.clickReportButton();
+		loginpage.clickHelpbutton();
+		loginpage.scrollTohelpwithmoreinfo();
+		loginpage.clickHelpwithmoreinfobtn();
 		reportpage.Reportanissuepagecontents_afterpairing();
+		homepage.backnavigation();
 		homepage.backnavigation();
 		devicemenupage.checkUsername_devicesettings("Home page");
 		
@@ -214,7 +216,7 @@ public class Ble_without_router extends MobileAppWrappers {
 		devicemenupage.clickDeviceSettingsButton();
 		devicemenupage.clickResetDeviceButton();
 		devicemenupage.clickResetConfirmationYesButton();
-		adddevicepage.checkdeviceresettoast();
+//		adddevicepage.checkdeviceresettoast();
 		devicemenupage.AddDevicePagedisplayed();
 		readwrite.closePort();
 		

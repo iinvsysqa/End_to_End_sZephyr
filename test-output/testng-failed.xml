@@ -3,18 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sZephyr_testcases.Ble_with_router">
+      <class name="sZephyr_testcases.Smartconfig">
         <methods>
           <include name="afterMethod"/>
           <include name="afterTest"/>
-          <include name="startTestCase"/>
           <include name="afterSuite"/>
+          <include name="startTestCase"/>
           <include name="beforeTest"/>
-          <include name="Blewithrouter_pairing"/>
           <include name="beforeMethod"/>
           <include name="beforeSuite"/>
+          <include name="Smartconfig_pairing"/>
         </methods>
-      </class> <!-- sZephyr_testcases.Ble_with_router -->
+      </class> <!-- sZephyr_testcases.Smartconfig -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

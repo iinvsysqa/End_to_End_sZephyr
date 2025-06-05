@@ -3,6 +3,7 @@ package pages;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -32,9 +33,21 @@ public class SignInPage extends GenericWrappers {
 	@FindBy(xpath = "//android.widget.Toast[@text='User Not Found']")
 	private WebElement userNotFoundToast;
 	
+	@FindBy(xpath = "//*[@resource-id='Launch_SignInText']")
+	private WebElement LaunchSigninText;
+	@FindBy(xpath = "//*[@resource-id='menu_text_support']")
+	private WebElement HelpBtn;
+	@FindBy(xpath = "//*[@resource-id='Help with more infoText']")
+	private WebElement Helpwithmoreinfobtn;
+	
 	 @FindBy(xpath = "//*[@resource-id='Launch_SignUpLink']")
 		private WebElement signUpLink;
-	
+	 @FindBy(xpath = "//*[@resource-id='SignIn_Email_or_UserName']")
+	 private WebElement signinmailtextbox;
+
+	 @FindBy(xpath = "//*[@resource-id='menu_icon_removeDevice']")
+		private WebElement removeDevice;
+	 
 	 @FindBy(xpath = "//*[@resource-id='Add_Devices_ButtonText']")
 		private WebElement addDeviceButton;
 	 
@@ -46,7 +59,14 @@ public class SignInPage extends GenericWrappers {
 
 		@FindBy(xpath = "//android.widget.TextView[@text=\"OK\"]")
 		private WebElement alertok;
+		
+		@FindBy(xpath = "//android.widget.Toast[@text=\"Username and Email ID both are already exists\"]")
+		private WebElement UseralreadyExistsToast;
 
+		private WebElement userName(String username) {
+			return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+			
+		}
 	// Constructor to initialize the driver and instantiate elements using
 	
 	public SignInPage(AndroidDriver driver) {
@@ -72,6 +92,9 @@ public class SignInPage extends GenericWrappers {
 	public SignInPage checkUserNameNotFoundToast(String content) {
 		verifyTextContainsByXpath(userNotFoundToast, content, " The Toast ");
 		return this;
+		
+	}
+	public void verifyRemovedevice() {
 		
 	}
 	
@@ -105,9 +128,40 @@ public class SignInPage extends GenericWrappers {
 			
 			try {
 				Thread.sleep(5000);
-				if(isElementDisplayedCheck(signUpLink)) {
-verifyTextContainsByXpath(signUpLink, "Sign Up", "Register Page");
+				if(isElementDisplayedCheck(LaunchSigninText)) {
+					clickbyXpath(LaunchSigninText, "Launch Signin");
+					enterUserName(emaId);
+					clickSignInButton();
+					otppage.verifyOTPVerificationTitle("OTP Verification");
+					otppage.enterOTPField1("1");
+					otppage.enterOTPField2("2");
+					otppage.enterOTPField3("3");
+					otppage.enterOTPField4("4");
+					otppage.submitButton();
+					homepage.clickMenuBarButton();
+					if (isElementDisplayedCheck(removeDevice)) {
+						devicemenupage.clickMenuBarRemoveDevice();
+						devicemenupage.clickRemoveDevicePopupYesButton();
+						Thread.sleep(2000);//or5000
+						if (isElementDisplayedCheck(deviceofflinealertTitle)) {
+							String text = deviceofflinealertTitle.getText();
+							System.out.println(text + "  Alert pop-up displayed");
+							clickbyXpath(alertok, "Alert ok button");
 
+						} else if (isElementDisplayedCheck(buttonPressAlert)) {
+							String text = buttonPressAlert.getText();
+							System.out.println(text + "  Alert pop-up displayed");
+							clickbyXpath(alertok, "Alert ok button");
+					}
+						
+						
+					}
+					homepage.clickMenuBarButton();
+					homepage.clickAccountinfobutton();
+					accountinfopage.deleteaccount_toregisterpage();					
+
+					
+					
 				} else if (isElementDisplayedCheck(addDeviceButton)) {
 					homepage.clickMenuBarButton();
 					homepage.clickAccountinfobutton();
@@ -140,4 +194,14 @@ verifyTextContainsByXpath(signUpLink, "Sign Up", "Register Page");
 			}
 		
 	}
-}
+	 
+	 public void scrollTohelpwithmoreinfo() {
+		 scrollToText("Help with more info");
+	}
+	 public void clickHelpbutton() {
+		 clickbyXpath(HelpBtn, "Help button");
+	}
+	 public void clickHelpwithmoreinfobtn() {
+		 clickbyXpath(Helpwithmoreinfobtn, "help with more info button");
+	 }
+	}

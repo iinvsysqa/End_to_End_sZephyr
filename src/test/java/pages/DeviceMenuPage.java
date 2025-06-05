@@ -2,6 +2,7 @@ package pages;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -125,8 +126,10 @@ public class DeviceMenuPage extends GenericWrappers{
 	@FindBy(xpath = "//android.widget.Button[@resource-id=\"android:id/button2\"]")
 	private WebElement ClickCancelBluetooth;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"Cancel\"]")
+	@FindBy(xpath = "//android.widget.TextView[@text=\"CANCEL\"]")
 	private WebElement ClickCancelWifi;
+	@FindBy(xpath = "//android.widget.TextView[@text=\"Cancel\"]")
+	private WebElement ClickSSIDcancelbtn;
 	
 	@FindBy(xpath =  "//android.widget.Button[@resource-id=\"android:id/button1\"]")
 	private WebElement ClickOkButtonBLEpopUP;
@@ -238,8 +241,6 @@ public class DeviceMenuPage extends GenericWrappers{
 	@FindBy(xpath = "//*[@resource-id='Add_Devices_ButtonText']")
 	private WebElement addDeviceButton;
 	
-	@FindBy(xpath = "//android.widget.TextView[@text=\"testuser007_1\"]")
-	private WebElement devicenameDeviceSettingsPage;
 	
 	@FindBy(xpath = "//*[@resource-id='lowInputthreshold']")
 	private WebElement thresholdValueLowInput;
@@ -250,7 +251,10 @@ public class DeviceMenuPage extends GenericWrappers{
 	private WebElement defaultHr_Devicesettings;
 	@FindBy(xpath = "//android.widget.EditText[@text=\"20\"]")
 	private WebElement defaultMin_Devicesettings;
-	
+	private WebElement userName(String username) {
+		return driver.findElement(By.xpath("//android.widget.TextView[@text='"+username+"']"));
+		
+	}
 	
 	public DeviceMenuPage(AndroidDriver driver) {
 		this.driver = driver;
@@ -375,7 +379,7 @@ verifyTextContainsByXpathinAttributes(quietLEDToggleEnable,"false", "Led default
 		driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().resourceId(\"RemoveRouterContx\"))")).click();
 		clickbyXpath(ClickCancelWifi, "cancel button");
 		clickbyXpath(changeSSID, "SSID button");
-		clickbyXpath(ClickCancelWifi, "cancel button");
+		clickbyXpath(ClickSSIDcancelbtn, "cancel button");
 		break;
 		
 		}
@@ -583,7 +587,7 @@ clickbyXpath(lowvoltageconfiguration, "LowVoltage configuration");
 		}
 		
 		public void checkUsername_devicesettings(String content) {
-			verifyTextContainsByXpath(devicenameDeviceSettingsPage, loadProp("USERNAME"), content);
+			verifyTextContainsByXpath(userName(loadProp("USERNAMEINAPP")), loadProp("USERNAMEINAPP"), content);
 		}
 		public void checkLowVoltDefautvalue_devicesettings() {
 			clickLowVoltagebutton();
